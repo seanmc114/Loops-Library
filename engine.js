@@ -371,7 +371,8 @@
       '<div id="loopsResultTitle" style="font-size:1.2rem;font-weight:800;margin-bottom:8px;"></div>' +
       '<div class="big" id="loopsResultTime"></div>' +
       '<div style="opacity:.7;font-size:.85rem;margin-top:4px;" id="loopsResultScore"></div>' +
-      '<div class="loops-stack"><button class="loops-btn" id="loopsAgainBtn">Play again</button>' +
+      '<div class="loops-stack"><button class="loops-btn" id="loopsNextLevelBtn" style="display:none;">Next level →</button>' +
+      '<button class="loops-btn" id="loopsAgainBtn">Play again</button>' +
       '<button class="loops-btn ghost" id="loopsBackBtn">Back to loops</button></div>' +
       "</div></div>" +
       '<div class="loops-ws-overlay" id="loopsWsOverlay"><div class="loops-ws-modal">' +
@@ -690,6 +691,8 @@
 
     if (G.mode === "review") {
       show("loopsResult");
+      el("loopsNextLevelBtn").style.display = "none";
+      el("loopsAgainBtn").className = "loops-btn";
       el("loopsResultTitle").textContent = "✓ Review complete — great effort";
       el("loopsResultTime").textContent = fmtTime(elapsed);
       var remaining = weakSpots().length;
@@ -730,6 +733,20 @@
     el("loopsAgainBtn").style.display = "block";
     el("loopsAgainBtn").onclick = function () { openLoop(G.loopIdx); };
     el("loopsBackBtn").onclick = renderHome;
+
+    var nextBtn = el("loopsNextLevelBtn");
+    var hasNext = G.loopIdx < GAME.loops.length - 1;
+    if (hasNext) {
+      nextBtn.style.display = "block";
+      nextBtn.textContent = "Next level: " + (GAME.loops[G.loopIdx + 1].emoji || "🔹") + " " + GAME.loops[G.loopIdx + 1].name + " →";
+      nextBtn.onclick = function () { openLoop(G.loopIdx + 1); };
+      // Next level is the headline action here, so play-again steps back
+      // to a secondary/ghost treatment rather than competing for attention.
+      el("loopsAgainBtn").className = "loops-btn ghost";
+    } else {
+      nextBtn.style.display = "none";
+      el("loopsAgainBtn").className = "loops-btn";
+    }
   }
 
   // Delegate hint button clicks (element gets replaced on use, so bind at play-render time too)
