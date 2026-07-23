@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Atleti · Loops Learning Tools</title>
+<link rel="icon" href="data:,">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../index.html">← Library</a></footer>
+
+  <script src="../engine.js"></script>
+  <script>
+    const GAME_DATA = {"slug":"atleti","name":"Atleti","emoji":"🌍","category":"Language","background":null,"loops":[{"name":"Atlético Madrid History","emoji":"⚽","timeLimit":15,"qs":[{"type":"mc","q":"In which year was Atlético Madrid founded?","a":"1911","opts":["1903","1911","1920"]},{"type":"mc","q":"What is Atlético Madrid's traditional home color?","a":"Red and white","opts":["Blue and white","Red and white","Red and black"]},{"type":"typed","q":"Name the stadium where Atlético Madrid plays their home matches.","a":"Metropolitano"},{"type":"mc","q":"Which manager led Atlético Madrid to win La Liga in 2013-14?","a":"Diego Simeone","opts":["Luis Aragonés","Diego Simeone","Abel Resino"]},{"type":"mc","q":"How many UEFA Europa League titles has Atlético Madrid won?","a":"3","opts":["2","3","1"]},{"type":"typed","q":"What is the nickname of Atlético Madrid's supporters group, Los...?","a":"Colchoneros"},{"type":"mc","q":"In which city is Atlético Madrid based?","a":"Madrid","opts":["Barcelona","Madrid","Valencia"]},{"type":"mc","q":"Which famous Spanish forward played for Atlético Madrid from 2011-2018?","a":"Diego Costa","opts":["David Villa","Fernando Torres","Diego Costa"]},{"type":"mc","q":"Atlético Madrid won the Copa del Rey in 2013. Who did they defeat in the final?","a":"Athletic Bilbao","opts":["Barcelona","Real Madrid","Sevilla"]},{"type":"typed","q":"Name the Argentine manager who has led Atlético Madrid since 2011.","a":"Diego Simeone"}]},{"name":"Atlético Madrid Players","emoji":"👥","timeLimit":15,"qs":[{"type":"mc","q":"Which Belgian striker joined Atlético Madrid in 2011?","a":"Radamel Falcao","opts":["Radamel Falcao","Diego Costa","Jan Oblak"]},{"type":"mc","q":"What nationality is goalkeeper Jan Oblak?","a":"Slovenian","opts":["Spanish","Slovenian","Croatian"]},{"type":"typed","q":"Name the French forward who transferred to Atlético Madrid from Monaco in 2018.","a":"Thomas Lemar"},{"type":"mc","q":"Which player won the Pichichi award in 2015-16 while playing for Atlético?","a":"Antoine Griezmann","opts":["Antoine Griezmann","Diego Costa","Radamel Falcao"]},{"type":"mc","q":"What is Antoine Griezmann's preferred foot?","a":"Right","opts":["Left","Right","Ambidextrous"]},{"type":"typed","q":"Name the Spanish defender who captained Atlético Madrid for many years, surname Godín.","a":"Diego"},{"type":"mc","q":"Which midfielder joined Atlético from Liverpool in 2018?","a":"Thomas Partey","opts":["Thomas Partey","Felipe","Saúl Ñíguez"]},{"type":"mc","q":"How many goals did Antoine Griezmann score in La Liga during 2015-16?","a":"32","opts":["32","28","26"]}]},{"name":"Atlético Madrid Achievements","emoji":"🏆","timeLimit":15,"qs":[{"type":"mc","q":"In how many Copa del Rey finals has Atlético Madrid appeared in the 21st century?","a":"4","opts":["3","4","5"]},{"type":"typed","q":"Name the European competition Atlético won in 2018, defeating Marseille in the final.","a":"Europa League"},{"type":"mc","q":"Which two players have won the Ballon d'Or while at Atlético Madrid?","a":"None","opts":["None","Griezmann and Falcao","Falcao and one other"]},{"type":"mc","q":"In which year did Atlético Madrid reach their first European Cup final?","a":"1974","opts":["1974","1958","1964"]},{"type":"typed","q":"How many La Liga titles has Atlético Madrid won in total?","a":"11"},{"type":"mc","q":"Which country's league did Atlético dominate with their 2013-14 title win?","a":"Spain","opts":["Spain","England","Italy"]},{"type":"mc","q":"Atlético Madrid finished runners-up in the Champions League in 2014 and 2016. Who beat them both times?","a":"Real Madrid","opts":["Real Madrid","Bayern Munich","Barcelona"]}]}]};
+    LoopsEngine.init(GAME_DATA);
+  </script>
+</body>
+</html>

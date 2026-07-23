@@ -1,0 +1,212 @@
+{
+  "games": [
+    {
+      "slug": "atleti",
+      "name": "Atleti",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 3,
+      "questionCount": 25,
+      "publishedAt": "2026-07-13T21:24:36.600Z"
+    },
+    {
+      "slug": "synge-street-cbs",
+      "name": "Synge Street CBS",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 10,
+      "questionCount": 100,
+      "publishedAt": "2026-07-14T13:20:39.078Z"
+    },
+    {
+      "slug": "harold-s-cross",
+      "name": "Harold's Cross",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 10,
+      "questionCount": 100,
+      "publishedAt": "2026-07-14T14:04:30.043Z"
+    },
+    {
+      "slug": "donald-glover",
+      "name": "Donald Glover",
+      "category": "Misc",
+      "emoji": "✨",
+      "loopCount": 10,
+      "questionCount": 100,
+      "publishedAt": "2026-07-14T16:57:42.296Z"
+    },
+    {
+      "slug": "christopher-nolan-director",
+      "name": "Christopher Nolan (Director)",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 10,
+      "questionCount": 100,
+      "publishedAt": "2026-07-14T18:10:46.440Z"
+    },
+    {
+      "slug": "cape-verde",
+      "name": "Cape Verde",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 10,
+      "questionCount": 100,
+      "publishedAt": "2026-07-14T19:03:15.031Z"
+    },
+    {
+      "slug": "tibetan-terriers",
+      "name": "Tibetan Terriers",
+      "category": "Misc",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-07-15T13:38:04.684Z",
+      "createdBy": "c_mrm4fa9a_vjaqxmob",
+      "author": "SMQ"
+    },
+    {
+      "slug": "tibettan-terriers",
+      "name": "Tibettan Terriers",
+      "category": "Misc",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-07-15T13:43:05.399Z",
+      "createdBy": "c_mrm4d78o_wsyx9f55",
+      "author": "SMQ"
+    },
+    {
+      "slug": "chelsea-fc",
+      "name": "Chelsea FC",
+      "category": "Misc",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-07-15T18:36:26.414Z",
+      "createdBy": "c_mrm4v9td_v8t7p0sh",
+      "author": "SMQ"
+    },
+    {
+      "slug": "basic-english",
+      "name": "Basic English",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-07-15T22:19:18.557Z",
+      "createdBy": "c_mrmn1tcl_u0hxk13v",
+      "author": "Rodge"
+    },
+    {
+      "slug": "the-american-office-tv-show",
+      "name": "The American office tv show",
+      "category": "Misc",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-07-17T18:24:53.064Z",
+      "createdBy": "c_mrm4v9td_v8t7p0sh",
+      "author": "Erica B"
+    },
+    {
+      "slug": "daily-help-no-1",
+      "name": "Daily help no:1",
+      "category": "Misc",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-07-17T19:51:33.446Z",
+      "createdBy": "c_mrpcm9g3_owbqsods",
+      "author": "Thomas Bolger"
+    },
+    {
+      "slug": "arriving-in-sevilla",
+      "name": "Arriving in Sevilla",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-07-18T21:48:48.131Z",
+      "createdBy": "c_mrm4v9td_v8t7p0sh",
+      "author": "SMQ"
+    },
+    {
+      "slug": "cadiz-spanish-slang",
+      "name": "Cadiz Spanish slang",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-07-22T00:01:59.572Z",
+      "createdBy": "c_mrm4v9td_v8t7p0sh",
+      "author": "SMQ"
+    },
+    {
+      "slug": "ukrainian-vocab",
+      "name": "Ukrainian vocab",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-07-22T09:44:08.807Z",
+      "createdBy": "c_mrma1co7_n2qv1lsa",
+      "author": "James"
+    },
+    {
+      "slug": "alicante",
+      "name": "Alicante",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 48,
+      "publishedAt": "2026-07-22T10:03:45.117Z",
+      "createdBy": "c_mrvwwr4n_golt2bs0",
+      "author": "Marcos"
+    },
+    {
+      "slug": "country-in-english",
+      "name": "COUNTRY in English",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-07-22T10:12:53.516Z",
+      "createdBy": "c_mrvxa1ne_sm2v94hb",
+      "author": "Paul"
+    },
+    {
+      "slug": "world-leaders",
+      "name": "World leaders",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-07-22T10:27:17.726Z",
+      "createdBy": "c_mrvxoqee_w13xjtyp",
+      "author": "Rachel"
+    },
+    {
+      "slug": "english-tenses",
+      "name": "English Tenses",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-07-22T10:31:05.024Z",
+      "createdBy": "c_mrma1co7_n2qv1lsa",
+      "author": "James"
+    },
+    {
+      "slug": "world-history",
+      "name": "World History",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-07-22T11:02:14.191Z",
+      "createdBy": "c_mrvywpmf_ocsm1d62",
+      "author": "Paul"
+    }
+  ]
+}
