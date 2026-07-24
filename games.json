@@ -320,6 +320,23 @@
         "present-tense",
         "beginner"
       ]
+    },
+    {
+      "slug": "hx-46-cafe",
+      "name": "HX 46 cafe",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-07-24T17:27:48.461Z",
+      "createdBy": "c_mryus71l_nphmfvx2",
+      "author": "SMQ",
+      "subcategory": "Cuisine",
+      "tags": [
+        "thai-food",
+        "takeaway",
+        "recipes"
+      ]
     }
   ],
   "categories": {
