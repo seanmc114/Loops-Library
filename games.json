@@ -286,6 +286,23 @@
       "author": "Hilda",
       "subcategory": null,
       "tags": []
+    },
+    {
+      "slug": "all-ireland-football-championship",
+      "name": "All Ireland Football Championship",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-07-24T11:27:22.529Z",
+      "createdBy": "c_mryus71l_nphmfvx2",
+      "author": "SMQ",
+      "subcategory": "Gaelic Football",
+      "tags": [
+        "irish-sports",
+        "championship",
+        "team-competition"
+      ]
     }
   ],
   "categories": {
