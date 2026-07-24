@@ -7,7 +7,9 @@
       "emoji": "🌍",
       "loopCount": 3,
       "questionCount": 25,
-      "publishedAt": "2026-07-13T21:24:36.600Z"
+      "publishedAt": "2026-07-13T21:24:36.600Z",
+      "subcategory": null,
+      "tags": []
     },
     {
       "slug": "synge-street-cbs",
@@ -16,7 +18,9 @@
       "emoji": "🌍",
       "loopCount": 10,
       "questionCount": 100,
-      "publishedAt": "2026-07-14T13:20:39.078Z"
+      "publishedAt": "2026-07-14T13:20:39.078Z",
+      "subcategory": null,
+      "tags": []
     },
     {
       "slug": "harold-s-cross",
@@ -25,16 +29,20 @@
       "emoji": "🌍",
       "loopCount": 10,
       "questionCount": 100,
-      "publishedAt": "2026-07-14T14:04:30.043Z"
+      "publishedAt": "2026-07-14T14:04:30.043Z",
+      "subcategory": null,
+      "tags": []
     },
     {
       "slug": "donald-glover",
       "name": "Donald Glover",
-      "category": "Misc",
+      "category": "Other",
       "emoji": "✨",
       "loopCount": 10,
       "questionCount": 100,
-      "publishedAt": "2026-07-14T16:57:42.296Z"
+      "publishedAt": "2026-07-14T16:57:42.296Z",
+      "subcategory": null,
+      "tags": []
     },
     {
       "slug": "christopher-nolan-director",
@@ -43,7 +51,9 @@
       "emoji": "🌍",
       "loopCount": 10,
       "questionCount": 100,
-      "publishedAt": "2026-07-14T18:10:46.440Z"
+      "publishedAt": "2026-07-14T18:10:46.440Z",
+      "subcategory": null,
+      "tags": []
     },
     {
       "slug": "cape-verde",
@@ -52,40 +62,48 @@
       "emoji": "🌍",
       "loopCount": 10,
       "questionCount": 100,
-      "publishedAt": "2026-07-14T19:03:15.031Z"
+      "publishedAt": "2026-07-14T19:03:15.031Z",
+      "subcategory": null,
+      "tags": []
     },
     {
       "slug": "tibetan-terriers",
       "name": "Tibetan Terriers",
-      "category": "Misc",
+      "category": "Other",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-15T13:38:04.684Z",
       "createdBy": "c_mrm4fa9a_vjaqxmob",
-      "author": "SMQ"
+      "author": "SMQ",
+      "subcategory": null,
+      "tags": []
     },
     {
       "slug": "tibettan-terriers",
       "name": "Tibettan Terriers",
-      "category": "Misc",
+      "category": "Other",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-15T13:43:05.399Z",
       "createdBy": "c_mrm4d78o_wsyx9f55",
-      "author": "SMQ"
+      "author": "SMQ",
+      "subcategory": null,
+      "tags": []
     },
     {
       "slug": "chelsea-fc",
       "name": "Chelsea FC",
-      "category": "Misc",
+      "category": "Other",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-15T18:36:26.414Z",
       "createdBy": "c_mrm4v9td_v8t7p0sh",
-      "author": "SMQ"
+      "author": "SMQ",
+      "subcategory": null,
+      "tags": []
     },
     {
       "slug": "basic-english",
@@ -96,29 +114,35 @@
       "questionCount": 50,
       "publishedAt": "2026-07-15T22:19:18.557Z",
       "createdBy": "c_mrmn1tcl_u0hxk13v",
-      "author": "Rodge"
+      "author": "Rodge",
+      "subcategory": null,
+      "tags": []
     },
     {
       "slug": "the-american-office-tv-show",
       "name": "The American office tv show",
-      "category": "Misc",
+      "category": "Other",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-17T18:24:53.064Z",
       "createdBy": "c_mrm4v9td_v8t7p0sh",
-      "author": "Erica B"
+      "author": "Erica B",
+      "subcategory": null,
+      "tags": []
     },
     {
       "slug": "daily-help-no-1",
       "name": "Daily help no:1",
-      "category": "Misc",
+      "category": "Other",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-17T19:51:33.446Z",
       "createdBy": "c_mrpcm9g3_owbqsods",
-      "author": "Thomas Bolger"
+      "author": "Thomas Bolger",
+      "subcategory": null,
+      "tags": []
     },
     {
       "slug": "arriving-in-sevilla",
@@ -129,7 +153,9 @@
       "questionCount": 50,
       "publishedAt": "2026-07-18T21:48:48.131Z",
       "createdBy": "c_mrm4v9td_v8t7p0sh",
-      "author": "SMQ"
+      "author": "SMQ",
+      "subcategory": null,
+      "tags": []
     },
     {
       "slug": "cadiz-spanish-slang",
@@ -140,7 +166,9 @@
       "questionCount": 50,
       "publishedAt": "2026-07-22T00:01:59.572Z",
       "createdBy": "c_mrm4v9td_v8t7p0sh",
-      "author": "SMQ"
+      "author": "SMQ",
+      "subcategory": null,
+      "tags": []
     },
     {
       "slug": "ukrainian-vocab",
@@ -151,7 +179,9 @@
       "questionCount": 50,
       "publishedAt": "2026-07-22T09:44:08.807Z",
       "createdBy": "c_mrma1co7_n2qv1lsa",
-      "author": "James"
+      "author": "James",
+      "subcategory": null,
+      "tags": []
     },
     {
       "slug": "alicante",
@@ -162,7 +192,9 @@
       "questionCount": 48,
       "publishedAt": "2026-07-22T10:03:45.117Z",
       "createdBy": "c_mrvwwr4n_golt2bs0",
-      "author": "Marcos"
+      "author": "Marcos",
+      "subcategory": null,
+      "tags": []
     },
     {
       "slug": "country-in-english",
@@ -173,7 +205,9 @@
       "questionCount": 50,
       "publishedAt": "2026-07-22T10:12:53.516Z",
       "createdBy": "c_mrvxa1ne_sm2v94hb",
-      "author": "Paul"
+      "author": "Paul",
+      "subcategory": null,
+      "tags": []
     },
     {
       "slug": "world-leaders",
@@ -184,7 +218,9 @@
       "questionCount": 50,
       "publishedAt": "2026-07-22T10:27:17.726Z",
       "createdBy": "c_mrvxoqee_w13xjtyp",
-      "author": "Rachel"
+      "author": "Rachel",
+      "subcategory": null,
+      "tags": []
     },
     {
       "slug": "english-tenses",
@@ -195,7 +231,9 @@
       "questionCount": 50,
       "publishedAt": "2026-07-22T10:31:05.024Z",
       "createdBy": "c_mrma1co7_n2qv1lsa",
-      "author": "James"
+      "author": "James",
+      "subcategory": null,
+      "tags": []
     },
     {
       "slug": "world-history",
@@ -206,48 +244,80 @@
       "questionCount": 50,
       "publishedAt": "2026-07-22T11:02:14.191Z",
       "createdBy": "c_mrvywpmf_ocsm1d62",
-      "author": "Paul"
+      "author": "Paul",
+      "subcategory": null,
+      "tags": []
     },
     {
       "slug": "fontaines-dc",
       "name": "Fontaines DC",
-      "category": "Misc",
+      "category": "Other",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-23T14:24:01.060Z",
       "createdBy": "c_mrm4fa9a_vjaqxmob",
-      "author": "SMQ"
-    },
-    {
-      "slug": "turbo-irish",
-      "name": "Turbo Irish",
-      "category": "Legacy",
-      "emoji": "🏛️",
-      "url": "games/legacy/turbo-irish/index.html",
-      "publishedAt": "2026-07-23T00:00:00.000Z"
+      "author": "SMQ",
+      "subcategory": null,
+      "tags": []
     },
     {
       "slug": "casual-nba",
       "name": "Casual nba",
-      "category": "Misc",
+      "category": "Other",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-23T20:20:30.503Z",
       "createdBy": "c_mrxy93ig_si2hvk8v",
-      "author": "Tom"
+      "author": "Tom",
+      "subcategory": null,
+      "tags": []
     },
     {
       "slug": "corrie",
       "name": "Corrie",
-      "category": "Misc",
+      "category": "Other",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-23T22:02:44.899Z",
       "createdBy": "c_mry1y887_45jbnkzj",
-      "author": "Hilda"
+      "author": "Hilda",
+      "subcategory": null,
+      "tags": []
     }
-  ]
+  ],
+  "categories": {
+    "Language": {
+      "emoji": "🌍",
+      "pastel": "#C1F0EA",
+      "deep": "#2FB18A",
+      "wash": "#EBF6F0"
+    },
+    "Onboarding": {
+      "emoji": "🪪",
+      "pastel": "#FBE4B7",
+      "deep": "#D9A03F",
+      "wash": "#FBF3E2"
+    },
+    "Compliance": {
+      "emoji": "🛡️",
+      "pastel": "#D0E0F6",
+      "deep": "#4F7FC7",
+      "wash": "#EFF1F3"
+    },
+    "Exam Prep": {
+      "emoji": "📝",
+      "pastel": "#E2D8FA",
+      "deep": "#8B67D9",
+      "wash": "#F4EFF4"
+    },
+    "Other": {
+      "emoji": "✨",
+      "pastel": "#FAD2C3",
+      "deep": "#E0784E",
+      "wash": "#FAEEE5"
+    }
+  }
 }

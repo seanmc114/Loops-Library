@@ -21,12 +21,6 @@
       --paper: #FBF9F4;
       --card: #ffffff;
       --line: #E4E0D4;
-      --language: #C1F0EA;
-      --onboarding: #FBE4B7;
-      --compliance: #D0E0F6;
-      --examprep: #E2D8FA;
-      --misc: #FAD2C3;
-      --legacy: #D6E3C1;
       --ink-soft: #5B6472;
     }
 
@@ -106,6 +100,16 @@
     .qr-panel .qr-canvas-wrap { display: inline-block; padding: 10px; background: #fff; border-radius: 8px; }
     .qr-panel p { font-size: 0.78rem; color: var(--navy); opacity: .7; margin-top: 8px; }
 
+    .shelf-section { margin-bottom: 30px; }
+    .shelf-header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+    .shelf-title { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--navy); font-weight: 700; }
+    .shelf-badge { background: rgba(13,42,82,.1); color: var(--navy); font-size: .78rem; font-weight: 800; padding: 3px 10px; border-radius: 100px; }
+    .general-grid-label { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-soft); font-weight: 700; margin: 24px 0 14px; }
+    .category-section .shelf-section:first-child .general-grid-label { margin-top: 0; }
+    .tag-pills { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+    .tag-pill { font-size: .72rem; font-weight: 700; padding: 3px 10px; border-radius: 100px; background: rgba(13,42,82,.08); color: var(--navy); }
+    .tag-pill.subcat { background: rgba(13,42,82,.16); }
+
     .empty-state { text-align: center; padding: 60px 20px; color: var(--ink-soft); }
     .empty-state-icon { font-size: 4rem; margin-bottom: 20px; opacity: 0.5; }
     .empty-state h2 { font-size: 1.5rem; margin-bottom: 10px; color: var(--navy); }
@@ -145,14 +149,8 @@
 
   <div class="controls">
     <div class="search-box"><input type="text" id="searchInput" placeholder="Search games..." onkeyup="filterGames()"></div>
-    <div class="filter-group">
+    <div class="filter-group" id="filterGroup">
       <button class="filter-btn active" style="background:var(--navy);color:#fff;" onclick="filterByCategory('')">All</button>
-      <button class="filter-btn" style="background:var(--language);" onclick="filterByCategory('Language')">🌍 Language</button>
-      <button class="filter-btn" style="background:var(--onboarding);" onclick="filterByCategory('Onboarding')">🪪 Onboarding</button>
-      <button class="filter-btn" style="background:var(--compliance);" onclick="filterByCategory('Compliance')">🛡️ Compliance</button>
-      <button class="filter-btn" style="background:var(--examprep);" onclick="filterByCategory('Exam Prep')">📝 Exam Prep</button>
-      <button class="filter-btn" style="background:var(--misc);" onclick="filterByCategory('Misc')">✨ Misc</button>
-      <button class="filter-btn" style="background:var(--legacy);" onclick="filterByCategory('Legacy')">🏛️ Legacy</button>
     </div>
   </div>
 
@@ -178,6 +176,8 @@
     })();
 
     let allGames = [];
+    let allCategories = {};
+    const SHELF_THRESHOLD = 5;
     const WORKER_URL = 'https://dry-credit-f396.seansynge.workers.dev';
     let adminSecret = null; // only set in-memory for this session if unlocked
 
@@ -232,12 +232,38 @@
         const response = await fetch('./games.json');
         const data = await response.json();
         allGames = data.games || [];
+        allCategories = data.categories || {};
+        buildFilterButtons();
         renderLibrary();
       } catch (err) {
         console.error('Error loading library:', err);
         document.getElementById('library').innerHTML = `
           <div class="empty-state"><div class="empty-state-icon">📚</div><h2>No games yet</h2><p>Games will appear here as they're published.</p></div>`;
       }
+    }
+
+    // Filter chips: only categories that currently have at least one game,
+    // built from the live categories map instead of a hardcoded list — so a
+    // newly-promoted category just shows up here with no code change needed.
+    function buildFilterButtons() {
+      const group = document.getElementById('filterGroup');
+      const inUseNames = Object.keys(allCategories).filter(name => allGames.some(g => g.category === name));
+      let html = `<button class="filter-btn active" style="background:var(--navy);color:#fff;" onclick="filterByCategory('')">All</button>`;
+      inUseNames.forEach(name => {
+        const c = allCategories[name];
+        html += `<button class="filter-btn" style="background:${c.pastel};" onclick="filterByCategory('${escapeHtml(name)}')">${c.emoji || '🎮'} ${escapeHtml(name)}</button>`;
+      });
+      group.innerHTML = html;
+    }
+
+    // Canonical key for grouping a subcategory/tag — matches the server's
+    // normalisation (lowercase, hyphenated) so "DIY" and "diy" count together.
+    function canonicalLabelKey(label) {
+      return String(label || '').trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+    }
+    function displayLabelFor(key, byKeyDisplay) {
+      if (byKeyDisplay[key]) return byKeyDisplay[key];
+      return key.replace(/[-_]+/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
     }
 
     function gameUrl(game) {
@@ -249,65 +275,123 @@
       return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
     }
 
-    function renderLibrary() {
-      const categories = {
-        'Language': { emoji: '🌍', color: 'var(--language)', games: [] },
-        'Onboarding': { emoji: '🪪', color: 'var(--onboarding)', games: [] },
-        'Compliance': { emoji: '🛡️', color: 'var(--compliance)', games: [] },
-        'Exam Prep': { emoji: '📝', color: 'var(--examprep)', games: [] },
-        'Misc': { emoji: '✨', color: 'var(--misc)', games: [] },
-        'Legacy': { emoji: '🏛️', color: 'var(--legacy)', games: [] }
-      };
+    function renderGameTile(game, color) {
+      const url = gameUrl(game);
+      const canDelete = adminSecret || (myCreatorId && game.createdBy === myCreatorId);
+      const searchBits = [game.name, game.author || '', game.subcategory || '', (game.tags || []).join(' ')].join(' ').toLowerCase();
+      const pills = [];
+      if (game.subcategory) pills.push(`<span class="tag-pill subcat">${escapeHtml(game.subcategory)}</span>`);
+      (game.tags || []).forEach(t => pills.push(`<span class="tag-pill">${escapeHtml(t)}</span>`));
 
-      allGames.forEach(game => {
-        const cat = game.category || 'Language';
-        if (categories[cat]) categories[cat].games.push(game);
+      return `
+        <div class="game-tile" style="background:${color};" data-search="${escapeHtml(searchBits)}">
+          <div class="game-tile-header">
+            <span class="game-emoji">${game.emoji || '🎮'}</span>
+            <h3 class="game-name">${escapeHtml(game.name)}</h3>
+          </div>
+          ${pills.length ? `<div class="tag-pills">${pills.join('')}</div>` : ''}
+          <div class="game-meta">
+            ${typeof game.loopCount === 'number' ? `<div class="meta-item">📊 ${game.loopCount} loop${game.loopCount !== 1 ? 's' : ''}</div>` : ''}
+            ${typeof game.questionCount === 'number' ? `<div class="meta-item">❓ ${game.questionCount} q's</div>` : ''}
+            ${game.author ? `<div class="meta-item">✍️ by ${escapeHtml(game.author)}</div>` : ''}
+          </div>
+          <div class="tile-actions">
+            <a href="${url}" class="play-btn">Play →</a>
+            ${game.slug ? `<button class="qr-toggle" onclick="toggleQR('${game.slug}')" title="Show QR code">▦</button>` : ''}
+            ${canDelete ? `<button class="qr-toggle" onclick="deleteGame('${game.slug}')" title="Delete this game" style="color:#c94c4c;">🗑</button>` : ''}
+          </div>
+          <div class="qr-panel" id="qr-panel-${game.slug}">
+            <div class="qr-canvas-wrap" id="qr-canvas-${game.slug}"></div>
+            <p>Scan to play on your phone</p>
+          </div>
+        </div>`;
+    }
+
+    // Groups a category's games into shelves (subcategory/tag shared by 5+
+    // games, counted within this category only) plus a general grid for
+    // everything else. Each game lands in at most one shelf — its
+    // subcategory if that qualifies, else its first qualifying tag — so
+    // tiles don't duplicate across shelves.
+    function groupIntoShelves(games) {
+      const counts = {};        // canonical key -> count
+      const byKeyDisplay = {};  // canonical key -> nicest-cased label seen
+
+      games.forEach(game => {
+        const seen = new Set();
+        const note = (raw) => {
+          if (!raw) return;
+          const key = canonicalLabelKey(raw);
+          if (!key || seen.has(key)) return;
+          seen.add(key);
+          counts[key] = (counts[key] || 0) + 1;
+          if (game.subcategory && canonicalLabelKey(game.subcategory) === key) byKeyDisplay[key] = game.subcategory;
+        };
+        note(game.subcategory);
+        (game.tags || []).forEach(note);
       });
 
+      const shelves = {}; // key -> { display, games: [] }
+      const general = [];
+
+      games.forEach(game => {
+        const candidates = [game.subcategory, ...(game.tags || [])].filter(Boolean);
+        const winner = candidates.find(c => counts[canonicalLabelKey(c)] >= SHELF_THRESHOLD);
+        if (winner) {
+          const key = canonicalLabelKey(winner);
+          if (!shelves[key]) shelves[key] = { display: displayLabelFor(key, byKeyDisplay), games: [] };
+          shelves[key].games.push(game);
+        } else {
+          general.push(game);
+        }
+      });
+
+      // Stable order: shelves with the most games first, then the general grid
+      const shelfList = Object.values(shelves).sort((a, b) => b.games.length - a.games.length);
+      return { shelfList, general };
+    }
+
+    function renderLibrary() {
+      const catNames = Object.keys(allCategories).filter(name => allGames.some(g => g.category === name));
       let html = '';
       let hasGames = false;
 
-      for (const [catName, catData] of Object.entries(categories)) {
-        if (catData.games.length === 0) continue;
+      catNames.forEach(catName => {
+        const catMeta = allCategories[catName];
+        const catGames = allGames.filter(g => g.category === catName);
+        if (catGames.length === 0) return;
         hasGames = true;
 
-        html += `
-          <div class="category-section" data-category="${catName}">
-            <div class="category-header" style="border-bottom-color:${catData.color};">
-              <span class="category-emoji">${catData.emoji}</span>
-              <h2 class="category-name">${catName}</h2>
-              <span class="game-count">${catData.games.length} game${catData.games.length !== 1 ? 's' : ''}</span>
-            </div>
-            <div class="games-grid">`;
+        const { shelfList, general } = groupIntoShelves(catGames);
 
-        catData.games.forEach(game => {
-          const url = gameUrl(game);
-          const canDelete = adminSecret || (myCreatorId && game.createdBy === myCreatorId);
+        html += `
+          <div class="category-section" data-category="${escapeHtml(catName)}">
+            <div class="category-header" style="border-bottom-color:${catMeta.pastel};">
+              <span class="category-emoji">${catMeta.emoji || '🎮'}</span>
+              <h2 class="category-name">${escapeHtml(catName)}</h2>
+              <span class="game-count">${catGames.length} game${catGames.length !== 1 ? 's' : ''}</span>
+            </div>`;
+
+        shelfList.forEach(shelf => {
           html += `
-            <div class="game-tile" style="background:${catData.color};" data-search="${escapeHtml((game.name + ' ' + (game.author || '')).toLowerCase())}">
-              <div class="game-tile-header">
-                <span class="game-emoji">${game.emoji || '🎮'}</span>
-                <h3 class="game-name">${escapeHtml(game.name)}</h3>
+            <div class="shelf-section">
+              <div class="shelf-header">
+                <span class="shelf-title">${escapeHtml(shelf.display)}</span>
+                <span class="shelf-badge">${shelf.games.length}</span>
               </div>
-              <div class="game-meta">
-                ${typeof game.loopCount === 'number' ? `<div class="meta-item">📊 ${game.loopCount} loop${game.loopCount !== 1 ? 's' : ''}</div>` : ''}
-                ${typeof game.questionCount === 'number' ? `<div class="meta-item">❓ ${game.questionCount} q's</div>` : ''}
-                ${game.author ? `<div class="meta-item">✍️ by ${escapeHtml(game.author)}</div>` : ''}
-              </div>
-              <div class="tile-actions">
-                <a href="${url}" class="play-btn">Play →</a>
-                ${game.slug ? `<button class="qr-toggle" onclick="toggleQR('${game.slug}')" title="Show QR code">▦</button>` : ''}
-                ${canDelete ? `<button class="qr-toggle" onclick="deleteGame('${game.slug}')" title="Delete this game" style="color:#c94c4c;">🗑</button>` : ''}
-              </div>
-              <div class="qr-panel" id="qr-panel-${game.slug}">
-                <div class="qr-canvas-wrap" id="qr-canvas-${game.slug}"></div>
-                <p>Scan to play on your phone</p>
-              </div>
+              <div class="games-grid">${shelf.games.map(g => renderGameTile(g, catMeta.pastel)).join('')}</div>
             </div>`;
         });
 
-        html += `</div></div>`;
-      }
+        if (general.length > 0) {
+          html += `
+            <div class="shelf-section">
+              ${shelfList.length > 0 ? `<div class="general-grid-label">More in ${escapeHtml(catName)}</div>` : ''}
+              <div class="games-grid">${general.map(g => renderGameTile(g, catMeta.pastel)).join('')}</div>
+            </div>`;
+        }
+
+        html += `</div>`;
+      });
 
       if (!hasGames) {
         html = `<div class="empty-state"><div class="empty-state-icon">📚</div><h2>No games yet</h2><p>Games will appear here as they're published.</p></div>`;

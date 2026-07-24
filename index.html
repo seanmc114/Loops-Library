@@ -19,12 +19,6 @@
     --navy-2: #163f78;
     --paper: #FBF9F4;
     --ink-soft: #5B6472;
-    --language: #C1F0EA;
-    --onboarding: #FBE4B7;
-    --compliance: #D0E0F6;
-    --examprep: #E2D8FA;
-    --misc: #FAD2C3;
-    --legacy: #D6E3C1;
   }
   body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -47,7 +41,8 @@
   .plaque .subtagline { font-weight: 500; font-size: .88rem; margin-top: 8px; opacity: .85; line-height: 1.5; }
   .rainbow-divider {
     height: 6px;
-    background: linear-gradient(90deg, var(--language), var(--onboarding), var(--compliance), var(--examprep), var(--misc), var(--legacy));
+    background: linear-gradient(90deg, #C1F0EA, #FBE4B7, #D0E0F6, #E2D8FA, #FAD2C3);
+    /* Fallback gradient; repainted with live category colours once games.json loads. */
   }
 
   .wrap { width: min(520px, 92vw); margin: 0 auto; padding: 34px 0 50px; text-align: center; }
@@ -90,13 +85,12 @@
   </div>
 
   <div class="cats-label">One engine. Any subject.</div>
-  <div class="chips">
-    <div class="chip" style="background:var(--language);">🌍 Language</div>
-    <div class="chip" style="background:var(--onboarding);">🪪 Onboarding</div>
-    <div class="chip" style="background:var(--compliance);">🛡️ Compliance</div>
-    <div class="chip" style="background:var(--examprep);">📝 Exam Prep</div>
-    <div class="chip" style="background:var(--misc);">✨ Misc</div>
-    <div class="chip" style="background:var(--legacy);">🏛️ Legacy</div>
+  <div class="chips" id="chipsRow">
+    <div class="chip" style="background:#C1F0EA;">🌍 Language</div>
+    <div class="chip" style="background:#FBE4B7;">🪪 Onboarding</div>
+    <div class="chip" style="background:#D0E0F6;">🛡️ Compliance</div>
+    <div class="chip" style="background:#E2D8FA;">📝 Exam Prep</div>
+    <div class="chip" style="background:#FAD2C3;">✨ Other</div>
   </div>
 
   <a href="library.html" class="cta primary">Browse the library →</a>
@@ -115,10 +109,28 @@
   }
 
   fetch('games.json').then(r => r.json()).then(data => {
-    const count = (data.games || []).length;
+    const games = data.games || [];
+    const count = games.length;
     if (count > 0) {
       document.getElementById('statGames').textContent = count;
       showStat('statGames');
+    }
+
+    // Chips + rainbow divider: only categories that currently have at least
+    // one game, in the order they appear in the categories map (founding
+    // five first, any promoted ones after, in the order they were added).
+    const categories = data.categories || {};
+    const catsInUse = Object.keys(categories).filter(name =>
+      games.some(g => g.category === name)
+    );
+    if (catsInUse.length > 0) {
+      const chipsRow = document.getElementById('chipsRow');
+      chipsRow.innerHTML = catsInUse.map(name => {
+        const c = categories[name];
+        return `<div class="chip" style="background:${c.pastel};">${c.emoji || '🎮'} ${name}</div>`;
+      }).join('');
+      document.querySelector('.rainbow-divider').style.background =
+        'linear-gradient(90deg, ' + catsInUse.map(name => categories[name].pastel).join(', ') + ')';
     }
   }).catch(() => {});
 

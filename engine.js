@@ -204,20 +204,26 @@
 
   // ── STYLES ──
   // ── CATEGORY COLOURS ──
-  // Locked palette. Each category gets its pastel plus a deeper accent shade
-  // (used for hover/progress/"done" states, same pattern as the
-  // --language/--language-deep pair in the level-complete design reference).
+  // Fallback palette only, for games published before the taxonomy went
+  // dynamic. Any game published after that point carries its own resolved
+  // {pastel,deep,wash} triplet baked into GAME.colors at publish time (see
+  // categoryColors() below) — this hardcoded map never needs to learn about
+  // a new/promoted category, since new games just bring their colour with
+  // them. "Misc" is kept as an alias of "Other" so games published under
+  // the old category name before the rename still render correctly without
+  // needing to be republished.
   var CATEGORY_COLORS = {
     "Language": { pastel: "#C1F0EA", deep: "#2FB18A", wash: "#EBF6F0" },
     "Onboarding": { pastel: "#FBE4B7", deep: "#D9A03F", wash: "#FBF3E2" },
     "Compliance": { pastel: "#D0E0F6", deep: "#4F7FC7", wash: "#EFF1F3" },
     "Exam Prep": { pastel: "#E2D8FA", deep: "#8B67D9", wash: "#F4EFF4" },
-    "Misc": { pastel: "#FAD2C3", deep: "#E0784E", wash: "#FAEEE5" },
-    "Legacy": { pastel: "#D6E3C1", deep: "#7DA355", wash: "#F0F2E5" }
+    "Other": { pastel: "#FAD2C3", deep: "#E0784E", wash: "#FAEEE5" },
+    "Misc": { pastel: "#FAD2C3", deep: "#E0784E", wash: "#FAEEE5" }
   };
   var AMBER = "#F8CE7C"; // Weak Spots / hint accent — deliberately category-independent so it reads the same everywhere
 
   function categoryColors() {
+    if (GAME && GAME.colors && GAME.colors.pastel) return GAME.colors;
     return CATEGORY_COLORS[(GAME && GAME.category)] || CATEGORY_COLORS["Language"];
   }
 
