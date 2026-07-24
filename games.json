@@ -303,6 +303,23 @@
         "championship",
         "team-competition"
       ]
+    },
+    {
+      "slug": "german-verbs-a1",
+      "name": "German verbs A1",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-07-24T15:07:28.013Z",
+      "createdBy": "c_mrz2hgrm_hnpt5ow8",
+      "author": null,
+      "subcategory": "Verb Conjugation",
+      "tags": [
+        "german",
+        "present-tense",
+        "beginner"
+      ]
     }
   ],
   "categories": {
