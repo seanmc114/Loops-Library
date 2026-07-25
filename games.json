@@ -337,6 +337,23 @@
         "takeaway",
         "recipes"
       ]
+    },
+    {
+      "slug": "butler-s-bridge-gaa",
+      "name": "Butler’s bridge gaa",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-07-25T21:40:02.745Z",
+      "createdBy": "c_mryus71l_nphmfvx2",
+      "author": "SMQ",
+      "subcategory": "Gaelic Football",
+      "tags": [
+        "irish-sports",
+        "club-level",
+        "county-cavan"
+      ]
     }
   ],
   "categories": {
