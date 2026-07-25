@@ -354,6 +354,24 @@
         "club-level",
         "county-cavan"
       ]
+    },
+    {
+      "slug": "hedge-row-plants",
+      "name": "Hedge row plants",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-07-25T22:08:33.279Z",
+      "createdBy": "c_ms0wx0ne_etox0vsm",
+      "author": "Benny",
+      "subcategory": "Irish Nature",
+      "tags": [
+        "hedgerow",
+        "plants",
+        "ireland",
+        "identification"
+      ]
     }
   ],
   "categories": {
