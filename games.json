@@ -384,6 +384,23 @@
         "wildlife",
         "nature"
       ]
+    },
+    {
+      "slug": "hubris",
+      "name": "Hubris",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-07-26T22:31:09.973Z",
+      "createdBy": "c_mryus71l_nphmfvx2",
+      "author": "SMQ",
+      "subcategory": "Literature",
+      "tags": [
+        "vocabulary",
+        "character-traits",
+        "greek-mythology"
+      ]
     }
   ],
   "categories": {
