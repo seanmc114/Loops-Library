@@ -401,23 +401,6 @@
         "character-traits",
         "greek-mythology"
       ]
-    },
-    {
-      "slug": "what-is-loops",
-      "name": "What is Loops?",
-      "category": "Other",
-      "emoji": "✨",
-      "loopCount": 5,
-      "questionCount": 25,
-      "publishedAt": "2026-07-28T03:24:30.353Z",
-      "createdBy": "c_mryus71l_nphmfvx2",
-      "author": "SMQ",
-      "subcategory": "Educational Technology",
-      "tags": [
-        "learning-platform",
-        "memorization",
-        "retrieval-practice"
-      ]
     }
   ],
   "categories": {
