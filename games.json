@@ -384,6 +384,23 @@
         "character-traits",
         "greek-mythology"
       ]
+    },
+    {
+      "slug": "ready-player-one",
+      "name": "Ready Player One",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-07-30T01:35:14.658Z",
+      "createdBy": "c_mryus71l_nphmfvx2",
+      "author": "SMQ",
+      "subcategory": "Science Fiction",
+      "tags": [
+        "movie",
+        "ready-player-one",
+        "virtual-reality"
+      ]
     }
   ],
   "categories": {
