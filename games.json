@@ -401,6 +401,24 @@
         "ready-player-one",
         "virtual-reality"
       ]
+    },
+    {
+      "slug": "glen-hansard",
+      "name": "Glen Hansard",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-03T23:07:16.283Z",
+      "createdBy": "c_mrm4fa9a_vjaqxmob",
+      "author": "SMQ",
+      "subcategory": "Music",
+      "tags": [
+        "irish-musician",
+        "biography",
+        "folk-music"
+      ],
+      "thumbnail": "thumbs/glen-hansard.jpg"
     }
   ],
   "categories": {
@@ -434,5 +452,11 @@
       "deep": "#E0784E",
       "wash": "#FAEEE5"
     }
+  },
+  "labelDescriptors": {
+    "Other::music": "Games teaching music history, theory, and artist backgrounds through interactive content.",
+    "Other::irish-musician": "Irish musicians and their careers, achievements, and cultural contributions",
+    "Other::biography": "Learn about influential musicians through their life stories, careers, and cultural impact.",
+    "Other::folk-music": "Traditional Irish music traditions and folk storytelling through contemporary singer-songwriter expression."
   }
 }
