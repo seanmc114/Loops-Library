@@ -568,6 +568,26 @@
         "beginner"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "golf-balls",
+      "name": "Golf balls",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-09T20:21:24.697Z",
+      "createdBy": "c_mryus71l_nphmfvx2",
+      "author": "Paul",
+      "subcategory": "Sport",
+      "tags": [
+        "golf",
+        "equipment",
+        "sports-basics",
+        "physics",
+        "technique"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -619,6 +639,11 @@
     "Language::ancient-rome": "Latin language fundamentals covering grammar, pronunciation, verb conjugation, and case systems.",
     "Language::travel": "Learn essential Japanese phrases through interactive travel conversations and cultural contexts.",
     "Language::geography": "Interactive Japanese language learning through phrasal translation and cultural expression exercises.",
-    "Language::places": "Japanese language phrases organized by social context and formality levels."
+    "Language::places": "Japanese language phrases organized by social context and formality levels.",
+    "Other::sports-basics": "Golf fundamentals covering ball physics, club mechanics, and swing technique",
+    "Other::physics": "Games teaching golf mechanics, physics principles, and shot optimization techniques.",
+    "Other::technique": "Specific mechanics, movements, and contact points required for executing golf shots effectively.",
+    "Other::golf": "Understanding golf mechanics: ball physics, club performance, swing technique, and optimization.",
+    "Other::equipment": "Physical tools and gear used in golf including clubs, balls, and accessories."
   }
 }
