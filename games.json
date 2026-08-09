@@ -490,6 +490,26 @@
         "soccer"
       ],
       "thumbnail": "thumbs/nottingham-forest.jpg"
+    },
+    {
+      "slug": "stoics",
+      "name": "Stoics",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-09T01:06:51.274Z",
+      "createdBy": "c_mrm4d78o_wsyx9f55",
+      "author": "SMQ",
+      "subcategory": "Philosophy",
+      "tags": [
+        "stoicism",
+        "ancient-greece",
+        "character-traits",
+        "ancient-philosophy",
+        "History"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -531,6 +551,10 @@
     "Other::folk-music": "Traditional Irish music traditions and folk storytelling through contemporary singer-songwriter expression.",
     "Other::english-football": "English football club history, achievements, and notable periods",
     "Other::nottingham-forest": "English football club history, identity, achievements, and legendary management era.",
-    "Other::football": "Football club Nottingham Forest's history, achievements, management, and decline."
+    "Other::football": "Football club Nottingham Forest's history, achievements, management, and decline.",
+    "Other::stoicism": "Philosophy emphasizing virtue, reason, and accepting what you cannot control.",
+    "Other::ancient-greece": "Ancient Greek philosophy emphasizing virtue, reason, and acceptance of universal natural laws.",
+    "Other::philosophy": "Explores ancient Greek philosophy emphasizing virtue, reason, and acceptance of what cannot be controlled.",
+    "Other::ancient-philosophy": "Greek philosophical system emphasizing virtue, reason, and acceptance of fate's inevitability."
   }
 }
