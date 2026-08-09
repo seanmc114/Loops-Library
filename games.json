@@ -548,6 +548,26 @@
         "grammar"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "japan",
+      "name": "Japan",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-09T19:17:29.437Z",
+      "createdBy": "c_msm6lzdz_lfoqd9rx",
+      "author": "Eoin",
+      "subcategory": "Travel",
+      "tags": [
+        "places",
+        "geography",
+        "language",
+        "vocabulary",
+        "beginner"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -596,6 +616,9 @@
     "Other::ancient-philosophy": "Greek philosophical system emphasizing virtue, reason, and acceptance of fate's inevitability.",
     "Language::language": "Games teaching Latin grammar, vocabulary, conjugation, and sentence structure fundamentals.",
     "Language::latin": "Latin language fundamentals covering pronouns, nouns, verbs, cases, and advanced syntax.",
-    "Language::ancient-rome": "Latin language fundamentals covering grammar, pronunciation, verb conjugation, and case systems."
+    "Language::ancient-rome": "Latin language fundamentals covering grammar, pronunciation, verb conjugation, and case systems.",
+    "Language::travel": "Learn essential Japanese phrases through interactive travel conversations and cultural contexts.",
+    "Language::geography": "Interactive Japanese language learning through phrasal translation and cultural expression exercises.",
+    "Language::places": "Japanese language phrases organized by social context and formality levels."
   }
 }
