@@ -530,6 +530,24 @@
         "beginner"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "spanish-basics",
+      "name": "Spanish basics.",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-09T17:08:10.440Z",
+      "createdBy": "c_mryus71l_nphmfvx2",
+      "author": "Denis",
+      "subcategory": "Spanish",
+      "tags": [
+        "beginner",
+        "vocabulary",
+        "grammar"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
