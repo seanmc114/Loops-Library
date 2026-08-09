@@ -510,6 +510,26 @@
         "History"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "latin",
+      "name": "Latin",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-09T16:03:02.081Z",
+      "createdBy": "c_mryus71l_nphmfvx2",
+      "author": "Maighréad",
+      "subcategory": "Latin",
+      "tags": [
+        "grammar",
+        "vocabulary",
+        "ancient-rome",
+        "language",
+        "beginner"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -555,6 +575,9 @@
     "Other::stoicism": "Philosophy emphasizing virtue, reason, and accepting what you cannot control.",
     "Other::ancient-greece": "Ancient Greek philosophy emphasizing virtue, reason, and acceptance of universal natural laws.",
     "Other::philosophy": "Explores ancient Greek philosophy emphasizing virtue, reason, and acceptance of what cannot be controlled.",
-    "Other::ancient-philosophy": "Greek philosophical system emphasizing virtue, reason, and acceptance of fate's inevitability."
+    "Other::ancient-philosophy": "Greek philosophical system emphasizing virtue, reason, and acceptance of fate's inevitability.",
+    "Language::language": "Games teaching Latin grammar, vocabulary, conjugation, and sentence structure fundamentals.",
+    "Language::latin": "Latin language fundamentals covering pronouns, nouns, verbs, cases, and advanced syntax.",
+    "Language::ancient-rome": "Latin language fundamentals covering grammar, pronunciation, verb conjugation, and case systems."
   }
 }
