@@ -588,6 +588,27 @@
         "technique"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "counties-of-england",
+      "name": "Counties of England",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-10T23:26:52.880Z",
+      "createdBy": "c_mryus71l_nphmfvx2",
+      "author": "SMQ",
+      "subcategory": "Geography",
+      "tags": [
+        "england",
+        "places",
+        "counties",
+        "maps",
+        "map-location",
+        "english-geography"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -644,6 +665,12 @@
     "Other::physics": "Games teaching golf mechanics, physics principles, and shot optimization techniques.",
     "Other::technique": "Specific mechanics, movements, and contact points required for executing golf shots effectively.",
     "Other::golf": "Understanding golf mechanics: ball physics, club performance, swing technique, and optimization.",
-    "Other::equipment": "Physical tools and gear used in golf including clubs, balls, and accessories."
+    "Other::equipment": "Physical tools and gear used in golf including clubs, balls, and accessories.",
+    "Other::map-location": "Games testing geographic knowledge by matching UK cities to their counties.",
+    "Other::england": "Geography quiz identifying English counties and their principal cities.",
+    "Other::counties": "Geography quiz identifying UK counties by their principal cities and locations.",
+    "Other::geography": "Study of English counties and their principal cities.",
+    "Other::maps": "Geographic knowledge game matching UK cities to their counties.",
+    "Other::english-geography": "English geography and principal cities by county"
   }
 }
