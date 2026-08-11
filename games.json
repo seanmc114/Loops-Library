@@ -609,6 +609,25 @@
         "english-geography"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "lc-classics-beginner",
+      "name": "LC Classics (beginner)",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-11T14:12:29.720Z",
+      "createdBy": "c_mryus71l_nphmfvx2",
+      "author": "SMQ",
+      "subcategory": "Literature",
+      "tags": [
+        "classics",
+        "beginner",
+        "vocabulary",
+        "ancient-greece"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -671,6 +690,8 @@
     "Other::counties": "Geography quiz identifying UK counties by their principal cities and locations.",
     "Other::geography": "Study of English counties and their principal cities.",
     "Other::maps": "Geographic knowledge game matching UK cities to their counties.",
-    "Other::english-geography": "English geography and principal cities by county"
+    "Other::english-geography": "English geography and principal cities by county",
+    "Other::classics": "Foundational knowledge of ancient Greek and Roman civilizations, mythology, drama, and literature.",
+    "Other::beginner": "Introductory questions about ancient Greece, Rome, and classical mythology."
   }
 }
