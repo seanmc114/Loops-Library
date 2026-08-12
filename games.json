@@ -628,6 +628,27 @@
         "ancient-greece"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "irish-accents",
+      "name": "Irish accents",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-12T14:47:59.447Z",
+      "createdBy": "c_mryus71l_nphmfvx2",
+      "author": "SMQ",
+      "subcategory": "English",
+      "tags": [
+        "pronunciation",
+        "accents",
+        "vowel-sounds",
+        "phonetic",
+        "irish-accents",
+        "regional-dialect"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -692,6 +713,12 @@
     "Other::maps": "Geographic knowledge game matching UK cities to their counties.",
     "Other::english-geography": "English geography and principal cities by county",
     "Other::classics": "Foundational knowledge of ancient Greek and Roman civilizations, mythology, drama, and literature.",
-    "Other::beginner": "Introductory questions about ancient Greece, Rome, and classical mythology."
+    "Other::beginner": "Introductory questions about ancient Greece, Rome, and classical mythology.",
+    "Language::pronunciation": "Games teaching accurate vowel sound production across Irish English regional accents.",
+    "Language::phonetic": "Games teaching recognition and production of vowel sounds across regional English accents.",
+    "Language::vowel-sounds": "Games identifying and comparing vowel sounds across Irish English regional accents.",
+    "Language::irish-accents": "Learn to recognize and distinguish vowel sounds across Irish regional accents.",
+    "Language::regional-dialect": "Games teaching regional Irish vowel pronunciation and accent distinctions.",
+    "Language::accents": "Games teaching phonetic vowel sound recognition across Irish English regional accents."
   }
 }
