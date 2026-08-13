@@ -649,6 +649,27 @@
         "regional-dialect"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "basic-lc-classics-vocab",
+      "name": "Basic LC Classics Vocab",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-13T23:01:26.384Z",
+      "createdBy": "c_mryus71l_nphmfvx2",
+      "author": "SMQ",
+      "subcategory": "classics",
+      "tags": [
+        "vocabulary",
+        "latin",
+        "ancient-rome",
+        "beginner",
+        "ancient-greece",
+        "greek-mythology"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -719,6 +740,8 @@
     "Language::vowel-sounds": "Games identifying and comparing vowel sounds across Irish English regional accents.",
     "Language::irish-accents": "Learn to recognize and distinguish vowel sounds across Irish regional accents.",
     "Language::regional-dialect": "Games teaching regional Irish vowel pronunciation and accent distinctions.",
-    "Language::accents": "Games teaching phonetic vowel sound recognition across Irish English regional accents."
+    "Language::accents": "Games teaching phonetic vowel sound recognition across Irish English regional accents.",
+    "Other::latin": "Educational content covering ancient Greek and Roman history, geography, mythology, and civilization fundamentals.",
+    "Other::ancient-rome": "History, culture, politics, and society of ancient Rome"
   }
 }
