@@ -670,6 +670,26 @@
         "greek-mythology"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "the-basics-of-game-theory",
+      "name": "The basics of game theory.",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-16T00:05:56.865Z",
+      "createdBy": "c_mryus71l_nphmfvx2",
+      "author": "SMQ",
+      "subcategory": "Philosophy",
+      "tags": [
+        "game-theory",
+        "logic",
+        "strategy",
+        "decision-making",
+        "beginner"
+      ],
+      "thumbnail": "thumbs/the-basics-of-game-theory.jpg"
     }
   ],
   "categories": {
@@ -742,6 +762,10 @@
     "Language::regional-dialect": "Games teaching regional Irish vowel pronunciation and accent distinctions.",
     "Language::accents": "Games teaching phonetic vowel sound recognition across Irish English regional accents.",
     "Other::latin": "Educational content covering ancient Greek and Roman history, geography, mythology, and civilization fundamentals.",
-    "Other::ancient-rome": "History, culture, politics, and society of ancient Rome"
+    "Other::ancient-rome": "History, culture, politics, and society of ancient Rome",
+    "Other::decision-making": "Games requiring strategic choices where outcomes depend on decisions of multiple players.",
+    "Other::logic": "Strategic decision-making and equilibrium analysis through mathematical game models.",
+    "Other::game-theory": "Strategic decision-making where players interact and optimize payoffs based on competitors' choices.",
+    "Other::strategy": "Games requiring forward planning, tactical decisions, and optimal move sequencing to achieve objectives."
   }
 }
