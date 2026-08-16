@@ -690,6 +690,26 @@
         "beginner"
       ],
       "thumbnail": "thumbs/the-basics-of-game-theory.jpg"
+    },
+    {
+      "slug": "etymology-of-english-words",
+      "name": "Etymology of English words",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-16T17:17:59.345Z",
+      "createdBy": "c_mryus71l_nphmfvx2",
+      "author": "SMQ",
+      "subcategory": "Latin",
+      "tags": [
+        "vocabulary",
+        "beginner",
+        "ancient-rome",
+        "word-origins",
+        "etymology"
+      ],
+      "thumbnail": "thumbs/etymology-of-english-words.jpg"
     }
   ],
   "categories": {
@@ -766,6 +786,8 @@
     "Other::decision-making": "Games requiring strategic choices where outcomes depend on decisions of multiple players.",
     "Other::logic": "Strategic decision-making and equilibrium analysis through mathematical game models.",
     "Other::game-theory": "Strategic decision-making where players interact and optimize payoffs based on competitors' choices.",
-    "Other::strategy": "Games requiring forward planning, tactical decisions, and optimal move sequencing to achieve objectives."
+    "Other::strategy": "Games requiring forward planning, tactical decisions, and optimal move sequencing to achieve objectives.",
+    "Language::word-origins": "Games exploring how words originate from Latin, Greek, Germanic, and other language sources.",
+    "Language::etymology": "Games teaching word origins through Latin, Greek, Germanic, and French root analysis."
   }
 }
