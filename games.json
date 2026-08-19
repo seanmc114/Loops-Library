@@ -731,6 +731,26 @@
         "jaws"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "yam-s-five-game",
+      "name": "Yam’s (five game)",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 25,
+      "publishedAt": "2026-08-19T20:07:23.104Z",
+      "createdBy": "c_mryus71l_nphmfvx2",
+      "author": "SMQ",
+      "subcategory": "Dice Games",
+      "tags": [
+        "game-rules",
+        "probability",
+        "casual-gaming",
+        "rules",
+        "jaws"
+      ],
+      "thumbnail": "thumbs/yam-s-five-game.jpg"
     }
   ],
   "categories": {
@@ -812,6 +832,11 @@
     "Language::etymology": "Games teaching word origins through Latin, Greek, Germanic, and French root analysis.",
     "Other::quotes": "Identify famous movie quotes, plot details, characters, and thematic elements from classic films.",
     "Other::classic-film": "Games exploring iconic quotes, pivotal moments, and thematic depth of classic cinema.",
-    "Other::jaws": "Classic movie quotes, plot moments, characters, and analysis."
+    "Other::jaws": "Classic movie quotes, plot moments, characters, and analysis.",
+    "Other::probability": "Games involving chance, dice rolling, and calculating outcome probabilities.",
+    "Other::game-rules": "Specific rules and mechanics for playing Yahtzee game.",
+    "Other::dice-games": "Probability-based games using dice rolls to achieve scoring combinations and categories.",
+    "Other::casual-gaming": "Simple dice-rolling games with straightforward rules and quick play sessions.",
+    "Other::rules": "Mechanics governing dice rolling, rerolls, scoring categories, and point calculations in Yahtzee."
   }
 }
