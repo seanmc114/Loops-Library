@@ -710,6 +710,27 @@
         "etymology"
       ],
       "thumbnail": "thumbs/etymology-of-english-words.jpg"
+    },
+    {
+      "slug": "classic-movie-quotes",
+      "name": "Classic Movie quotes",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-19T19:21:32.297Z",
+      "createdBy": "c_mryus71l_nphmfvx2",
+      "author": "SMQ",
+      "subcategory": "Entertainment",
+      "tags": [
+        "movies",
+        "vocabulary",
+        "character-traits",
+        "classic-film",
+        "quotes",
+        "jaws"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -788,6 +809,9 @@
     "Other::game-theory": "Strategic decision-making where players interact and optimize payoffs based on competitors' choices.",
     "Other::strategy": "Games requiring forward planning, tactical decisions, and optimal move sequencing to achieve objectives.",
     "Language::word-origins": "Games exploring how words originate from Latin, Greek, Germanic, and other language sources.",
-    "Language::etymology": "Games teaching word origins through Latin, Greek, Germanic, and French root analysis."
+    "Language::etymology": "Games teaching word origins through Latin, Greek, Germanic, and French root analysis.",
+    "Other::quotes": "Identify famous movie quotes, plot details, characters, and thematic elements from classic films.",
+    "Other::classic-film": "Games exploring iconic quotes, pivotal moments, and thematic depth of classic cinema.",
+    "Other::jaws": "Classic movie quotes, plot moments, characters, and analysis."
   }
 }
