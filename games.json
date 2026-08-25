@@ -751,6 +751,24 @@
         "jaws"
       ],
       "thumbnail": "thumbs/yam-s-five-game.jpg"
+    },
+    {
+      "slug": "game-and-play-in-learning",
+      "name": "Game and Play in learning",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 2,
+      "questionCount": 16,
+      "publishedAt": "2026-08-25T20:19:27.536Z",
+      "createdBy": "c_mryus71l_nphmfvx2",
+      "author": "SMQ",
+      "subcategory": "language",
+      "tags": [
+        "vocabulary",
+        "grammar",
+        "beginner"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
