@@ -869,6 +869,27 @@
         "general-knowledge"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "poetic-techniques",
+      "name": "Poetic Techniques",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-26T10:51:29.676Z",
+      "createdBy": "c_mt9yspyj_6py0sra9",
+      "author": "Achille",
+      "subcategory": "English",
+      "tags": [
+        "word-origins",
+        "etymology",
+        "poetry",
+        "literary-devices",
+        "figurative-language",
+        "vocabulary"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -952,8 +973,8 @@
     "Other::logic": "Strategic decision-making and equilibrium analysis through mathematical game models.",
     "Other::game-theory": "Strategic decision-making where players interact and optimize payoffs based on competitors' choices.",
     "Other::strategy": "Games requiring forward planning, tactical decisions, and optimal move sequencing to achieve objectives.",
-    "Language::word-origins": "Games exploring how words originate from Latin, Greek, Germanic, and other language sources.",
-    "Language::etymology": "Games teaching word origins through Latin, Greek, Germanic, and French root analysis.",
+    "Language::word-origins": "Explore poetic devices, figurative language, and word origins through identifying literary techniques",
+    "Language::etymology": "Explores word origins and historical roots of poetic vocabulary and terms",
     "Other::quotes": "Identify famous movie quotes, plot details, characters, and thematic elements from classic films.",
     "Other::classic-film": "Games exploring iconic quotes, pivotal moments, and thematic depth of classic cinema.",
     "Other::jaws": "Classic movie quotes, plot moments, characters, and analysis.",
@@ -974,6 +995,10 @@
     "Exam Prep::standardized-tests": "Fact-recall quizzes on RE terms, evidence types, and belief concepts",
     "Exam Prep::beliefs": "Defines beliefs, world religions, ethics, and big questions in religious studies.",
     "Exam Prep::vocabulary": "Key religious studies terms covering evidence, beliefs, ethics, and interfaith dialogue concepts.",
-    "Other::economics": "Explore famous economists, their theories, and landmark works shaping economic thought"
+    "Other::economics": "Explore famous economists, their theories, and landmark works shaping economic thought",
+    "Language::figurative-language": "Identifying metaphors, similes, personification, and other figurative devices in poetry",
+    "Language::vocabulary": "Identifies poetic devices, figures of speech, and literary terms in verse",
+    "Language::poetry": "Identify literary and poetic devices in sample lines and definitions.",
+    "Language::literary-devices": "Identify and explain poetic devices like metaphor, alliteration, and personification in verse."
   }
 }
