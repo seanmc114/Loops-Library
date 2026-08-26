@@ -769,6 +769,26 @@
         "beginner"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "history",
+      "name": "History",
+      "category": "Exam Prep",
+      "emoji": "📝",
+      "loopCount": 3,
+      "questionCount": 23,
+      "publishedAt": "2026-08-26T10:47:48.961Z",
+      "createdBy": "c_mt9ytbd3_6i0xdzp5",
+      "author": "Adrian",
+      "subcategory": "History",
+      "tags": [
+        "general-knowledge",
+        "ancient-rome",
+        "ancient-greece",
+        "language",
+        "architecture"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -855,6 +875,12 @@
     "Other::game-rules": "Specific rules and mechanics for playing Yahtzee game.",
     "Other::dice-games": "Probability-based games using dice rolls to achieve scoring combinations and categories.",
     "Other::casual-gaming": "Simple dice-rolling games with straightforward rules and quick play sessions.",
-    "Other::rules": "Mechanics governing dice rolling, rerolls, scoring categories, and point calculations in Yahtzee."
+    "Other::rules": "Mechanics governing dice rolling, rerolls, scoring categories, and point calculations in Yahtzee.",
+    "Exam Prep::history": "Explore ancient Roman landmarks, structures, and historical facts through engaging quizzes.",
+    "Exam Prep::general-knowledge": "Trivia about famous Roman landmarks, monuments, and their historical facts",
+    "Exam Prep::language": "Trivia questions testing knowledge of Roman architecture terms and historical facts",
+    "Exam Prep::ancient-greece": "Explore ancient Roman landmarks, architecture, and their historical uses.",
+    "Exam Prep::ancient-rome": "Trivia on Roman landmarks, architecture, and iconic ancient structures",
+    "Exam Prep::architecture": "Identify and explain famous ancient Roman buildings and their purposes"
   }
 }
