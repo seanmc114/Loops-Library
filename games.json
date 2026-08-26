@@ -851,6 +851,24 @@
         "beliefs"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "historical-economists",
+      "name": "Historical Economists",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-26T10:49:41.145Z",
+      "createdBy": "c_mt9yrvof_jxphuo42",
+      "author": "BK",
+      "subcategory": "Economics",
+      "tags": [
+        "biography",
+        "History",
+        "general-knowledge"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -955,6 +973,7 @@
     "Language::general-knowledge": "Trivia testing recall of world capitals across varying difficulty levels",
     "Exam Prep::standardized-tests": "Fact-recall quizzes on RE terms, evidence types, and belief concepts",
     "Exam Prep::beliefs": "Defines beliefs, world religions, ethics, and big questions in religious studies.",
-    "Exam Prep::vocabulary": "Key religious studies terms covering evidence, beliefs, ethics, and interfaith dialogue concepts."
+    "Exam Prep::vocabulary": "Key religious studies terms covering evidence, beliefs, ethics, and interfaith dialogue concepts.",
+    "Other::economics": "Explore famous economists, their theories, and landmark works shaping economic thought"
   }
 }
