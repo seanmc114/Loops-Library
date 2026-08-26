@@ -833,6 +833,24 @@
         "maps"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "re-keywords",
+      "name": "RE Keywords",
+      "category": "Exam Prep",
+      "emoji": "📝",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-26T10:49:35.198Z",
+      "createdBy": "c_mt9yt3gm_mcajukty",
+      "author": "Nathan",
+      "subcategory": "Standardized Tests",
+      "tags": [
+        "general-knowledge",
+        "vocabulary",
+        "beliefs"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -934,6 +952,9 @@
     "Exam Prep::architecture": "Identify and explain famous ancient Roman buildings and their purposes",
     "Language::nouns": "Identify and distinguish nouns from other words in various contexts",
     "Language::maps": "Identify national capitals worldwide, progressing from well-known to obscure countries.",
-    "Language::general-knowledge": "Trivia testing recall of world capitals across varying difficulty levels"
+    "Language::general-knowledge": "Trivia testing recall of world capitals across varying difficulty levels",
+    "Exam Prep::standardized-tests": "Fact-recall quizzes on RE terms, evidence types, and belief concepts",
+    "Exam Prep::beliefs": "Defines beliefs, world religions, ethics, and big questions in religious studies.",
+    "Exam Prep::vocabulary": "Key religious studies terms covering evidence, beliefs, ethics, and interfaith dialogue concepts."
   }
 }
