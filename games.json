@@ -789,6 +789,26 @@
         "architecture"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "nouns",
+      "name": "Nouns",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-26T10:48:09.188Z",
+      "createdBy": "c_mt9ystnd_zrv9r59p",
+      "author": "Jack",
+      "subcategory": "grammar",
+      "tags": [
+        "vocabulary",
+        "English",
+        "beginner",
+        "nouns",
+        "language"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -881,6 +901,7 @@
     "Exam Prep::language": "Trivia questions testing knowledge of Roman architecture terms and historical facts",
     "Exam Prep::ancient-greece": "Explore ancient Roman landmarks, architecture, and their historical uses.",
     "Exam Prep::ancient-rome": "Trivia on Roman landmarks, architecture, and iconic ancient structures",
-    "Exam Prep::architecture": "Identify and explain famous ancient Roman buildings and their purposes"
+    "Exam Prep::architecture": "Identify and explain famous ancient Roman buildings and their purposes",
+    "Language::nouns": "Identify and distinguish nouns from other words in various contexts"
   }
 }
