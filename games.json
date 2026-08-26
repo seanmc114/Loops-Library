@@ -890,6 +890,25 @@
         "vocabulary"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "algebraic-expressions",
+      "name": "Algebraic Expressions",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-26T10:52:00.309Z",
+      "createdBy": "c_mt9yrgci_1jv314ga",
+      "author": "A Campbell",
+      "subcategory": "Mathematics",
+      "tags": [
+        "algebra",
+        "equations",
+        "problem-solving",
+        "intro-to-algebraic-equations"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -999,6 +1018,11 @@
     "Language::figurative-language": "Identifying metaphors, similes, personification, and other figurative devices in poetry",
     "Language::vocabulary": "Identifies poetic devices, figures of speech, and literary terms in verse",
     "Language::poetry": "Identify literary and poetic devices in sample lines and definitions.",
-    "Language::literary-devices": "Identify and explain poetic devices like metaphor, alliteration, and personification in verse."
+    "Language::literary-devices": "Identify and explain poetic devices like metaphor, alliteration, and personification in verse.",
+    "Other::equations": "Solve simple equations using variables, inverse operations, and balance-scale reasoning.",
+    "Other::intro-to-algebraic-equations": "Learn to solve simple one-step addition equations using variables and balance concepts.",
+    "Other::mathematics": "Solving basic algebraic equations by isolating the variable through inverse operations",
+    "Other::problem-solving": "Solve for unknown variables in addition equations using inverse operations",
+    "Other::algebra": "Solve simple one-variable equations using inverse operations and balance-scale reasoning."
   }
 }
