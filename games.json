@@ -126,7 +126,7 @@
     {
       "slug": "basic-english",
       "name": "Basic English",
-      "category": "Language",
+      "category": "Vocabulary",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -134,9 +134,7 @@
       "createdBy": "c_mrmn1tcl_u0hxk13v",
       "author": "Rodge",
       "subcategory": "English",
-      "tags": [
-        "vocabulary"
-      ]
+      "tags": []
     },
     {
       "slug": "the-american-office-tv-show",
@@ -201,7 +199,7 @@
     {
       "slug": "ukrainian-vocab",
       "name": "Ukrainian vocab",
-      "category": "Language",
+      "category": "Vocabulary",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -209,9 +207,7 @@
       "createdBy": "c_mrma1co7_n2qv1lsa",
       "author": "James",
       "subcategory": "Ukrainian",
-      "tags": [
-        "vocabulary"
-      ]
+      "tags": []
     },
     {
       "slug": "alicante",
@@ -231,7 +227,7 @@
     {
       "slug": "country-in-english",
       "name": "COUNTRY in English",
-      "category": "Language",
+      "category": "Vocabulary",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -239,9 +235,7 @@
       "createdBy": "c_mrvxa1ne_sm2v94hb",
       "author": "Paul",
       "subcategory": "English",
-      "tags": [
-        "vocabulary"
-      ]
+      "tags": []
     },
     {
       "slug": "world-leaders",
@@ -514,7 +508,7 @@
     {
       "slug": "latin",
       "name": "Latin",
-      "category": "Language",
+      "category": "Vocabulary",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -524,7 +518,6 @@
       "subcategory": "Latin",
       "tags": [
         "grammar",
-        "vocabulary",
         "ancient-rome",
         "language",
         "beginner"
@@ -534,7 +527,7 @@
     {
       "slug": "spanish-basics",
       "name": "Spanish basics.",
-      "category": "Language",
+      "category": "Vocabulary",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -544,7 +537,6 @@
       "subcategory": "Spanish",
       "tags": [
         "beginner",
-        "vocabulary",
         "grammar"
       ],
       "thumbnail": null
@@ -552,7 +544,7 @@
     {
       "slug": "japan",
       "name": "Japan",
-      "category": "Language",
+      "category": "Vocabulary",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -564,7 +556,6 @@
         "places",
         "geography",
         "language",
-        "vocabulary",
         "beginner"
       ],
       "thumbnail": null
@@ -694,7 +685,7 @@
     {
       "slug": "etymology-of-english-words",
       "name": "Etymology of English words",
-      "category": "Language",
+      "category": "Vocabulary",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -703,7 +694,6 @@
       "author": "SMQ",
       "subcategory": "Latin",
       "tags": [
-        "vocabulary",
         "beginner",
         "ancient-rome",
         "word-origins",
@@ -755,7 +745,7 @@
     {
       "slug": "game-and-play-in-learning",
       "name": "Game and Play in learning",
-      "category": "Language",
+      "category": "Vocabulary",
       "emoji": "🌍",
       "loopCount": 2,
       "questionCount": 16,
@@ -764,7 +754,6 @@
       "author": "SMQ",
       "subcategory": "language",
       "tags": [
-        "vocabulary",
         "grammar",
         "beginner"
       ],
@@ -793,7 +782,7 @@
     {
       "slug": "nouns",
       "name": "Nouns",
-      "category": "Language",
+      "category": "Vocabulary",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -802,11 +791,27 @@
       "author": "Jack",
       "subcategory": "grammar",
       "tags": [
-        "vocabulary",
         "English",
         "beginner",
         "nouns",
         "language"
+      ],
+      "thumbnail": null
+    },
+    {
+      "slug": "sp-nnis",
+      "name": "Spánnis",
+      "category": "Vocabulary",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-26T10:49:00.717Z",
+      "createdBy": "c_mt9ys3fw_cktc979h",
+      "author": "GB",
+      "subcategory": "Spanish",
+      "tags": [
+        "grammar",
+        "beginner"
       ],
       "thumbnail": null
     }
@@ -841,6 +846,12 @@
       "pastel": "#FAD2C3",
       "deep": "#E0784E",
       "wash": "#FAEEE5"
+    },
+    "Vocabulary": {
+      "emoji": "🔖",
+      "pastel": "#D2F4C7",
+      "deep": "#5FCC3E",
+      "wash": "#EDF4EB"
     }
   },
   "labelDescriptors": {
