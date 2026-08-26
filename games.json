@@ -816,25 +816,6 @@
       "thumbnail": null
     },
     {
-      "slug": "geography-trivia-1st-years",
-      "name": "Geography trivia 1st years",
-      "category": "Language",
-      "emoji": "🌍",
-      "loopCount": 5,
-      "questionCount": 50,
-      "publishedAt": "2026-08-26T10:49:27.993Z",
-      "createdBy": "c_mt9yssx6_ezyjhuym",
-      "author": "Bill",
-      "subcategory": "Geography",
-      "tags": [
-        "places",
-        "general-knowledge",
-        "beginner",
-        "maps"
-      ],
-      "thumbnail": null
-    },
-    {
       "slug": "re-keywords",
       "name": "RE Keywords",
       "category": "Exam Prep",
