@@ -814,6 +814,25 @@
         "beginner"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "geography-trivia-1st-years",
+      "name": "Geography trivia 1st years",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-26T10:49:27.993Z",
+      "createdBy": "c_mt9yssx6_ezyjhuym",
+      "author": "Bill",
+      "subcategory": "Geography",
+      "tags": [
+        "places",
+        "general-knowledge",
+        "beginner",
+        "maps"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -870,8 +889,8 @@
     "Language::latin": "Latin language fundamentals covering pronouns, nouns, verbs, cases, and advanced syntax.",
     "Language::ancient-rome": "Latin language fundamentals covering grammar, pronunciation, verb conjugation, and case systems.",
     "Language::travel": "Learn essential Japanese phrases through interactive travel conversations and cultural contexts.",
-    "Language::geography": "Interactive Japanese language learning through phrasal translation and cultural expression exercises.",
-    "Language::places": "Japanese language phrases organized by social context and formality levels.",
+    "Language::geography": "Identify national capitals across countries, ranging from familiar to lesser-known nations.",
+    "Language::places": "Identify national capitals of countries worldwide, from common to obscure.",
     "Other::sports-basics": "Golf fundamentals covering ball physics, club mechanics, and swing technique",
     "Other::physics": "Games teaching golf mechanics, physics principles, and shot optimization techniques.",
     "Other::technique": "Specific mechanics, movements, and contact points required for executing golf shots effectively.",
@@ -913,6 +932,8 @@
     "Exam Prep::ancient-greece": "Explore ancient Roman landmarks, architecture, and their historical uses.",
     "Exam Prep::ancient-rome": "Trivia on Roman landmarks, architecture, and iconic ancient structures",
     "Exam Prep::architecture": "Identify and explain famous ancient Roman buildings and their purposes",
-    "Language::nouns": "Identify and distinguish nouns from other words in various contexts"
+    "Language::nouns": "Identify and distinguish nouns from other words in various contexts",
+    "Language::maps": "Identify national capitals worldwide, progressing from well-known to obscure countries.",
+    "Language::general-knowledge": "Trivia testing recall of world capitals across varying difficulty levels"
   }
 }
