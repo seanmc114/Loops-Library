@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Historical retorts · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1787902073659"></script>
+  <script>
+    const GAME_DATA = {"slug":"historical-retorts","name":"Historical retorts","emoji":"✨","category":"Other","colors":{"pastel":"#FAD2C3","deep":"#E0784E","wash":"#FAEEE5"},"background":null,"loops":[{"name":"Famous Comebacks","emoji":"🎤","timeLimit":15,"qs":[{"type":"mc","q":"Who said \"The reports of my death have been greatly exaggerated\"?","a":"Benjamin Franklin","opts":["Mark Twain","Abraham Lincoln","Winston Churchill"]},{"type":"mc","q":"Who famously declared \"I have nothing to declare except my genius\" at customs?","a":"George Bernard Shaw","opts":["Oscar Wilde","Mark Twain","Winston Churchill"]},{"type":"typed","q":"Which British Prime Minister said \"The lady's not for turning\"?","a":"Margaret Thatcher"},{"type":"mc","q":"Which boxer said \"Float like a butterfly, sting like a bee\"?","a":"George Foreman","opts":["Muhammad Ali","Mike Tyson","Joe Frazier"]},{"type":"mc","q":"Winston Churchill was Prime Minister of which country?","a":"Australia","opts":["United Kingdom","United States","Canada"]},{"type":"typed","q":"Who said \"We must all hang together, or assuredly we shall all hang separately\"?","a":"Benjamin Franklin"},{"type":"mc","q":"Which US President was remembered for replying \"You lose\" when told he couldn't say more than two words?","a":"Warren Harding","opts":["Calvin Coolidge","Herbert Hoover","Woodrow Wilson"]},{"type":"mc","q":"What is the general term for a clever, cutting reply given in the moment?","a":"Preamble","opts":["Retort","Sonnet","Eulogy"]},{"type":"typed","q":"What single word means a clever, witty reply, often synonymous with retort?","a":"comeback"},{"type":"mc","q":"Oscar Wilde was primarily known as what kind of public figure?","a":"Athlete","opts":["Playwright and wit","Military general","Scientist"]}]},{"name":"Sharp Tongues","emoji":"🗣️","timeLimit":15,"qs":[{"type":"mc","q":"Churchill supposedly said that in the morning he'd be sober, but a female MP would still be what?","a":"Late","opts":["Ugly","Rude","Poor"]},{"type":"typed","q":"What was the surname of the MP, Bessie, who reportedly told Churchill he was \"disgustingly drunk\"?","a":"Braddock"},{"type":"mc","q":"When told \"If you were my husband, I would poison your coffee,\" Churchill supposedly replied what?","a":"That is very rude","opts":["If you were my wife, I'd drink it","Then I would decline your coffee","I would never marry you"]},{"type":"typed","q":"Which Viscountess was involved in the famous Churchill \"poison your coffee\" exchange?","a":"Lady Astor"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live \u2014 try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
