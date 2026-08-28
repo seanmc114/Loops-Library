@@ -927,6 +927,24 @@
         "vocabulary"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "back-to-school",
+      "name": "Back to school",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-28T08:21:02.686Z",
+      "createdBy": "c_mtcnybyr_ghpwegoe",
+      "author": "SMQ",
+      "subcategory": "Life Skills",
+      "tags": [
+        "daily-routines",
+        "back-to-school",
+        "school-life"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1047,6 +1065,8 @@
     "Other::etymology": "Trivia about famous quotes, sayings, and the origins of words or phrases",
     "Other::word-origins": "Match famous quotes and witty retorts to the people who said them",
     "Other::standardized-tests": "Practice quizzes covering business, marketing, finance, and HR terminology definitions",
-    "Other::business-studies": "Explores business terms in enterprise, marketing, finance, and human resources management."
+    "Other::business-studies": "Explores business terms in enterprise, marketing, finance, and human resources management.",
+    "Other::back-to-school": "Back-to-school routines, organization, classroom habits, and growing responsibility for students",
+    "Other::school-life": "Everyday school routines, organization, classroom habits, friendships, and growing responsibility"
   }
 }
