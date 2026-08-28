@@ -909,6 +909,24 @@
         "prepositions"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "historical-retorts",
+      "name": "Historical retorts",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 2,
+      "questionCount": 14,
+      "publishedAt": "2026-08-28T07:27:53.659Z",
+      "createdBy": "c_mryus71l_nphmfvx2",
+      "author": "SMQ",
+      "subcategory": "quotes",
+      "tags": [
+        "word-origins",
+        "etymology",
+        "vocabulary"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1025,6 +1043,8 @@
     "Other::problem-solving": "Solve for unknown variables in addition equations using inverse operations",
     "Other::algebra": "Solve simple one-variable equations using inverse operations and balance-scale reasoning.",
     "Language::irish": "Irish language grammar, vocabulary, and prepositions, distinct from accent pronunciation.",
-    "Language::prepositions": "Learn Irish prepositions and their pronoun forms through translation exercises"
+    "Language::prepositions": "Learn Irish prepositions and their pronoun forms through translation exercises",
+    "Other::etymology": "Trivia about famous quotes, sayings, and the origins of words or phrases",
+    "Other::word-origins": "Match famous quotes and witty retorts to the people who said them"
   }
 }
