@@ -909,6 +909,24 @@
         "prepositions"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "lc-business-essentials",
+      "name": "LC Business Essentials",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-28T08:09:46.041Z",
+      "createdBy": "c_mrm4d78o_wsyx9f55",
+      "author": "SMQ",
+      "subcategory": "Business Studies",
+      "tags": [
+        "standardized-tests",
+        "general-knowledge",
+        "vocabulary"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1027,6 +1045,8 @@
     "Language::irish": "Irish language grammar, vocabulary, and prepositions, distinct from accent pronunciation.",
     "Language::prepositions": "Learn Irish prepositions and their pronoun forms through translation exercises",
     "Other::etymology": "Trivia about famous quotes, sayings, and the origins of words or phrases",
-    "Other::word-origins": "Match famous quotes and witty retorts to the people who said them"
+    "Other::word-origins": "Match famous quotes and witty retorts to the people who said them",
+    "Other::standardized-tests": "Practice quizzes covering business, marketing, finance, and HR terminology definitions",
+    "Other::business-studies": "Explores business terms in enterprise, marketing, finance, and human resources management."
   }
 }
