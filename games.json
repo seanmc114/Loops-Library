@@ -945,6 +945,25 @@
         "school-life"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "banjo-playing",
+      "name": "Banjo playing",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 44,
+      "publishedAt": "2026-08-29T02:04:04.431Z",
+      "createdBy": "c_mtcnybyr_ghpwegoe",
+      "author": "SMQ",
+      "subcategory": "music",
+      "tags": [
+        "instruments",
+        "folk-music",
+        "beginner",
+        "technique"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1067,6 +1086,7 @@
     "Other::standardized-tests": "Practice quizzes covering business, marketing, finance, and HR terminology definitions",
     "Other::business-studies": "Explores business terms in enterprise, marketing, finance, and human resources management.",
     "Other::back-to-school": "Back-to-school routines, organization, classroom habits, and growing responsibility for students",
-    "Other::school-life": "Everyday school routines, organization, classroom habits, friendships, and growing responsibility"
+    "Other::school-life": "Everyday school routines, organization, classroom habits, friendships, and growing responsibility",
+    "Other::instruments": "Trivia on banjo parts, tuning, playing styles, and musical history."
   }
 }
