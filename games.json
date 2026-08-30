@@ -1002,6 +1002,26 @@
         "pronunciation"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "glasgow-celtic-fc",
+      "name": "Glasgow Celtic FC",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 4,
+      "questionCount": 35,
+      "publishedAt": "2026-08-30T16:36:01.063Z",
+      "createdBy": "c_mtcnybyr_ghpwegoe",
+      "author": "SMQ",
+      "subcategory": "english-football",
+      "tags": [
+        "soccer",
+        "scottish-football",
+        "club-level",
+        "scotland",
+        "glasgow"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1127,6 +1147,9 @@
     "Other::school-life": "Everyday school routines, organization, classroom habits, friendships, and growing responsibility",
     "Other::instruments": "Trivia on banjo parts, tuning, playing styles, and musical history.",
     "Other::chords": "Guitar chord shapes, fingerings, and beginner chord progressions",
-    "Language::russian": "Introduces Russian alphabet, greetings, numbers, and basic grammar essentials."
+    "Language::russian": "Introduces Russian alphabet, greetings, numbers, and basic grammar essentials.",
+    "Other::scotland": "Trivia about Celtic FC's history, players, rivalries, and European triumphs.",
+    "Other::scottish-football": "Facts about Scottish football, focused on Celtic FC's history, players, and achievements.",
+    "Other::glasgow": "Trivia on Celtic FC's history, players, rivalries, and European triumphs"
   }
 }
