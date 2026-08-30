@@ -1022,6 +1022,24 @@
         "glasgow"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "irish-for-foreigner",
+      "name": "Irish for foreigner",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-30T18:20:42.291Z",
+      "createdBy": "c_mtg4r24x_n3l88ycl",
+      "author": "Jens",
+      "subcategory": "Irish",
+      "tags": [
+        "beginner",
+        "vocabulary",
+        "pronunciation"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
