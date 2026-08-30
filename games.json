@@ -964,6 +964,25 @@
         "technique"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "how-to-play-guitar",
+      "name": "How to play guitar",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 47,
+      "publishedAt": "2026-08-30T15:18:35.709Z",
+      "createdBy": "c_mtcnybyr_ghpwegoe",
+      "author": "SMQ",
+      "subcategory": "music",
+      "tags": [
+        "beginner",
+        "instruments",
+        "chords",
+        "technique"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1087,6 +1106,7 @@
     "Other::business-studies": "Explores business terms in enterprise, marketing, finance, and human resources management.",
     "Other::back-to-school": "Back-to-school routines, organization, classroom habits, and growing responsibility for students",
     "Other::school-life": "Everyday school routines, organization, classroom habits, friendships, and growing responsibility",
-    "Other::instruments": "Trivia on banjo parts, tuning, playing styles, and musical history."
+    "Other::instruments": "Trivia on banjo parts, tuning, playing styles, and musical history.",
+    "Other::chords": "Guitar chord shapes, fingerings, and beginner chord progressions"
   }
 }
