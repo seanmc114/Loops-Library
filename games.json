@@ -983,6 +983,25 @@
         "technique"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "russian-for-beginners",
+      "name": "Russian for Beginners",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-08-30T15:58:55.602Z",
+      "createdBy": "c_mtcnybyr_ghpwegoe",
+      "author": "SMQ",
+      "subcategory": "Russian",
+      "tags": [
+        "vocabulary",
+        "beginner",
+        "grammar",
+        "pronunciation"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1107,6 +1126,7 @@
     "Other::back-to-school": "Back-to-school routines, organization, classroom habits, and growing responsibility for students",
     "Other::school-life": "Everyday school routines, organization, classroom habits, friendships, and growing responsibility",
     "Other::instruments": "Trivia on banjo parts, tuning, playing styles, and musical history.",
-    "Other::chords": "Guitar chord shapes, fingerings, and beginner chord progressions"
+    "Other::chords": "Guitar chord shapes, fingerings, and beginner chord progressions",
+    "Language::russian": "Introduces Russian alphabet, greetings, numbers, and basic grammar essentials."
   }
 }
