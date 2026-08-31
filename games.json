@@ -1040,6 +1040,24 @@
         "pronunciation"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "humility",
+      "name": "Humility",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 3,
+      "questionCount": 24,
+      "publishedAt": "2026-08-31T22:34:37.249Z",
+      "createdBy": "c_mtcnybyr_ghpwegoe",
+      "author": "SMQ",
+      "subcategory": "Philosophy",
+      "tags": [
+        "stoicism",
+        "character-traits",
+        "beliefs"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1168,6 +1186,7 @@
     "Language::russian": "Introduces Russian alphabet, greetings, numbers, and basic grammar essentials.",
     "Other::scotland": "Trivia about Celtic FC's history, players, rivalries, and European triumphs.",
     "Other::scottish-football": "Facts about Scottish football, focused on Celtic FC's history, players, and achievements.",
-    "Other::glasgow": "Trivia on Celtic FC's history, players, rivalries, and European triumphs"
+    "Other::glasgow": "Trivia on Celtic FC's history, players, rivalries, and European triumphs",
+    "Other::beliefs": "Explores the meaning, value, and virtue of humility in life"
   }
 }
