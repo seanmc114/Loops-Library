@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Humility · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1788215677249"></script>
+  <script>
+    const GAME_DATA = {"slug":"humility","name":"Humility","emoji":"✨","category":"Other","colors":{"pastel":"#FAD2C3","deep":"#E0784E","wash":"#FAEEE5"},"background":null,"loops":[{"name":"Humility Basics","emoji":"🌱","timeLimit":15,"qs":[{"type":"mc","q":"What is humility?","a":"A quality of being modest and not overly proud","opts":["A quality of being modest and not overly proud","Being extremely confident","Refusing to admit mistakes"]},{"type":"mc","q":"Which of these best describes a humble person?","a":"Someone who recognizes their own limitations","opts":["Someone who recognizes their own limitations","Someone who boasts about achievements","Someone who never listens to others"]},{"type":"typed","q":"What is the adjective form of the noun humility?","a":"humble"},{"type":"mc","q":"Which of these is the opposite of humility?","a":"Arrogance","opts":["Arrogance","Generosity","Patience"]},{"type":"mc","q":"A humble person is most likely to do which of the following?","a":"Give credit to others","opts":["Give credit to others","Take all the credit","Ignore feedback"]},{"type":"typed","q":"What is a common synonym for humility?","a":"modesty"},{"type":"mc","q":"Which trait often accompanies humility?","a":"Gratitude","opts":["Gratitude","Jealousy","Greed"]},{"type":"mc","q":"True humility involves...","a":"Recognizing you don't know everything","opts":["Recognizing you don't know everything","Believing you are always right","Refusing to apologize"]},{"type":"typed","q":"What single word describes someone who lacks humility and thinks too highly of themselves?","a":"arrogant"},{"type":"mc","q":"Which of these actions demonstrates humility?","a":"Admitting a mistake","opts":["Admitting a mistake","Blaming others for a mistake","Denying any wrongdoing"]}]},{"name":"Everyday Humility","emoji":"🤝","timeLimit":15,"qs":[{"type":"mc","q":"Which behavior shows humility in a conversation?","a":"Listening more than talking","opts":["Listening more than talking","Interrupting others","Dismissing others' opinions"]},{"type":"mc","q":"A humble leader tends to...","a":"Share credit with their team","opts":["Share credit with their team","Take sole credit for success","Blame the team for failures"]},{"type":"typed","q":"What is one word for the state of being humble?","a":"humility"},{"type":"mc","q":"Which of these is NOT a sign of humility?","a":"Boasting about accomplishments","opts":["Boasting about accomplishments","Accepting criticism gracefully","Asking for help when needed"]},{"type":"mc","q":"Humility helps people build stronger...","a":"Relationships","opts":["Relationships","Egos","Rivalries"]},{"type":"typed","q":"What is the opposite adjective of humble, meaning full of excessive pride?","a":"arrogant"},{"type":"mc","q":"Which response shows humility after receiving a compliment?","a":"Thanking the person and acknowledging others who helped","opts":["Thanking the person and acknowledging others who helped","Ignoring the compliment","Claiming you deserve even more praise"]},{"type":"mc","q":"Why is humility valuable in teamwork?","a":"It encourages collaboration and openness to ideas","opts":["It encourages collaboration and openness to ideas","It makes people less willing to contribute","It causes conflict"]},{"type":"mc","q":"Which statement reflects a humble attitude?","a":"I still have a lot to learn","opts":["I still have a lot to learn","I already know everything about this","Nobody can teach me anything"]},{"type":"typed","q":"What single word describes a person who happily admits mistakes and learns from them?","a":"humble"}]},{"name":"Humility in Culture","emoji":"🌍","timeLimit":15,"qs":[{"type":"mc","q":"Many philosophical and religious traditions consider humility to be...","a":"A virtue","opts":["A virtue","A weakness","A flaw"]},{"type":"mc","q":"Humility is often considered essential for personal...","a":"Growth and learning","opts":["Growth and learning","Stagnation","Isolation"]},{"type":"typed","q":"What is a one-word term for excessive pride, the opposite of humility?","a":"arrogance"},{"type":"mc","q":"Which common saying warns that excessive pride can lead to downfall?","a":"Pride goes before a fall","opts":["Pride goes before a fall","The early bird catches the worm","Actions speak louder than words"]}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live \u2014 try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
