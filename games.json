@@ -1113,6 +1113,24 @@
         "beginner"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "dolly-parton",
+      "name": "Dolly Parton",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-01T22:55:56.288Z",
+      "createdBy": "c_mtcnybyr_ghpwegoe",
+      "author": "SMQ",
+      "subcategory": "biography",
+      "tags": [
+        "music",
+        "Entertainment",
+        "folk-music"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
