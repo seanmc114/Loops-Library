@@ -1076,6 +1076,25 @@
         "figurative-language"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "the-great-gatsby-revision",
+      "name": "The Great Gatsby Revision",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-01T08:42:52.061Z",
+      "createdBy": "c_mtiev754_f9sf4v14",
+      "author": "A. Martone",
+      "subcategory": "Literature",
+      "tags": [
+        "vocabulary",
+        "character-traits",
+        "general-knowledge",
+        "plot"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1207,6 +1226,7 @@
     "Other::glasgow": "Trivia on Celtic FC's history, players, rivalries, and European triumphs",
     "Other::beliefs": "Explores the meaning, value, and virtue of humility in life",
     "Other::literary-devices": "Identify symbols, motifs, and figurative meanings within classic literary texts.",
-    "Other::figurative-language": "figurative-language — related content."
+    "Other::figurative-language": "figurative-language — related content.",
+    "Other::plot": "Key events, character actions, and story developments driving the novel's narrative forward"
   }
 }
