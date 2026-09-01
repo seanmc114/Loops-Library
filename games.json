@@ -1058,6 +1058,24 @@
         "beliefs"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "the-great-gatbsy-revision-game",
+      "name": "'The Great Gatbsy' Revision Game",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 4,
+      "questionCount": 32,
+      "publishedAt": "2026-09-01T08:39:33.968Z",
+      "createdBy": "c_mtiev754_f9sf4v14",
+      "author": "A. Martone",
+      "subcategory": "Literature",
+      "tags": [
+        "character-traits",
+        "literary-devices",
+        "figurative-language"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1187,6 +1205,8 @@
     "Other::scotland": "Trivia about Celtic FC's history, players, rivalries, and European triumphs.",
     "Other::scottish-football": "Facts about Scottish football, focused on Celtic FC's history, players, and achievements.",
     "Other::glasgow": "Trivia on Celtic FC's history, players, rivalries, and European triumphs",
-    "Other::beliefs": "Explores the meaning, value, and virtue of humility in life"
+    "Other::beliefs": "Explores the meaning, value, and virtue of humility in life",
+    "Other::literary-devices": "Identify symbols, motifs, and figurative meanings within classic literary texts.",
+    "Other::figurative-language": "figurative-language — related content."
   }
 }
