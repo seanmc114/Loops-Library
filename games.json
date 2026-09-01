@@ -1095,6 +1095,24 @@
         "plot"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "basic-spanish-verbs-present-tense",
+      "name": "Basic Spanish Verbs (Present Tense)",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-01T10:20:03.889Z",
+      "createdBy": "c_mrm4d78o_wsyx9f55",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "present-tense",
+        "grammar",
+        "beginner"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
