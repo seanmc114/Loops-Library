@@ -1190,6 +1190,27 @@
         "literary-devices"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "maths-pre-5th-year-revision",
+      "name": "Maths. Pre 5th year revision",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-02T12:46:40.685Z",
+      "createdBy": "c_mrm4d78o_wsyx9f55",
+      "author": "SMQ",
+      "subcategory": "Maths",
+      "tags": [
+        "revision",
+        "algebra",
+        "arithmetic",
+        "junior-cycle",
+        "exam-prep",
+        "beginner"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1322,6 +1343,11 @@
     "Other::beliefs": "Explores the meaning, value, and virtue of humility in life",
     "Other::literary-devices": "Identify symbols, motifs, and figurative meanings within classic literary texts.",
     "Other::figurative-language": "figurative-language — related content.",
-    "Other::plot": "Key events, character actions, and story developments driving the novel's narrative forward"
+    "Other::plot": "Key events, character actions, and story developments driving the novel's narrative forward",
+    "Other::arithmetic": "Practice arithmetic, algebra, geometry, and trigonometry skills through progressively challenging math problems.",
+    "Other::exam-prep": "Timed drills covering arithmetic, algebra, geometry, and trigonometry for test practice",
+    "Other::junior-cycle": "Core secondary maths: arithmetic, algebra, geometry, coordinates, and basic trigonometry.",
+    "Other::maths": "Covers arithmetic, algebra, geometry, coordinate geometry, and trigonometry math skills.",
+    "Other::revision": "Mixed-topic math practice revisiting number, algebra, geometry, and trigonometry skills"
   }
 }
