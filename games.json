@@ -1211,6 +1211,26 @@
         "beginner"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "computer-science-basics-for-5th-year",
+      "name": "Computer Science basics for 5th year",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-02T12:49:15.507Z",
+      "createdBy": "c_mrm4d78o_wsyx9f55",
+      "author": "SMQ",
+      "subcategory": "Computer Science",
+      "tags": [
+        "beginner",
+        "general-knowledge",
+        "technology",
+        "exam-prep",
+        "leaving-cert"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1348,6 +1368,9 @@
     "Other::exam-prep": "Timed drills covering arithmetic, algebra, geometry, and trigonometry for test practice",
     "Other::junior-cycle": "Core secondary maths: arithmetic, algebra, geometry, coordinates, and basic trigonometry.",
     "Other::maths": "Covers arithmetic, algebra, geometry, coordinate geometry, and trigonometry math skills.",
-    "Other::revision": "Mixed-topic math practice revisiting number, algebra, geometry, and trigonometry skills"
+    "Other::revision": "Mixed-topic math practice revisiting number, algebra, geometry, and trigonometry skills",
+    "Other::technology": "Covers computing fundamentals: hardware, programming, networks, algorithms, databases, security, and ethics.",
+    "Other::computer-science": "Covers computer basics, programming, data, networks, algorithms, databases, security, and ethics.",
+    "Other::leaving-cert": "Irish Leaving Cert-level computer science: fundamentals, programming, networks, algorithms, and security"
   }
 }
