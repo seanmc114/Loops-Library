@@ -1131,6 +1131,25 @@
         "folk-music"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "spanish-spellings",
+      "name": "Spanish Spellings",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-02T10:15:55.918Z",
+      "createdBy": "c_mrm4d78o_wsyx9f55",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "vocabulary",
+        "beginner",
+        "pronunciation",
+        "grammar"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
