@@ -1171,6 +1171,25 @@
         "vowel-sounds"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "english-pre-5th-year-revision",
+      "name": "English. Pre 5th year revision.",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-02T12:44:10.444Z",
+      "createdBy": "c_mrm4d78o_wsyx9f55",
+      "author": "SMQ",
+      "subcategory": "English",
+      "tags": [
+        "grammar",
+        "vocabulary",
+        "beginner",
+        "literary-devices"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
