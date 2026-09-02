@@ -1150,6 +1150,27 @@
         "grammar"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "spanish-spelling-rules",
+      "name": "Spanish Spelling Rules",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-02T11:05:35.951Z",
+      "createdBy": "c_mrm4d78o_wsyx9f55",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "grammar",
+        "beginner",
+        "vocabulary",
+        "pronunciation",
+        "phonetic",
+        "vowel-sounds"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
