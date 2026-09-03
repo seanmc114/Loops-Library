@@ -1409,6 +1409,27 @@
         "general-knowledge"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "history-wwii-jc-revision",
+      "name": "History WWII JC revision",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-03T12:53:50.204Z",
+      "createdBy": "c_mtifi085_aa8ojpjz",
+      "author": "Ali",
+      "subcategory": "History",
+      "tags": [
+        "general-knowledge",
+        "ancient-rome",
+        "biography",
+        "wwii",
+        "synge-street-cbs",
+        "revision"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1573,6 +1594,8 @@
     "Language::present-tense": "Present-tense conjugation and meaning of Spanish verbs across regular and irregular forms.",
     "Other::conversation": "Practice real-life Spanish dialogue about hobbies through interactive question-and-answer exchanges.",
     "Other::present-tense": "present-tense — related content.",
-    "Other::hobbies": "Learn Spanish vocabulary and phrases for discussing hobbies and leisure activities."
+    "Other::hobbies": "Learn Spanish vocabulary and phrases for discussing hobbies and leisure activities.",
+    "Other::synge-street-cbs": "WW2 history quiz covering key events, figures, the Holocaust, and its aftermath.",
+    "Other::wwii": "Quiz covering WWII causes, key events, leaders, Holocaust, and its global aftermath."
   }
 }
