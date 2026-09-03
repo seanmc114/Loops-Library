@@ -1258,6 +1258,27 @@
         "soccer"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "spanish-buildings-and-street-vocabulary",
+      "name": "Spanish Buildings and street Vocabulary",
+      "category": "Vocabulary",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-03T08:13:22.210Z",
+      "createdBy": "c_mtl8ljkp_5fwcwcv9",
+      "author": "Drew",
+      "subcategory": "Buildings & Streets",
+      "tags": [
+        "pronunciation",
+        "vocabulary",
+        "Spanish",
+        "synge-street-cbs",
+        "places",
+        "geography"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1406,6 +1427,10 @@
     "Other::computer-science": "Covers computer basics, programming, data, networks, algorithms, databases, security, and ethics.",
     "Other::leaving-cert": "Irish Leaving Cert-level computer science: fundamentals, programming, networks, algorithms, and security",
     "Language::sport-football-synge-street": "Learn Spanish football vocabulary, roles, tactics, and match outcome expressions.",
-    "Language::soccer": "Learn Spanish soccer vocabulary, roles, tactics, and match-related idioms."
+    "Language::soccer": "Learn Spanish soccer vocabulary, roles, tactics, and match-related idioms.",
+    "Vocabulary::vocabulary": "Learn Spanish vocabulary for city buildings, streets, and urban landmarks.",
+    "Vocabulary::buildings-streets": "Learn Spanish vocabulary for buildings, streets, and urban landmarks.",
+    "Vocabulary::synge-street-cbs": "Spanish vocabulary quiz on buildings, streets, and urban architecture terms.",
+    "Vocabulary::pronunciation": "Translate Spanish vocabulary for city buildings, streets, and urban landmarks."
   }
 }
