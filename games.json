@@ -1488,6 +1488,24 @@
         "general-knowledge"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "poetry-technique-revision",
+      "name": "Poetry technique revision",
+      "category": "Exam Prep",
+      "emoji": "📝",
+      "loopCount": 5,
+      "questionCount": 48,
+      "publishedAt": "2026-09-03T12:55:52.883Z",
+      "createdBy": "c_mtlilmv1_55fg1zk7",
+      "author": null,
+      "subcategory": "Poetry",
+      "tags": [
+        "figurative-language",
+        "vocabulary",
+        "general-knowledge"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1659,6 +1677,8 @@
     "Language::french": "French vocabulary for describing physical traits and personality characteristics.",
     "Exam Prep::grammar": "grammar — related content.",
     "Other::entrepreneurship": "Explore starting, running, and financing your own business ventures.",
-    "Other::finance": "Learn core business finance concepts like assets, liabilities, and profit statements."
+    "Other::finance": "Learn core business finance concepts like assets, liabilities, and profit statements.",
+    "Exam Prep::figurative-language": "Identifying and analyzing figurative language devices like metaphor, simile, and symbolism.",
+    "Exam Prep::poetry": "Identify poetic devices like metaphor, rhyme, meter, and figurative language."
   }
 }
