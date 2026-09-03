@@ -1572,6 +1572,24 @@
         "general-knowledge"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "so-who-were-the-titans",
+      "name": "So who were The Titans?",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 4,
+      "questionCount": 34,
+      "publishedAt": "2026-09-03T22:54:26.680Z",
+      "createdBy": "c_mtcnybyr_ghpwegoe",
+      "author": "SMQ",
+      "subcategory": "greek-mythology",
+      "tags": [
+        "ancient-greece",
+        "classics",
+        "origin-stories"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1757,6 +1775,7 @@
     "Language::football": "Trivia quiz covering football rules, clubs, tournaments, and historical facts",
     "Other::family-tree": "Quiz on mythological family relationships, lineage, and divine genealogy",
     "Other::titans": "Explore Cronus, his Titan family, and the myths of Greek mythology.",
-    "Other::general-knowledge": "Explore trivia about Greek mythology's Titan Cronus, his family, and legendary myths."
+    "Other::general-knowledge": "Explore trivia about Greek mythology's Titan Cronus, his family, and legendary myths.",
+    "Other::origin-stories": "Explore Greek mythology's primordial beings, Titans, and the epic origins of the gods."
   }
 }
