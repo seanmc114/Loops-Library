@@ -1297,6 +1297,25 @@
         "sports-basics"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "heavys",
+      "name": "Heavys",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-03T10:06:36.644Z",
+      "createdBy": "c_mtlcykl2_if1fnatr",
+      "author": "Plogo",
+      "subcategory": "Football",
+      "tags": [
+        "synge-street",
+        "soccer",
+        "sports-basics",
+        "team-competition"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1350,7 +1369,7 @@
     "Other::folk-music": "Traditional Irish music traditions and folk storytelling through contemporary singer-songwriter expression.",
     "Other::english-football": "English football club history, achievements, and notable periods",
     "Other::nottingham-forest": "English football club history, identity, achievements, and legendary management era.",
-    "Other::football": "Football club Nottingham Forest's history, achievements, management, and decline.",
+    "Other::football": "Football knowledge covering rules, history, players, records, and tactics.",
     "Other::stoicism": "Philosophy emphasizing virtue, reason, and accepting what you cannot control.",
     "Other::ancient-greece": "Ancient Greek philosophy emphasizing virtue, reason, and acceptance of universal natural laws.",
     "Other::philosophy": "Explores ancient Greek philosophy emphasizing virtue, reason, and acceptance of what cannot be controlled.",
@@ -1451,6 +1470,7 @@
     "Vocabulary::synge-street-cbs": "Spanish vocabulary quiz on buildings, streets, and urban architecture terms.",
     "Vocabulary::pronunciation": "Translate Spanish vocabulary for city buildings, streets, and urban landmarks.",
     "Language::sports-basics": "Learn Spanish vocabulary for basketball terms, positions, actions, rules, and advanced plays.",
-    "Language::basketball": "Learn Spanish vocabulary for basketball terms, positions, rules, and plays."
+    "Language::basketball": "Learn Spanish vocabulary for basketball terms, positions, rules, and plays.",
+    "Other::synge-street": "Football trivia spanning basic rules, competitions, players, records, and modern tactics."
   }
 }
