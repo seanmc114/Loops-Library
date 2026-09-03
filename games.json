@@ -1299,25 +1299,6 @@
       "thumbnail": null
     },
     {
-      "slug": "heavys",
-      "name": "Heavys",
-      "category": "Other",
-      "emoji": "✨",
-      "loopCount": 5,
-      "questionCount": 50,
-      "publishedAt": "2026-09-03T10:06:36.644Z",
-      "createdBy": "c_mtlcykl2_if1fnatr",
-      "author": "Plogo",
-      "subcategory": "Football",
-      "tags": [
-        "synge-street",
-        "soccer",
-        "sports-basics",
-        "team-competition"
-      ],
-      "thumbnail": null
-    },
-    {
       "slug": "past-tense-spanish",
       "name": "Past Tense (Spanish)",
       "category": "Language",
