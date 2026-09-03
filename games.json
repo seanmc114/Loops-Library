@@ -1316,6 +1316,23 @@
         "team-competition"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "past-tense-spanish",
+      "name": "Past Tense (Spanish)",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-03T10:07:48.446Z",
+      "createdBy": "c_mtlcvrd6_w7otkuxn",
+      "author": "Adrian",
+      "subcategory": "Spanish",
+      "tags": [
+        "grammar",
+        "past-tense"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1471,6 +1488,7 @@
     "Vocabulary::pronunciation": "Translate Spanish vocabulary for city buildings, streets, and urban landmarks.",
     "Language::sports-basics": "Learn Spanish vocabulary for basketball terms, positions, actions, rules, and advanced plays.",
     "Language::basketball": "Learn Spanish vocabulary for basketball terms, positions, rules, and plays.",
-    "Other::synge-street": "Football trivia spanning basic rules, competitions, players, records, and modern tactics."
+    "Other::synge-street": "Football trivia spanning basic rules, competitions, players, records, and modern tactics.",
+    "Language::past-tense": "Practice Spanish preterite verb conjugations across regular and irregular forms."
   }
 }
