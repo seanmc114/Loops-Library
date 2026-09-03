@@ -1467,6 +1467,27 @@
         "grammar"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "business",
+      "name": "Business",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 49,
+      "publishedAt": "2026-09-03T12:55:36.120Z",
+      "createdBy": "c_mtl8lyww_d0clemid",
+      "author": "Yassin",
+      "subcategory": "Business Studies",
+      "tags": [
+        "finance",
+        "Economics",
+        "entrepreneurship",
+        "leaving-cert",
+        "exam-prep",
+        "general-knowledge"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1636,6 +1657,8 @@
     "Other::wwii": "Quiz covering WWII causes, key events, leaders, Holocaust, and its global aftermath.",
     "Language::character-traits": "Learn French vocabulary for describing physical appearance and personality traits.",
     "Language::french": "French vocabulary for describing physical traits and personality characteristics.",
-    "Exam Prep::grammar": "grammar — related content."
+    "Exam Prep::grammar": "grammar — related content.",
+    "Other::entrepreneurship": "Explore starting, running, and financing your own business ventures.",
+    "Other::finance": "Learn core business finance concepts like assets, liabilities, and profit statements."
   }
 }
