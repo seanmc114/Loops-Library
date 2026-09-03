@@ -1371,6 +1371,27 @@
         "conversation"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "hobbies-and-activities",
+      "name": "Hobbies and activities",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-03T10:18:11.975Z",
+      "createdBy": "c_mtlcykl2_if1fnatr",
+      "author": "Tyler",
+      "subcategory": "Hobbies",
+      "tags": [
+        "Life Skills",
+        "daily-routines",
+        "general-knowledge",
+        "vocabulary",
+        "conversation",
+        "present-tense"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1532,6 +1553,9 @@
     "Language::conversation": "Practicing everyday Spanish dialogue phrases and conversational expressions for real-life interactions",
     "Language::connectors": "Learn Spanish words that link words, phrases, and ideas together.",
     "Language::synge-street-cbs": "Practice Spanish prepositions and connecting words for sentence-building fluency.",
-    "Language::present-tense": "Present-tense conjugation and meaning of Spanish verbs across regular and irregular forms."
+    "Language::present-tense": "Present-tense conjugation and meaning of Spanish verbs across regular and irregular forms.",
+    "Other::conversation": "Practice real-life Spanish dialogue about hobbies through interactive question-and-answer exchanges.",
+    "Other::present-tense": "present-tense — related content.",
+    "Other::hobbies": "Learn Spanish vocabulary and phrases for discussing hobbies and leisure activities."
   }
 }
