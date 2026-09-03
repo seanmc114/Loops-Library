@@ -1534,6 +1534,26 @@
         "family-tree"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "cronos",
+      "name": "Cronos",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 3,
+      "questionCount": 29,
+      "publishedAt": "2026-09-03T18:33:59.820Z",
+      "createdBy": "c_mtcnybyr_ghpwegoe",
+      "author": "SMQ",
+      "subcategory": "greek-mythology",
+      "tags": [
+        "ancient-greece",
+        "general-knowledge",
+        "titans",
+        "classics",
+        "biography"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1717,6 +1737,8 @@
     "Language::championship": "Major football tournaments, history, and championship-winning trivia",
     "Language::english-football": "Trivia about football rules, clubs, tournaments, and history worldwide.",
     "Language::football": "Trivia quiz covering football rules, clubs, tournaments, and historical facts",
-    "Other::family-tree": "Quiz on mythological family relationships, lineage, and divine genealogy"
+    "Other::family-tree": "Quiz on mythological family relationships, lineage, and divine genealogy",
+    "Other::titans": "Explore Cronus, his Titan family, and the myths of Greek mythology.",
+    "Other::general-knowledge": "Explore trivia about Greek mythology's Titan Cronus, his family, and legendary myths."
   }
 }
