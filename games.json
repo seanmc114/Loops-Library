@@ -1352,6 +1352,26 @@
         "conversation"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "spanish-sentence-connectors-and-prepostions",
+      "name": "Spanish sentence Connectors and prepostions",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-03T10:10:09.578Z",
+      "createdBy": "c_mtlcwc5r_n9lp2x9h",
+      "author": null,
+      "subcategory": "Spanish",
+      "tags": [
+        "connectors",
+        "synge-street-cbs",
+        "vocabulary",
+        "grammar",
+        "beginner"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1510,6 +1530,8 @@
     "Other::synge-street": "Football trivia spanning basic rules, competitions, players, records, and modern tactics.",
     "Language::past-tense": "Practice Spanish preterite verb conjugations across regular and irregular forms.",
     "Language::beginner": "Learn basic Spanish greetings, vocabulary, and simple everyday phrases.",
-    "Language::conversation": "Practicing everyday Spanish dialogue phrases and conversational expressions for real-life interactions"
+    "Language::conversation": "Practicing everyday Spanish dialogue phrases and conversational expressions for real-life interactions",
+    "Language::connectors": "Learn Spanish words that link words, phrases, and ideas together.",
+    "Language::synge-street-cbs": "Practice Spanish prepositions and connecting words for sentence-building fluency."
   }
 }
