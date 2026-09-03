@@ -1279,6 +1279,24 @@
         "geography"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "basketball-in-spanish",
+      "name": "Basketball in Spanish",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-03T08:17:28.950Z",
+      "createdBy": "c_mtl8sqlq_ksr9g0hr",
+      "author": "Yusuf",
+      "subcategory": "Spanish",
+      "tags": [
+        "basketball",
+        "vocabulary",
+        "sports-basics"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1431,6 +1449,8 @@
     "Vocabulary::vocabulary": "Learn Spanish vocabulary for city buildings, streets, and urban landmarks.",
     "Vocabulary::buildings-streets": "Learn Spanish vocabulary for buildings, streets, and urban landmarks.",
     "Vocabulary::synge-street-cbs": "Spanish vocabulary quiz on buildings, streets, and urban architecture terms.",
-    "Vocabulary::pronunciation": "Translate Spanish vocabulary for city buildings, streets, and urban landmarks."
+    "Vocabulary::pronunciation": "Translate Spanish vocabulary for city buildings, streets, and urban landmarks.",
+    "Language::sports-basics": "Learn Spanish vocabulary for basketball terms, positions, actions, rules, and advanced plays.",
+    "Language::basketball": "Learn Spanish vocabulary for basketball terms, positions, rules, and plays."
   }
 }
