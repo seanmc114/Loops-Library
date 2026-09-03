@@ -1372,6 +1372,24 @@
         "beginner"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "verbs",
+      "name": "Verbs",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-03T10:10:22.762Z",
+      "createdBy": "c_mtlcx1gm_8n2ggxq5",
+      "author": "Riain",
+      "subcategory": "grammar",
+      "tags": [
+        "vocabulary",
+        "present-tense",
+        "conversation"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1532,6 +1550,7 @@
     "Language::beginner": "Learn basic Spanish greetings, vocabulary, and simple everyday phrases.",
     "Language::conversation": "Practicing everyday Spanish dialogue phrases and conversational expressions for real-life interactions",
     "Language::connectors": "Learn Spanish words that link words, phrases, and ideas together.",
-    "Language::synge-street-cbs": "Practice Spanish prepositions and connecting words for sentence-building fluency."
+    "Language::synge-street-cbs": "Practice Spanish prepositions and connecting words for sentence-building fluency.",
+    "Language::present-tense": "Present-tense conjugation and meaning of Spanish verbs across regular and irregular forms."
   }
 }
