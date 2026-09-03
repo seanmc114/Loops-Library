@@ -1506,6 +1506,27 @@
         "general-knowledge"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "football",
+      "name": "Football",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-03T13:01:49.234Z",
+      "createdBy": "c_mtlilpor_v5p7grd3",
+      "author": "Ibrahim",
+      "subcategory": "Football",
+      "tags": [
+        "soccer",
+        "vocabulary",
+        "sports-basics",
+        "general-knowledge",
+        "english-football",
+        "championship"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1613,7 +1634,7 @@
     "Exam Prep::architecture": "Identify and explain famous ancient Roman buildings and their purposes",
     "Language::nouns": "Identify and distinguish nouns from other words in various contexts",
     "Language::maps": "Identify national capitals worldwide, progressing from well-known to obscure countries.",
-    "Language::general-knowledge": "Trivia testing recall of world capitals across varying difficulty levels",
+    "Language::general-knowledge": "Tests broad factual recall about football basics, rules, clubs, and history",
     "Exam Prep::standardized-tests": "Fact-recall quizzes on RE terms, evidence types, and belief concepts",
     "Exam Prep::beliefs": "Defines beliefs, world religions, ethics, and big questions in religious studies.",
     "Exam Prep::vocabulary": "Key religious studies terms covering evidence, beliefs, ethics, and interfaith dialogue concepts.",
@@ -1654,7 +1675,7 @@
     "Other::computer-science": "Covers computer basics, programming, data, networks, algorithms, databases, security, and ethics.",
     "Other::leaving-cert": "Irish Leaving Cert-level computer science: fundamentals, programming, networks, algorithms, and security",
     "Language::sport-football-synge-street": "Learn Spanish football vocabulary, roles, tactics, and match outcome expressions.",
-    "Language::soccer": "Learn Spanish soccer vocabulary, roles, tactics, and match-related idioms.",
+    "Language::soccer": "Football/soccer facts covering rules, tournaments, clubs, and history trivia.",
     "Vocabulary::vocabulary": "Learn Spanish vocabulary for city buildings, streets, and urban landmarks.",
     "Vocabulary::buildings-streets": "Learn Spanish vocabulary for buildings, streets, and urban landmarks.",
     "Vocabulary::synge-street-cbs": "Spanish vocabulary quiz on buildings, streets, and urban architecture terms.",
@@ -1679,6 +1700,9 @@
     "Other::entrepreneurship": "Explore starting, running, and financing your own business ventures.",
     "Other::finance": "Learn core business finance concepts like assets, liabilities, and profit statements.",
     "Exam Prep::figurative-language": "Identifying and analyzing figurative language devices like metaphor, simile, and symbolism.",
-    "Exam Prep::poetry": "Identify poetic devices like metaphor, rhyme, meter, and figurative language."
+    "Exam Prep::poetry": "Identify poetic devices like metaphor, rhyme, meter, and figurative language.",
+    "Language::championship": "Major football tournaments, history, and championship-winning trivia",
+    "Language::english-football": "Trivia about football rules, clubs, tournaments, and history worldwide.",
+    "Language::football": "Trivia quiz covering football rules, clubs, tournaments, and historical facts"
   }
 }
