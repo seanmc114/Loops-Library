@@ -348,7 +348,7 @@
     {
       "slug": "german-verbs-a1",
       "name": "German verbs A1",
-      "category": "Language",
+      "category": "Beginner",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -358,7 +358,6 @@
       "subcategory": "German",
       "tags": [
         "present-tense",
-        "beginner",
         "grammar"
       ]
     },
@@ -894,7 +893,7 @@
     {
       "slug": "prepositions-in-irish",
       "name": "Prepositions in Irish",
-      "category": "Language",
+      "category": "Beginner",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -905,7 +904,6 @@
       "tags": [
         "grammar",
         "vocabulary",
-        "beginner",
         "prepositions"
       ],
       "thumbnail": null
@@ -987,7 +985,7 @@
     {
       "slug": "russian-for-beginners",
       "name": "Russian for Beginners",
-      "category": "Language",
+      "category": "Beginner",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -997,7 +995,6 @@
       "subcategory": "Russian",
       "tags": [
         "vocabulary",
-        "beginner",
         "grammar",
         "pronunciation"
       ],
@@ -1026,7 +1023,7 @@
     {
       "slug": "irish-for-foreigner",
       "name": "Irish for foreigner",
-      "category": "Language",
+      "category": "Beginner",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -1035,7 +1032,6 @@
       "author": "Jens",
       "subcategory": "Irish",
       "tags": [
-        "beginner",
         "vocabulary",
         "pronunciation"
       ],
@@ -1099,7 +1095,7 @@
     {
       "slug": "basic-spanish-verbs-present-tense",
       "name": "Basic Spanish Verbs (Present Tense)",
-      "category": "Language",
+      "category": "Beginner",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -1109,8 +1105,7 @@
       "subcategory": "Spanish",
       "tags": [
         "present-tense",
-        "grammar",
-        "beginner"
+        "grammar"
       ],
       "thumbnail": null
     },
@@ -1135,7 +1130,7 @@
     {
       "slug": "spanish-spellings",
       "name": "Spanish Spellings",
-      "category": "Language",
+      "category": "Beginner",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -1145,7 +1140,6 @@
       "subcategory": "Spanish",
       "tags": [
         "vocabulary",
-        "beginner",
         "pronunciation",
         "grammar"
       ],
@@ -1154,7 +1148,7 @@
     {
       "slug": "spanish-spelling-rules",
       "name": "Spanish Spelling Rules",
-      "category": "Language",
+      "category": "Beginner",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -1164,7 +1158,6 @@
       "subcategory": "Spanish",
       "tags": [
         "grammar",
-        "beginner",
         "vocabulary",
         "pronunciation",
         "phonetic",
@@ -1175,7 +1168,7 @@
     {
       "slug": "english-pre-5th-year-revision",
       "name": "English. Pre 5th year revision.",
-      "category": "Language",
+      "category": "Beginner",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -1186,7 +1179,6 @@
       "tags": [
         "grammar",
         "vocabulary",
-        "beginner",
         "literary-devices"
       ],
       "thumbnail": null
@@ -1235,7 +1227,7 @@
     {
       "slug": "spanish",
       "name": "Spanish",
-      "category": "Language",
+      "category": "Beginner",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -1245,8 +1237,25 @@
       "subcategory": "Spanish",
       "tags": [
         "vocabulary",
-        "beginner",
         "grammar"
+      ],
+      "thumbnail": null
+    },
+    {
+      "slug": "football-volcabulary-for-english-speakers",
+      "name": "Football volcabulary for English speakers",
+      "category": "Beginner",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-03T08:12:27.790Z",
+      "createdBy": "c_mtl8lw2e_pi36anex",
+      "author": "Salman",
+      "subcategory": "vocabulary",
+      "tags": [
+        "word-origins",
+        "sport-football-synge-street",
+        "soccer"
       ],
       "thumbnail": null
     }
@@ -1287,6 +1296,12 @@
       "pastel": "#D2F4C7",
       "deep": "#5FCC3E",
       "wash": "#EDF4EB"
+    },
+    "Beginner": {
+      "emoji": "🔖",
+      "pastel": "#F4C7E8",
+      "deep": "#CC3EA3",
+      "wash": "#F4EBF2"
     }
   },
   "labelDescriptors": {
@@ -1389,6 +1404,8 @@
     "Other::revision": "Mixed-topic math practice revisiting number, algebra, geometry, and trigonometry skills",
     "Other::technology": "Covers computing fundamentals: hardware, programming, networks, algorithms, databases, security, and ethics.",
     "Other::computer-science": "Covers computer basics, programming, data, networks, algorithms, databases, security, and ethics.",
-    "Other::leaving-cert": "Irish Leaving Cert-level computer science: fundamentals, programming, networks, algorithms, and security"
+    "Other::leaving-cert": "Irish Leaving Cert-level computer science: fundamentals, programming, networks, algorithms, and security",
+    "Language::sport-football-synge-street": "Learn Spanish football vocabulary, roles, tactics, and match outcome expressions.",
+    "Language::soccer": "Learn Spanish soccer vocabulary, roles, tactics, and match-related idioms."
   }
 }
