@@ -1392,6 +1392,23 @@
         "present-tense"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "world-flags",
+      "name": "World flags",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-03T12:50:00.880Z",
+      "createdBy": "c_mtliiims_4eqrm5oq",
+      "author": "Ezzaldeen",
+      "subcategory": "Geography",
+      "tags": [
+        "places",
+        "general-knowledge"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
