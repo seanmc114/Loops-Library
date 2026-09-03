@@ -1430,6 +1430,25 @@
         "revision"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "french-adjectives",
+      "name": "French adjectives",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-03T12:54:37.769Z",
+      "createdBy": "c_mtlilmjb_2gfa931h",
+      "author": "Luqmaan",
+      "subcategory": "French",
+      "tags": [
+        "grammar",
+        "vocabulary",
+        "beginner",
+        "character-traits"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1596,6 +1615,8 @@
     "Other::present-tense": "present-tense — related content.",
     "Other::hobbies": "Learn Spanish vocabulary and phrases for discussing hobbies and leisure activities.",
     "Other::synge-street-cbs": "WW2 history quiz covering key events, figures, the Holocaust, and its aftermath.",
-    "Other::wwii": "Quiz covering WWII causes, key events, leaders, Holocaust, and its global aftermath."
+    "Other::wwii": "Quiz covering WWII causes, key events, leaders, Holocaust, and its global aftermath.",
+    "Language::character-traits": "Learn French vocabulary for describing physical appearance and personality traits.",
+    "Language::french": "French vocabulary for describing physical traits and personality characteristics."
   }
 }
