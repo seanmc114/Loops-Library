@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Football · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1788440509234"></script>
+  <script>
+    const GAME_DATA = {"slug":"football","name":"Football","emoji":"🌍","category":"Language","colors":{"pastel":"#C1F0EA","deep":"#2FB18A","wash":"#EBF6F0"},"background":null,"loops":[{"name":"Football Basics","emoji":"⚽","timeLimit":15,"qs":[{"type":"mc","q":"How many players does each team have on the field at once (excluding substitutes)?","a":"11","opts":["9","10","11"]},{"type":"mc","q":"How long is a standard football match, not counting extra time?","a":"90 minutes","opts":["60 minutes","90 minutes","120 minutes"]},{"type":"typed","q":"How many minutes are in one half of a standard football match?","a":"45"},{"type":"mc","q":"What card is shown to a player for a serious foul, resulting in them being sent off?","a":"Red card","opts":["Yellow card","Red card","Green card"]},{"type":"mc","q":"What color card is given as a warning to a player?","a":"Yellow card","opts":["Yellow card","Red card","Blue card"]},{"type":"mc","q":"How many halves make up a standard football match?","a":"2","opts":["2","3","4"]},{"type":"typed","q":"What is it called when the ball fully crosses the goal line between the posts and under the bar?","a":"Goal"},{"type":"mc","q":"Which body part are players (other than the goalkeeper) not allowed to use to intentionally play the ball?","a":"Hands","opts":["Feet","Head","Hands"]},{"type":"typed","q":"What is the term for scoring three goals in a single match?","a":"Hat-trick"},{"type":"mc","q":"What is the term for the player who wears an armband and leads the team on the pitch?","a":"Captain","opts":["Captain","Manager","Referee"]}]},{"name":"Famous Clubs","emoji":"🏟️","timeLimit":15,"qs":[{"type":"mc","q":"Manchester United is a football club based in which country?","a":"England","opts":["Spain","England","Germany"]},{"type":"mc","q":"Real Madrid is based in which country?","a":"England","opts":["France","Spain","England"]},{"type":"mc","q":"What is the name of FC Barcelona's home stadium?","a":"Santiago Bernabéu","opts":["Santiago Bernabéu","Anfield","Camp Nou"]},{"type":"typed","q":"Which person is nicknamed \"The Red Devils\"?","a":"Cristiano Ronaldo"},{"type":"mc","q":"Bayern Munich is based in which country?","a":"England","opts":["England","Spain","Germany "]},{"type":"mc","q":"AC Milan and Inter Milan are both based in which city?","a":"Milan","opts":["Rome","Milan","Madrid"]},{"type":"typed","q":"Which Italian club has the nickname \"The Old Lady\"?","a":"Juventus"},{"type":"mc","q":"What is the name of Liverpool FC's home stadium?","a":"Anfield","opts":["Anfield","Wembley","Stamford Bridge"]},{"type":"mc","q":"Paris Saint-Germain, commonly known as PSG, is based in which city?","a":"Paris","opts":["Lyon","Man City ","Paris"]},{"type":"typed","q":"Which Spanish club is Real Madrid's fierce rival in the match known as \"El Clasico\"?","a":"Barcelona"}]},{"name":"Major Tournaments","emoji":"🏆","timeLimit":15,"qs":[{"type":"mc","q":"The FIFA World Cup is held every how many years?","a":"3","opts":["1","3","4"]},{"type":"mc","q":"The 2014 FIFA World Cup was hosted by Brazil, on which continent?","a":"South America","opts":["Europe","South America","Africa"]},{"type":"typed","q":"Which country won the very first FIFA World Cup in 1930?","a":"Uruguay"},{"type":"mc","q":"The UEFA Champions League features vs club teams primarily from which continent?","a":"Europe","opts":["Europe","Asia","South America"]},{"type":"mc","q":"The Copa America tournament is the championship for national teams from which continent?","a":"South America","opts":["Africa","South America","Europe"]},{"type":"typed","q":"Which country hosted the 2018 FIFA World Cup?","a":"Russia"},{"type":"mc","q":"The European Championship for national football teams is commonly nicknamed what?","a":"The Euros","opts":["The Euros","The Cup","The Series"]},{"type":"mc","q":"Which country has won the most FIFA World Cup titles?","a":"Brazil","opts":["France","Argentina","Brazil"]},{"type":"typed","q":"How many teams competed in the FIFA World Cup final tournament from 1998 through 2022?","a":"32"},{"type":"mc","q":"The Champions League trophy is awarded to the winner of which competition?","a":"UEFA Champions League","opts":["UEFA Champions League","Copa America","FIFA World Cup"]}]},{"name":"Football Rules","emoji":"📏","timeLimit":15,"qs":[{"type":"mc","q":"The offside rule concerns a player's position relative to the ball and what else?","a":"The last defender","opts":["The referee","The last defender","The goalkeeper's gloves"]},{"type":"typed","q":"As of recent rules, how many substitutions are typically allowed in a standard professional match?","a":"5"},{"type":"mc","q":"What is awarded when a defender commits a foul on an attacker inside the penalty area?","a":"Penalty kick","opts":["Corner kick","Penalty kick","Throw-in"]},{"type":"typed","q":"From what distance, in meters, is a penalty kick taken?","a":"11"},{"type":"mc","q":"Which official on the pitch uses a whistle and cards to enforce the rules?","a":"Referee","opts":["Linesman","Referee","Manager"]},{"type":"mc","q":"A throw-in is awarded when the ball fully crosses which line?","a":"Touchline","opts":["Goal line","Touchline","Penalty line"]},{"type":"mc","q":"What typically decides a knockout match that remains tied after extra time?","a":"Penalty shootout","opts":["Coin toss","Penalty shootout","Replay only"]},{"type":"typed","q":"How many yellow cards in a single match result in an automatic red card?","a":"2"},{"type":"mc","q":"Which video technology helps referees review key decisions during matches?","a":"VAR","opts":["VAR","GPS","VR"]},{"type":"mc","q":"If a direct free kick is struck straight into the opponent's goal without touching another player, what is the result?","a":"A goal","opts":["No goal","A goal","A retake"]}]},{"name":"History and Hard Trivia","emoji":"📜","timeLimit":15,"qs":[{"type":"mc","q":"Which country is credited as the birthplace of football's first codified rules in 1863?","a":"England","opts":["France","England","Italy"]},{"type":"typed","q":"Which English organization was founded in 1863 to standardize the rules of football?","a":"The Football Association"},{"type":"mc","q":"The FIFA World Cup was suspended during which major world event?","a":"World War II","opts":["The Cold War","World War II","The Great Depression"]},{"type":"typed","q":"Which Brazilian legend, often called \"The King of Football,\" won three World Cups?","a":"Pele"},{"type":"mc","q":"Which country won the first-ever UEFA European Championship in 1960?","a":"Soviet Union","opts":["France","Soviet Union","Spain"]},{"type":"mc","q":"Diego Maradona is most famously associated with which national team?","a":"Argentina","opts":["Brazil","Argentina","Uruguay"]},{"type":"typed","q":"Which German player holds the record for most goals scored across World Cup tournaments in men's history, with the surname Klose?","a":"Klose"},{"type":"mc","q":"The \"Miracle of Bern\" refers to which country's surprising 1954 World Cup victory?","a":"West Germany","opts":["Hungary","West Germany","Switzerland"]},{"type":"mc","q":"Which club won the first-ever European Cup in 1956?","a":"Real Madrid","opts":["AC Milan","Real Madrid","Benfica"]},{"type":"mc","q":"What is a football match with no goals scored by either team commonly called?","a":"Nil-nil draw","opts":["Clean sheet","Nil-nil draw","Hat-trick"]}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live \u2014 try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
