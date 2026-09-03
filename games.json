@@ -270,7 +270,7 @@
     {
       "slug": "world-history",
       "name": "World History",
-      "category": "Other",
+      "category": "General Knowledge",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -278,9 +278,7 @@
       "createdBy": "c_mrvywpmf_ocsm1d62",
       "author": "Paul",
       "subcategory": "History",
-      "tags": [
-        "general-knowledge"
-      ]
+      "tags": []
     },
     {
       "slug": "fontaines-dc",
@@ -835,7 +833,7 @@
     {
       "slug": "historical-economists",
       "name": "Historical Economists",
-      "category": "Other",
+      "category": "General Knowledge",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -845,8 +843,7 @@
       "subcategory": "Economics",
       "tags": [
         "biography",
-        "History",
-        "general-knowledge"
+        "History"
       ],
       "thumbnail": null
     },
@@ -911,7 +908,7 @@
     {
       "slug": "lc-business-essentials",
       "name": "LC Business Essentials",
-      "category": "Other",
+      "category": "General Knowledge",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -921,7 +918,6 @@
       "subcategory": "Business Studies",
       "tags": [
         "standardized-tests",
-        "general-knowledge",
         "vocabulary"
       ],
       "thumbnail": null
@@ -1076,7 +1072,7 @@
     {
       "slug": "the-great-gatsby-revision",
       "name": "The Great Gatsby Revision",
-      "category": "Other",
+      "category": "General Knowledge",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -1087,7 +1083,6 @@
       "tags": [
         "vocabulary",
         "character-traits",
-        "general-knowledge",
         "plot"
       ],
       "thumbnail": null
@@ -1207,7 +1202,7 @@
     {
       "slug": "computer-science-basics-for-5th-year",
       "name": "Computer Science basics for 5th year",
-      "category": "Other",
+      "category": "General Knowledge",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -1217,7 +1212,6 @@
       "subcategory": "Computer Science",
       "tags": [
         "beginner",
-        "general-knowledge",
         "technology",
         "exam-prep",
         "leaving-cert"
@@ -1375,7 +1369,7 @@
     {
       "slug": "hobbies-and-activities",
       "name": "Hobbies and activities",
-      "category": "Other",
+      "category": "General Knowledge",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -1386,7 +1380,6 @@
       "tags": [
         "Life Skills",
         "daily-routines",
-        "general-knowledge",
         "vocabulary",
         "conversation",
         "present-tense"
@@ -1396,7 +1389,7 @@
     {
       "slug": "world-flags",
       "name": "World flags",
-      "category": "Other",
+      "category": "General Knowledge",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -1405,15 +1398,14 @@
       "author": "Ezzaldeen",
       "subcategory": "Geography",
       "tags": [
-        "places",
-        "general-knowledge"
+        "places"
       ],
       "thumbnail": null
     },
     {
       "slug": "history-wwii-jc-revision",
       "name": "History WWII JC revision",
-      "category": "Other",
+      "category": "General Knowledge",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -1422,7 +1414,6 @@
       "author": "Ali",
       "subcategory": "History",
       "tags": [
-        "general-knowledge",
         "ancient-rome",
         "biography",
         "wwii",
@@ -1471,7 +1462,7 @@
     {
       "slug": "business",
       "name": "Business",
-      "category": "Other",
+      "category": "General Knowledge",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 49,
@@ -1484,8 +1475,7 @@
         "Economics",
         "entrepreneurship",
         "leaving-cert",
-        "exam-prep",
-        "general-knowledge"
+        "exam-prep"
       ],
       "thumbnail": null
     },
@@ -1525,6 +1515,23 @@
         "general-knowledge",
         "english-football",
         "championship"
+      ],
+      "thumbnail": null
+    },
+    {
+      "slug": "greek-gods-family-tree",
+      "name": "Greek Gods- Family Tree",
+      "category": "General Knowledge",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-03T15:57:17.773Z",
+      "createdBy": "c_mtcnybyr_ghpwegoe",
+      "author": "SMQ",
+      "subcategory": "greek-mythology",
+      "tags": [
+        "ancient-greece",
+        "family-tree"
       ],
       "thumbnail": null
     }
@@ -1571,6 +1578,12 @@
       "pastel": "#F4C7E8",
       "deep": "#CC3EA3",
       "wash": "#F4EBF2"
+    },
+    "General Knowledge": {
+      "emoji": "🔖",
+      "pastel": "#C7F4D5",
+      "deep": "#3ECC6A",
+      "wash": "#EBF4EE"
     }
   },
   "labelDescriptors": {
@@ -1703,6 +1716,7 @@
     "Exam Prep::poetry": "Identify poetic devices like metaphor, rhyme, meter, and figurative language.",
     "Language::championship": "Major football tournaments, history, and championship-winning trivia",
     "Language::english-football": "Trivia about football rules, clubs, tournaments, and history worldwide.",
-    "Language::football": "Trivia quiz covering football rules, clubs, tournaments, and historical facts"
+    "Language::football": "Trivia quiz covering football rules, clubs, tournaments, and historical facts",
+    "Other::family-tree": "Quiz on mythological family relationships, lineage, and divine genealogy"
   }
 }
