@@ -1333,6 +1333,25 @@
         "past-tense"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "spanish-conversations-for-false-beginners",
+      "name": "Spanish conversations for false beginners",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-03T10:08:09.205Z",
+      "createdBy": "c_mtlcwr0m_8cxka5df",
+      "author": "Caleb",
+      "subcategory": "Spanish",
+      "tags": [
+        "beginner",
+        "vocabulary",
+        "pronunciation",
+        "conversation"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1489,6 +1508,8 @@
     "Language::sports-basics": "Learn Spanish vocabulary for basketball terms, positions, actions, rules, and advanced plays.",
     "Language::basketball": "Learn Spanish vocabulary for basketball terms, positions, rules, and plays.",
     "Other::synge-street": "Football trivia spanning basic rules, competitions, players, records, and modern tactics.",
-    "Language::past-tense": "Practice Spanish preterite verb conjugations across regular and irregular forms."
+    "Language::past-tense": "Practice Spanish preterite verb conjugations across regular and irregular forms.",
+    "Language::beginner": "Learn basic Spanish greetings, vocabulary, and simple everyday phrases.",
+    "Language::conversation": "Practicing everyday Spanish dialogue phrases and conversational expressions for real-life interactions"
   }
 }
