@@ -1590,6 +1590,24 @@
         "origin-stories"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "mayo4sam2027",
+      "name": "Mayo4sam2027",
+      "category": "General Knowledge",
+      "emoji": "🔖",
+      "loopCount": 2,
+      "questionCount": 20,
+      "publishedAt": "2026-09-04T16:29:46.188Z",
+      "createdBy": "c_mtn61nx7_ickrz4m5",
+      "author": null,
+      "subcategory": "Gaelic Football",
+      "tags": [
+        "irish-sports",
+        "championship",
+        "county-mayo"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1776,6 +1794,10 @@
     "Other::family-tree": "Quiz on mythological family relationships, lineage, and divine genealogy",
     "Other::titans": "Explore Cronus, his Titan family, and the myths of Greek mythology.",
     "Other::general-knowledge": "Explore trivia about Greek mythology's Titan Cronus, his family, and legendary myths.",
-    "Other::origin-stories": "Explore Greek mythology's primordial beings, Titans, and the epic origins of the gods."
+    "Other::origin-stories": "Explore Greek mythology's primordial beings, Titans, and the epic origins of the gods.",
+    "General Knowledge::gaelic-football": "Explore Mayo GAA facts, colors, stadiums, and All-Ireland championship history.",
+    "General Knowledge::championship": "Trivia on Mayo GAA's championship history, titles, and All-Ireland victories.",
+    "General Knowledge::irish-sports": "Trivia on Mayo GAA history, colors, stadiums, and All-Ireland championship wins",
+    "General Knowledge::county-mayo": "Quiz on Mayo GAA teams, colors, stadiums, and All-Ireland championship history."
   }
 }
