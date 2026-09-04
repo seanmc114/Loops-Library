@@ -1608,25 +1608,6 @@
         "county-mayo"
       ],
       "thumbnail": null
-    },
-    {
-      "slug": "capital-cities",
-      "name": "Capital cities",
-      "category": "Other",
-      "emoji": "✨",
-      "loopCount": 5,
-      "questionCount": 50,
-      "publishedAt": "2026-09-04T19:14:32.009Z",
-      "createdBy": "c_mtnbfnay_1wml1d1i",
-      "author": "SMQ",
-      "subcategory": "Geography",
-      "tags": [
-        "places",
-        "maps",
-        "general-knowledge",
-        "map-location"
-      ],
-      "thumbnail": null
     }
   ],
   "categories": {
