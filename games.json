@@ -1702,6 +1702,23 @@
         "general-knowledge"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "bp-fallon",
+      "name": "BP Fallon",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 44,
+      "publishedAt": "2026-09-05T23:53:54.022Z",
+      "createdBy": "c_mtnbfnay_1wml1d1i",
+      "author": "SMQ",
+      "subcategory": "music",
+      "tags": [
+        "irish-musician",
+        "biography"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
