@@ -1627,6 +1627,26 @@
         "daily-routines"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "accounting",
+      "name": "Accounting",
+      "category": "Beginner",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-05T10:24:22.462Z",
+      "createdBy": "c_mto8bvdg_lv6ci3qy",
+      "author": "Unknown",
+      "subcategory": "Accounting",
+      "tags": [
+        "finance",
+        "numbers",
+        "vocabulary",
+        "grammar",
+        "beginner"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1819,6 +1839,10 @@
     "General Knowledge::irish-sports": "Trivia on Mayo GAA history, colors, stadiums, and All-Ireland championship wins",
     "General Knowledge::county-mayo": "Quiz on Mayo GAA teams, colors, stadiums, and All-Ireland championship history.",
     "Language::german": "German vocabulary and grammar for describing homes, rooms, and housing types",
-    "Language::daily-routines": "daily-routines — related content."
+    "Language::daily-routines": "daily-routines — related content.",
+    "Beginner::finance": "Practice core accounting concepts, equations, and double-entry transaction recording.",
+    "Beginner::beginner": "Introduces fundamental accounting terms, concepts, and simple double-entry transaction recording.",
+    "Beginner::accounting": "Practice core bookkeeping concepts: assets, liabilities, capital, and double-entry transactions.",
+    "Beginner::numbers": "Practice core accounting concepts through numeric equations, transactions, and calculations."
   }
 }
