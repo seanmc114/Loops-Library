@@ -1608,6 +1608,25 @@
         "county-mayo"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "beschreibe-dein-haus",
+      "name": "Beschreibe dein Haus",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 4,
+      "questionCount": 35,
+      "publishedAt": "2026-09-05T07:58:10.693Z",
+      "createdBy": "c_mrz2hgrm_hnpt5ow8",
+      "author": "Frau Beglan",
+      "subcategory": "German",
+      "tags": [
+        "vocabulary",
+        "beginner",
+        "present-tense",
+        "daily-routines"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1798,6 +1817,8 @@
     "General Knowledge::gaelic-football": "Explore Mayo GAA facts, colors, stadiums, and All-Ireland championship history.",
     "General Knowledge::championship": "Trivia on Mayo GAA's championship history, titles, and All-Ireland victories.",
     "General Knowledge::irish-sports": "Trivia on Mayo GAA history, colors, stadiums, and All-Ireland championship wins",
-    "General Knowledge::county-mayo": "Quiz on Mayo GAA teams, colors, stadiums, and All-Ireland championship history."
+    "General Knowledge::county-mayo": "Quiz on Mayo GAA teams, colors, stadiums, and All-Ireland championship history.",
+    "Language::german": "German vocabulary and grammar for describing homes, rooms, and housing types",
+    "Language::daily-routines": "daily-routines — related content."
   }
 }
