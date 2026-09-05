@@ -1683,6 +1683,25 @@
         "leaving-cert"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "1st-year-commerce-prep",
+      "name": "1st year Commerce Prep.",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-05T22:39:58.616Z",
+      "createdBy": "c_mtnbfnay_1wml1d1i",
+      "author": "SMQ",
+      "subcategory": "Business Studies",
+      "tags": [
+        "exam-prep",
+        "economics",
+        "leaving-cert",
+        "general-knowledge"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1800,7 +1819,7 @@
     "Exam Prep::standardized-tests": "Fact-recall quizzes on RE terms, evidence types, and belief concepts",
     "Exam Prep::beliefs": "Defines beliefs, world religions, ethics, and big questions in religious studies.",
     "Exam Prep::vocabulary": "Key religious studies terms covering evidence, beliefs, ethics, and interfaith dialogue concepts.",
-    "Other::economics": "Explore famous economists, their theories, and landmark works shaping economic thought",
+    "Other::economics": "Quiz on core economic concepts like inflation, markets, monopolies, and supply-demand basics",
     "Language::figurative-language": "Identifying metaphors, similes, personification, and other figurative devices in poetry",
     "Language::vocabulary": "Identifies poetic devices, figures of speech, and literary terms in verse",
     "Language::poetry": "Identify literary and poetic devices in sample lines and definitions.",
@@ -1815,7 +1834,7 @@
     "Other::etymology": "Trivia about famous quotes, sayings, and the origins of words or phrases",
     "Other::word-origins": "Match famous quotes and witty retorts to the people who said them",
     "Other::standardized-tests": "Practice core statistics and probability concepts for standardized exam preparation.",
-    "Other::business-studies": "Explores business terms in enterprise, marketing, finance, and human resources management.",
+    "Other::business-studies": "Trivia covering business, accounting, economics, law, and commerce fundamentals.",
     "Other::back-to-school": "Back-to-school routines, organization, classroom habits, and growing responsibility for students",
     "Other::school-life": "Everyday school routines, organization, classroom habits, friendships, and growing responsibility",
     "Other::instruments": "Trivia on banjo parts, tuning, playing styles, and musical history.",
