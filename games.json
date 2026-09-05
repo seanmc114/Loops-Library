@@ -1646,6 +1646,24 @@
         "terminology"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "othello-quotations",
+      "name": "Othello Quotations",
+      "category": "Exam Prep",
+      "emoji": "📝",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-05T11:29:15.142Z",
+      "createdBy": "c_mtnbfnay_1wml1d1i",
+      "author": "SMQ",
+      "subcategory": "Literature",
+      "tags": [
+        "vocabulary",
+        "figurative-language",
+        "character-traits"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1844,6 +1862,8 @@
     "Beginner::accounting": "Practice core bookkeeping concepts: assets, liabilities, capital, and double-entry transactions.",
     "Beginner::numbers": "Practice core accounting concepts through numeric equations, transactions, and calculations.",
     "Language::accounting": "Practice basic accounting concepts: assets, liabilities, capital, and debit-credit rules.",
-    "Language::terminology": "Defines key accounting terms like assets, liabilities, capital, and debit/credit rules."
+    "Language::terminology": "Defines key accounting terms like assets, liabilities, capital, and debit/credit rules.",
+    "Exam Prep::literature": "Trivia on Shakespeare's Othello covering quotes, characters, jealousy, and betrayal themes.",
+    "Exam Prep::character-traits": "Quotes and traits revealing Othello's characters' motives, flaws, and identities."
   }
 }
