@@ -1664,6 +1664,25 @@
         "character-traits"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "statistics-revision-before-college-starts",
+      "name": "Statistics Revision before college starts😱",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-05T22:33:08.532Z",
+      "createdBy": "c_mtnbfnay_1wml1d1i",
+      "author": "SMQ",
+      "subcategory": "Statistics",
+      "tags": [
+        "general-knowledge",
+        "exam-prep",
+        "standardized-tests",
+        "leaving-cert"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1795,7 +1814,7 @@
     "Language::prepositions": "Learn Irish prepositions and their pronoun forms through translation exercises",
     "Other::etymology": "Trivia about famous quotes, sayings, and the origins of words or phrases",
     "Other::word-origins": "Match famous quotes and witty retorts to the people who said them",
-    "Other::standardized-tests": "Practice quizzes covering business, marketing, finance, and HR terminology definitions",
+    "Other::standardized-tests": "Practice core statistics and probability concepts for standardized exam preparation.",
     "Other::business-studies": "Explores business terms in enterprise, marketing, finance, and human resources management.",
     "Other::back-to-school": "Back-to-school routines, organization, classroom habits, and growing responsibility for students",
     "Other::school-life": "Everyday school routines, organization, classroom habits, friendships, and growing responsibility",
@@ -1816,7 +1835,7 @@
     "Other::revision": "Mixed-topic math practice revisiting number, algebra, geometry, and trigonometry skills",
     "Other::technology": "Covers computing fundamentals: hardware, programming, networks, algorithms, databases, security, and ethics.",
     "Other::computer-science": "Covers computer basics, programming, data, networks, algorithms, databases, security, and ethics.",
-    "Other::leaving-cert": "Irish Leaving Cert-level computer science: fundamentals, programming, networks, algorithms, and security",
+    "Other::leaving-cert": "Irish Leaving Cert-aligned statistics and probability quiz spanning basics to inference",
     "Language::sport-football-synge-street": "Learn Spanish football vocabulary, roles, tactics, and match outcome expressions.",
     "Language::soccer": "Football/soccer facts covering rules, tournaments, clubs, and history trivia.",
     "Vocabulary::vocabulary": "Learn Spanish vocabulary for city buildings, streets, and urban landmarks.",
@@ -1864,6 +1883,7 @@
     "Language::accounting": "Practice basic accounting concepts: assets, liabilities, capital, and debit-credit rules.",
     "Language::terminology": "Defines key accounting terms like assets, liabilities, capital, and debit/credit rules.",
     "Exam Prep::literature": "Trivia on Shakespeare's Othello covering quotes, characters, jealousy, and betrayal themes.",
-    "Exam Prep::character-traits": "Quotes and traits revealing Othello's characters' motives, flaws, and identities."
+    "Exam Prep::character-traits": "Quotes and traits revealing Othello's characters' motives, flaws, and identities.",
+    "Other::statistics": "Practice core statistics: averages, probability, correlation, distributions, hypothesis testing, and regression concepts."
   }
 }
