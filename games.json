@@ -1631,20 +1631,19 @@
     {
       "slug": "accounting",
       "name": "Accounting",
-      "category": "Beginner",
-      "emoji": "🔖",
+      "category": "Language",
+      "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
-      "publishedAt": "2026-09-05T10:24:22.462Z",
+      "publishedAt": "2026-09-05T10:37:59.092Z",
       "createdBy": "c_mto8bvdg_lv6ci3qy",
       "author": "Unknown",
       "subcategory": "Accounting",
       "tags": [
-        "finance",
-        "numbers",
         "vocabulary",
-        "grammar",
-        "beginner"
+        "beginner",
+        "daily-routines",
+        "terminology"
       ],
       "thumbnail": null
     }
@@ -1843,6 +1842,8 @@
     "Beginner::finance": "Practice core accounting concepts, equations, and double-entry transaction recording.",
     "Beginner::beginner": "Introduces fundamental accounting terms, concepts, and simple double-entry transaction recording.",
     "Beginner::accounting": "Practice core bookkeeping concepts: assets, liabilities, capital, and double-entry transactions.",
-    "Beginner::numbers": "Practice core accounting concepts through numeric equations, transactions, and calculations."
+    "Beginner::numbers": "Practice core accounting concepts through numeric equations, transactions, and calculations.",
+    "Language::accounting": "Practice basic accounting concepts: assets, liabilities, capital, and debit-credit rules.",
+    "Language::terminology": "Defines key accounting terms like assets, liabilities, capital, and debit/credit rules."
   }
 }
