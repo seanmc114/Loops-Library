@@ -1719,6 +1719,26 @@
         "biography"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "junior-cycle-biology-review",
+      "name": "Junior Cycle Biology Review",
+      "category": "Exam Prep",
+      "emoji": "📝",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-07T09:59:48.549Z",
+      "createdBy": "c_mrm4d78o_wsyx9f55",
+      "author": "SMQ",
+      "subcategory": "Biology",
+      "tags": [
+        "general-knowledge",
+        "Standardized Tests",
+        "botany",
+        "synge-street-cbs",
+        "junior-cycle-science"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1920,6 +1940,10 @@
     "Language::terminology": "Defines key accounting terms like assets, liabilities, capital, and debit/credit rules.",
     "Exam Prep::literature": "Trivia on Shakespeare's Othello covering quotes, characters, jealousy, and betrayal themes.",
     "Exam Prep::character-traits": "Quotes and traits revealing Othello's characters' motives, flaws, and identities.",
-    "Other::statistics": "Practice core statistics: averages, probability, correlation, distributions, hypothesis testing, and regression concepts."
+    "Other::statistics": "Practice core statistics: averages, probability, correlation, distributions, hypothesis testing, and regression concepts.",
+    "Exam Prep::junior-cycle-science": "Junior-cycle biology quiz covering cells, classification, body systems, genetics, and microbiology.",
+    "Exam Prep::biology": "Explores cells, classification, body systems, genetics, and microbiology fundamentals",
+    "Exam Prep::botany": "botany — related content.",
+    "Exam Prep::synge-street-cbs": "Junior Cycle biology quiz spanning cells, ecology, body systems, and genetics"
   }
 }
