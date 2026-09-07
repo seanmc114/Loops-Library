@@ -1739,6 +1739,26 @@
         "junior-cycle-science"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "essential-spanish-verbs",
+      "name": "Essential Spanish Verbs",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-07T10:43:53.194Z",
+      "createdBy": "c_mrm4d78o_wsyx9f55",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "vocabulary",
+        "grammar",
+        "present-tense",
+        "beginner",
+        "synge-street-cbs"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
