@@ -1759,6 +1759,26 @@
         "synge-street-cbs"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "leo-messi",
+      "name": "Leo messi",
+      "category": "General Knowledge",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-07T11:41:40.485Z",
+      "createdBy": "c_mtjxg8on_aekfwwzv",
+      "author": "gary",
+      "subcategory": "Sport",
+      "tags": [
+        "soccer",
+        "english-football",
+        "biography",
+        "world-cup",
+        "sports-basics"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1964,6 +1984,11 @@
     "Exam Prep::junior-cycle-science": "Junior-cycle biology quiz covering cells, classification, body systems, genetics, and microbiology.",
     "Exam Prep::biology": "Explores cells, classification, body systems, genetics, and microbiology fundamentals",
     "Exam Prep::botany": "botany — related content.",
-    "Exam Prep::synge-street-cbs": "Junior Cycle biology quiz spanning cells, ecology, body systems, and genetics"
+    "Exam Prep::synge-street-cbs": "Junior Cycle biology quiz spanning cells, ecology, body systems, and genetics",
+    "General Knowledge::sports-basics": "General sports knowledge covering athletes, rules, and basic facts about sports.",
+    "General Knowledge::world-cup": "Trivia on World Cup history, winners, and international football tournament facts",
+    "General Knowledge::sport": "Trivia about famous athletes, their careers, teams, and major sporting achievements.",
+    "General Knowledge::soccer": "Trivia about Lionel Messi's career, achievements, and rivalry with Cristiano Ronaldo.",
+    "General Knowledge::english-football": "Trivia about Lionel Messi's career, World Cup wins, and Ronaldo comparisons"
   }
 }
