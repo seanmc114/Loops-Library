@@ -1796,27 +1796,6 @@
         "comics"
       ],
       "thumbnail": null
-    },
-    {
-      "slug": "man-united",
-      "name": "Man united",
-      "category": "Other",
-      "emoji": "✨",
-      "loopCount": 5,
-      "questionCount": 50,
-      "publishedAt": "2026-09-07T13:02:24.989Z",
-      "createdBy": "c_mtr8sl7z_p9qqwv9l",
-      "author": "Sir alex",
-      "subcategory": "Football",
-      "tags": [
-        "english-football",
-        "team-competition",
-        "manu",
-        "soccer",
-        "History",
-        "biography"
-      ],
-      "thumbnail": null
     }
   ],
   "categories": {
