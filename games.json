@@ -1796,6 +1796,25 @@
         "comics"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "stephen-king-s-it",
+      "name": "Stephen King's 'It'",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-07T21:14:49.176Z",
+      "createdBy": "c_mtlf8eow_7y37hpla",
+      "author": "Bradley",
+      "subcategory": "Literature",
+      "tags": [
+        "plot",
+        "quotes",
+        "character-traits",
+        "movies"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1899,7 +1918,7 @@
     "Other::strategy": "Games requiring forward planning, tactical decisions, and optimal move sequencing to achieve objectives.",
     "Language::word-origins": "Explore poetic devices, figurative language, and word origins through identifying literary techniques",
     "Language::etymology": "Explores word origins and historical roots of poetic vocabulary and terms",
-    "Other::quotes": "Identify famous movie quotes, plot details, characters, and thematic elements from classic films.",
+    "Other::quotes": "Direct quotations and lines pulled verbatim from Stephen King's IT franchise",
     "Other::classic-film": "Games exploring iconic quotes, pivotal moments, and thematic depth of classic cinema.",
     "Other::jaws": "Classic movie quotes, plot moments, characters, and analysis.",
     "Other::probability": "Games involving chance, dice rolling, and calculating outcome probabilities.",
@@ -1946,7 +1965,7 @@
     "Other::beliefs": "Explores the meaning, value, and virtue of humility in life",
     "Other::literary-devices": "Identify symbols, motifs, and figurative meanings within classic literary texts.",
     "Other::figurative-language": "figurative-language — related content.",
-    "Other::plot": "Key events, character actions, and story developments driving the novel's narrative forward",
+    "Other::plot": "Story events, directors, and adaptations from Stephen King's IT franchise",
     "Other::arithmetic": "Practice arithmetic, algebra, geometry, and trigonometry skills through progressively challenging math problems.",
     "Other::exam-prep": "Timed drills covering arithmetic, algebra, geometry, and trigonometry for test practice",
     "Other::junior-cycle": "Core secondary maths: arithmetic, algebra, geometry, coordinates, and basic trigonometry.",
@@ -2019,6 +2038,7 @@
     "Other::la-liga": "Atlético Madrid's La Liga titles, transfers, and player signings history",
     "Other::spain": "Atlético Madrid transfers, titles, and player facts from 2020 onward.",
     "Other::transfers": "Player transfers, signings, and club moves involving Atlético Madrid",
-    "Other::spanish-football": "Trivia on Atlético Madrid's recent titles, transfers, and player signings"
+    "Other::spanish-football": "Trivia on Atlético Madrid's recent titles, transfers, and player signings",
+    "Other::movies": "Trivia on iconic films, casts, characters, and plot details"
   }
 }
