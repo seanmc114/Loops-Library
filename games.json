@@ -1796,6 +1796,26 @@
         "comics"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "atl-tico-madrid-2020-26",
+      "name": "Atlético Madrid 2020-26",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 2,
+      "questionCount": 20,
+      "publishedAt": "2026-09-07T14:27:17.946Z",
+      "createdBy": "c_mtr8sl7z_p9qqwv9l",
+      "author": "Secret",
+      "subcategory": "english-football",
+      "tags": [
+        "soccer",
+        "spain",
+        "la-liga",
+        "spanish-football",
+        "transfers"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2015,6 +2035,10 @@
     "General Knowledge::english-football": "Trivia about Lionel Messi's career, World Cup wins, and Ronaldo comparisons",
     "Other::comics": "Trivia questions about Marvel superheroes, characters, teams, and comic book history",
     "Other::superheroes": "Trivia about superhero characters, powers, teams, and comic/movie lore.",
-    "Other::manu": "Trivia questions about Manchester United's history, managers, and Old Trafford stadium."
+    "Other::manu": "Trivia questions about Manchester United's history, managers, and Old Trafford stadium.",
+    "Other::la-liga": "Atlético Madrid's La Liga titles, transfers, and player signings history",
+    "Other::spain": "Atlético Madrid transfers, titles, and player facts from 2020 onward.",
+    "Other::transfers": "Player transfers, signings, and club moves involving Atlético Madrid",
+    "Other::spanish-football": "Trivia on Atlético Madrid's recent titles, transfers, and player signings"
   }
 }
