@@ -1796,6 +1796,27 @@
         "comics"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "man-united",
+      "name": "Man united",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-07T13:02:24.989Z",
+      "createdBy": "c_mtr8sl7z_p9qqwv9l",
+      "author": "Sir alex",
+      "subcategory": "Football",
+      "tags": [
+        "english-football",
+        "team-competition",
+        "manu",
+        "soccer",
+        "History",
+        "biography"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1861,7 +1882,7 @@
     "Other::folk-music": "Traditional Irish music traditions and folk storytelling through contemporary singer-songwriter expression.",
     "Other::english-football": "English football club history, achievements, and notable periods",
     "Other::nottingham-forest": "English football club history, identity, achievements, and legendary management era.",
-    "Other::football": "Football knowledge covering rules, history, players, records, and tactics.",
+    "Other::football": "Trivia on Manchester United's history, managers, and Old Trafford stadium facts.",
     "Other::stoicism": "Philosophy emphasizing virtue, reason, and accepting what you cannot control.",
     "Other::ancient-greece": "Ancient Greek philosophy emphasizing virtue, reason, and acceptance of universal natural laws.",
     "Other::philosophy": "Explores ancient Greek philosophy emphasizing virtue, reason, and acceptance of what cannot be controlled.",
@@ -2014,6 +2035,7 @@
     "General Knowledge::soccer": "Trivia about Lionel Messi's career, achievements, and rivalry with Cristiano Ronaldo.",
     "General Knowledge::english-football": "Trivia about Lionel Messi's career, World Cup wins, and Ronaldo comparisons",
     "Other::comics": "Trivia questions about Marvel superheroes, characters, teams, and comic book history",
-    "Other::superheroes": "Trivia about superhero characters, powers, teams, and comic/movie lore."
+    "Other::superheroes": "Trivia about superhero characters, powers, teams, and comic/movie lore.",
+    "Other::manu": "Trivia questions about Manchester United's history, managers, and Old Trafford stadium."
   }
 }
