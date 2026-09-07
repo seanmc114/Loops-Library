@@ -1796,26 +1796,6 @@
         "comics"
       ],
       "thumbnail": null
-    },
-    {
-      "slug": "atl-tico-madrid-2020-26",
-      "name": "Atlético Madrid 2020-26",
-      "category": "Other",
-      "emoji": "✨",
-      "loopCount": 2,
-      "questionCount": 20,
-      "publishedAt": "2026-09-07T14:27:17.946Z",
-      "createdBy": "c_mtr8sl7z_p9qqwv9l",
-      "author": "Secret",
-      "subcategory": "english-football",
-      "tags": [
-        "soccer",
-        "spain",
-        "la-liga",
-        "spanish-football",
-        "transfers"
-      ],
-      "thumbnail": null
     }
   ],
   "categories": {
