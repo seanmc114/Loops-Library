@@ -42,12 +42,12 @@
     {
       "slug": "donald-glover",
       "name": "Donald Glover",
-      "category": "Other",
+      "category": "Entertainment",
       "emoji": "✨",
       "loopCount": 10,
       "questionCount": 100,
       "publishedAt": "2026-07-14T16:57:42.296Z",
-      "subcategory": "Entertainment",
+      "subcategory": null,
       "tags": [
         "tv",
         "music"
@@ -56,12 +56,12 @@
     {
       "slug": "christopher-nolan-director",
       "name": "Christopher Nolan (Director)",
-      "category": "Other",
+      "category": "Entertainment",
       "emoji": "🌍",
       "loopCount": 10,
       "questionCount": 100,
       "publishedAt": "2026-07-14T18:10:46.440Z",
-      "subcategory": "Entertainment",
+      "subcategory": null,
       "tags": [
         "movies"
       ]
@@ -139,14 +139,14 @@
     {
       "slug": "the-american-office-tv-show",
       "name": "The American office tv show",
-      "category": "Other",
+      "category": "Entertainment",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-17T18:24:53.064Z",
       "createdBy": "c_mrm4v9td_v8t7p0sh",
       "author": "Erica B",
-      "subcategory": "Entertainment",
+      "subcategory": null,
       "tags": [
         "tv"
       ]
@@ -283,14 +283,14 @@
     {
       "slug": "fontaines-dc",
       "name": "Fontaines DC",
-      "category": "Other",
+      "category": "Entertainment",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-23T14:24:01.060Z",
       "createdBy": "c_mrm4fa9a_vjaqxmob",
       "author": "SMQ",
-      "subcategory": "Entertainment",
+      "subcategory": null,
       "tags": [
         "music"
       ]
@@ -313,14 +313,14 @@
     {
       "slug": "corrie",
       "name": "Corrie",
-      "category": "Other",
+      "category": "Entertainment",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-23T22:02:44.899Z",
       "createdBy": "c_mry1y887_45jbnkzj",
       "author": "Hilda",
-      "subcategory": "Entertainment",
+      "subcategory": null,
       "tags": [
         "tv"
       ]
@@ -430,14 +430,14 @@
     {
       "slug": "ready-player-one",
       "name": "Ready Player One",
-      "category": "Other",
+      "category": "Entertainment",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-30T01:35:14.658Z",
       "createdBy": "c_mryus71l_nphmfvx2",
       "author": "SMQ",
-      "subcategory": "Entertainment",
+      "subcategory": null,
       "tags": [
         "movies",
         "ready-player-one",
@@ -447,14 +447,14 @@
     {
       "slug": "glen-hansard",
       "name": "Glen Hansard",
-      "category": "Other",
+      "category": "Entertainment",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-08-03T23:07:16.283Z",
       "createdBy": "c_mrm4fa9a_vjaqxmob",
       "author": "SMQ",
-      "subcategory": "Entertainment",
+      "subcategory": null,
       "tags": [
         "irish-musician",
         "biography",
@@ -701,14 +701,14 @@
     {
       "slug": "classic-movie-quotes",
       "name": "Classic Movie quotes",
-      "category": "Other",
+      "category": "Entertainment",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-08-19T19:21:32.297Z",
       "createdBy": "c_mryus71l_nphmfvx2",
       "author": "SMQ",
-      "subcategory": "Entertainment",
+      "subcategory": null,
       "tags": [
         "movies",
         "vocabulary",
@@ -1107,7 +1107,7 @@
     {
       "slug": "dolly-parton",
       "name": "Dolly Parton",
-      "category": "Other",
+      "category": "Entertainment",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -1117,7 +1117,6 @@
       "subcategory": "biography",
       "tags": [
         "music",
-        "Entertainment",
         "folk-music"
       ],
       "thumbnail": null
@@ -1779,6 +1778,24 @@
         "sports-basics"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "marvel",
+      "name": "Marvel",
+      "category": "Entertainment",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-07T12:46:36.423Z",
+      "createdBy": "c_mtlf8eow_7y37hpla",
+      "author": "Bradley",
+      "subcategory": null,
+      "tags": [
+        "movies",
+        "superheroes",
+        "comics"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -1829,6 +1846,12 @@
       "pastel": "#C7F4D5",
       "deep": "#3ECC6A",
       "wash": "#EBF4EE"
+    },
+    "Entertainment": {
+      "emoji": "🔖",
+      "pastel": "#EBF4C7",
+      "deep": "#AECC3E",
+      "wash": "#F2F4EB"
     }
   },
   "labelDescriptors": {
@@ -1989,6 +2012,8 @@
     "General Knowledge::world-cup": "Trivia on World Cup history, winners, and international football tournament facts",
     "General Knowledge::sport": "Trivia about famous athletes, their careers, teams, and major sporting achievements.",
     "General Knowledge::soccer": "Trivia about Lionel Messi's career, achievements, and rivalry with Cristiano Ronaldo.",
-    "General Knowledge::english-football": "Trivia about Lionel Messi's career, World Cup wins, and Ronaldo comparisons"
+    "General Knowledge::english-football": "Trivia about Lionel Messi's career, World Cup wins, and Ronaldo comparisons",
+    "Other::comics": "Trivia questions about Marvel superheroes, characters, teams, and comic book history",
+    "Other::superheroes": "Trivia about superhero characters, powers, teams, and comic/movie lore."
   }
 }
