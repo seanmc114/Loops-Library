@@ -1607,25 +1607,6 @@
       "thumbnail": null
     },
     {
-      "slug": "accounting",
-      "name": "Accounting",
-      "category": "Language",
-      "emoji": "🌍",
-      "loopCount": 5,
-      "questionCount": 50,
-      "publishedAt": "2026-09-05T10:37:59.092Z",
-      "createdBy": "c_mto8bvdg_lv6ci3qy",
-      "author": "Unknown",
-      "subcategory": "Accounting",
-      "tags": [
-        "vocabulary",
-        "beginner",
-        "daily-routines",
-        "terminology"
-      ],
-      "thumbnail": null
-    },
-    {
       "slug": "othello-quotations",
       "name": "Othello Quotations",
       "category": "Exam Prep",
@@ -1935,6 +1916,26 @@
         "laliga"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "accounting",
+      "name": "Accounting",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-08T08:27:20.968Z",
+      "createdBy": "c_mto8bvdg_lv6ci3qy",
+      "author": "Unknown",
+      "subcategory": "Accounting",
+      "tags": [
+        "terminology",
+        "vocabulary",
+        "beginner",
+        "general-knowledge",
+        "grammar"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2054,7 +2055,7 @@
     "Exam Prep::architecture": "Identify and explain famous ancient Roman buildings and their purposes",
     "Language::nouns": "Identify and distinguish nouns from other words in various contexts",
     "Language::maps": "Identify national capitals worldwide, progressing from well-known to obscure countries.",
-    "Language::general-knowledge": "Tests broad factual recall about football basics, rules, clubs, and history",
+    "Language::general-knowledge": "Covers foundational accounting concepts, the accounting equation, and basic double-entry transactions.",
     "Exam Prep::standardized-tests": "Fact-recall quizzes on RE terms, evidence types, and belief concepts",
     "Exam Prep::beliefs": "Defines beliefs, world religions, ethics, and big questions in religious studies.",
     "Exam Prep::vocabulary": "Key religious studies terms covering evidence, beliefs, ethics, and interfaith dialogue concepts.",
