@@ -1815,6 +1815,24 @@
         "movies"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "man-united",
+      "name": "Man united",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-08T07:54:11.738Z",
+      "createdBy": "c_mtr8sl7z_p9qqwv9l",
+      "author": "Secret",
+      "subcategory": "Football",
+      "tags": [
+        "english-football",
+        "soccer",
+        "club-level"
+      ],
+      "thumbnail": "thumbs/man-united.png"
     }
   ],
   "categories": {
@@ -1880,7 +1898,7 @@
     "Other::folk-music": "Traditional Irish music traditions and folk storytelling through contemporary singer-songwriter expression.",
     "Other::english-football": "English football club history, achievements, and notable periods",
     "Other::nottingham-forest": "English football club history, identity, achievements, and legendary management era.",
-    "Other::football": "Trivia on Manchester United's history, managers, and Old Trafford stadium facts.",
+    "Other::football": "Manchester United trivia spanning history, legends, trophies, stadium lore, and modern-era facts.",
     "Other::stoicism": "Philosophy emphasizing virtue, reason, and accepting what you cannot control.",
     "Other::ancient-greece": "Ancient Greek philosophy emphasizing virtue, reason, and acceptance of universal natural laws.",
     "Other::philosophy": "Explores ancient Greek philosophy emphasizing virtue, reason, and acceptance of what cannot be controlled.",
