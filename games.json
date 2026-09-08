@@ -1938,27 +1938,6 @@
       "thumbnail": null
     },
     {
-      "slug": "math-factorization",
-      "name": "Math factorization",
-      "category": "Other",
-      "emoji": "✨",
-      "loopCount": 5,
-      "questionCount": 50,
-      "publishedAt": "2026-09-08T08:29:14.186Z",
-      "createdBy": "c_mtlilmjb_2gfa931h",
-      "author": "Luqmaan",
-      "subcategory": "Mathematics",
-      "tags": [
-        "numbers",
-        "problem-solving",
-        "logic",
-        "factorization",
-        "algebra",
-        "beginner"
-      ],
-      "thumbnail": null
-    },
-    {
       "slug": "maps-revision",
       "name": "Maps revision",
       "category": "Exam Prep",
@@ -2011,6 +1990,27 @@
         "sports-basics",
         "team-competition",
         "general-knowledge"
+      ],
+      "thumbnail": null
+    },
+    {
+      "slug": "math-factorization",
+      "name": "Math factorization",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 3,
+      "questionCount": 24,
+      "publishedAt": "2026-09-08T08:35:17.808Z",
+      "createdBy": "c_mtlilmjb_2gfa931h",
+      "author": "Luqmaan",
+      "subcategory": "Mathematics",
+      "tags": [
+        "numbers",
+        "problem-solving",
+        "logic",
+        "algebra",
+        "factorization",
+        "beginner"
       ],
       "thumbnail": null
     }
