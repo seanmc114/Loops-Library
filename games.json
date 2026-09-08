@@ -1975,6 +1975,25 @@
         "Standardized Tests"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "lebron-james",
+      "name": "LeBron james",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 4,
+      "questionCount": 34,
+      "publishedAt": "2026-09-08T08:33:40.611Z",
+      "createdBy": "c_mtlin7jo_znir4a06",
+      "author": "LeBron James (Akron hammer)",
+      "subcategory": "basketball",
+      "tags": [
+        "sports-basics",
+        "vocabulary",
+        "general-knowledge",
+        "biography"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2213,6 +2232,7 @@
     "Other::numbers": "Practice factors, prime numbers, factor pairs, and greatest common factors",
     "Other::factorization": "Practice identifying factors, factor pairs, prime/composite numbers, and prime factorization.",
     "Exam Prep::places": "Geography quiz on map reading, grid references, contours, scale, and coordinates",
-    "Exam Prep::geography": "Map reading, grid references, contours, scale, and coordinates skills"
+    "Exam Prep::geography": "Map reading, grid references, contours, scale, and coordinates skills",
+    "Language::biography": "Trivia questions covering a public figure's life, career milestones, and achievements."
   }
 }
