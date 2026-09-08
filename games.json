@@ -1497,27 +1497,6 @@
       "thumbnail": null
     },
     {
-      "slug": "football",
-      "name": "Football",
-      "category": "Language",
-      "emoji": "🌍",
-      "loopCount": 5,
-      "questionCount": 50,
-      "publishedAt": "2026-09-03T13:01:49.234Z",
-      "createdBy": "c_mtlilpor_v5p7grd3",
-      "author": "Ibrahim",
-      "subcategory": "Football",
-      "tags": [
-        "soccer",
-        "vocabulary",
-        "sports-basics",
-        "general-knowledge",
-        "english-football",
-        "championship"
-      ],
-      "thumbnail": null
-    },
-    {
       "slug": "greek-gods-family-tree",
       "name": "Greek Gods- Family Tree",
       "category": "General Knowledge",
@@ -1888,6 +1867,23 @@
         "vocabulary"
       ],
       "thumbnail": "thumbs/wrold-flags-in-spanish.jpg"
+    },
+    {
+      "slug": "football",
+      "name": "Football",
+      "category": "Entertainment",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-08T08:03:53.499Z",
+      "createdBy": "c_mtsdf2e6_0lhkaf7u",
+      "author": null,
+      "subcategory": "Football",
+      "tags": [
+        "soccer",
+        "english-football"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2118,6 +2114,9 @@
     "Entertainment::equipment": "Names and functions of cricket gear like bats, stumps, and bails.",
     "Entertainment::sports-basics": "Cricket fundamentals covering equipment, rules, fielding positions, and batting-bowling techniques.",
     "Entertainment::technique": "Names specific cricket shots, deliveries, and skills by their proper technical terms.",
-    "General Knowledge::spanish": "Spanish-language quiz questions about world flags' colors and symbols"
+    "General Knowledge::spanish": "Spanish-language quiz questions about world flags' colors and symbols",
+    "Entertainment::soccer": "Soccer trivia on rules, players, clubs, World Cups, and history",
+    "Entertainment::english-football": "Football trivia covering rules, players, clubs, leagues, World Cups, and records.",
+    "Entertainment::football": "Trivia on football rules, players, clubs, World Cup history, and records."
   }
 }
