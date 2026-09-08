@@ -2033,6 +2033,27 @@
         "beginner"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "coding",
+      "name": "Coding",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-08T11:00:53.261Z",
+      "createdBy": "c_mtjxg8on_aekfwwzv",
+      "author": "gary",
+      "subcategory": "Coding",
+      "tags": [
+        "terminology",
+        "vocabulary",
+        "beginner",
+        "programming",
+        "technology",
+        "general-knowledge"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2272,6 +2293,9 @@
     "Other::factorization": "Practice identifying factors, factor pairs, prime/composite numbers, and prime factorization.",
     "Exam Prep::places": "Geography quiz on map reading, grid references, contours, scale, and coordinates",
     "Exam Prep::geography": "Map reading, grid references, contours, scale, and coordinates skills",
-    "Language::biography": "Trivia questions covering a public figure's life, career milestones, and achievements."
+    "Language::biography": "Trivia questions covering a public figure's life, career milestones, and achievements.",
+    "Language::technology": "Covers computing hardware, programming, and offline AI concepts and tools.",
+    "Language::coding": "Covers Python, hardware basics, and AI model concepts for coding literacy.",
+    "Language::programming": "Covers hardware, Python, JSON/SQLite, and offline AI/LLM fundamentals for builders."
   }
 }
