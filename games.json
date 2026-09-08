@@ -1870,6 +1870,24 @@
         "vocabulary"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "wrold-flags-in-spanish",
+      "name": "Wrold flags in spanish",
+      "category": "General Knowledge",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 41,
+      "publishedAt": "2026-09-08T08:03:03.753Z",
+      "createdBy": "c_mtsd89w4_eej3gukv",
+      "author": null,
+      "subcategory": "Geography",
+      "tags": [
+        "places",
+        "spanish",
+        "vocabulary"
+      ],
+      "thumbnail": "thumbs/wrold-flags-in-spanish.jpg"
     }
   ],
   "categories": {
@@ -2099,6 +2117,7 @@
     "Entertainment::cricket": "Cricket rules, equipment, fielding positions, and batting or bowling techniques trivia.",
     "Entertainment::equipment": "Names and functions of cricket gear like bats, stumps, and bails.",
     "Entertainment::sports-basics": "Cricket fundamentals covering equipment, rules, fielding positions, and batting-bowling techniques.",
-    "Entertainment::technique": "Names specific cricket shots, deliveries, and skills by their proper technical terms."
+    "Entertainment::technique": "Names specific cricket shots, deliveries, and skills by their proper technical terms.",
+    "General Knowledge::spanish": "Spanish-language quiz questions about world flags' colors and symbols"
   }
 }
