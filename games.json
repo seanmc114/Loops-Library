@@ -2013,6 +2013,24 @@
         "beginner"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "premier-league",
+      "name": "Premier League",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 1,
+      "questionCount": 6,
+      "publishedAt": "2026-09-08T08:40:24.676Z",
+      "createdBy": "c_mtl8lyww_d0clemid",
+      "author": "Yassin",
+      "subcategory": "Football",
+      "tags": [
+        "soccer",
+        "english-football",
+        "sports-basics"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2200,8 +2218,8 @@
     "Exam Prep::figurative-language": "Identifying and analyzing figurative language devices like metaphor, simile, and symbolism.",
     "Exam Prep::poetry": "Identify poetic devices like metaphor, rhyme, meter, and figurative language.",
     "Language::championship": "Major football tournaments, history, and championship-winning trivia",
-    "Language::english-football": "Trivia about football rules, clubs, tournaments, and history worldwide.",
-    "Language::football": "Trivia quiz covering football rules, clubs, tournaments, and historical facts",
+    "Language::english-football": "Trivia about English football clubs and Premier League players",
+    "Language::football": "Match Premier League football stars to the clubs they currently play for.",
     "Other::family-tree": "Quiz on mythological family relationships, lineage, and divine genealogy",
     "Other::titans": "Explore Cronus, his Titan family, and the myths of Greek mythology.",
     "Other::general-knowledge": "Explore trivia about Greek mythology's Titan Cronus, his family, and legendary myths.",
