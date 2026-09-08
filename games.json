@@ -2015,26 +2015,6 @@
       "thumbnail": null
     },
     {
-      "slug": "essential-spanish-verbs-past",
-      "name": "Essential Spanish Verbs (Past)",
-      "category": "Language",
-      "emoji": "🌍",
-      "loopCount": 5,
-      "questionCount": 50,
-      "publishedAt": "2026-09-08T10:22:53.302Z",
-      "createdBy": "c_mrm4d78o_wsyx9f55",
-      "author": "SMQ",
-      "subcategory": "Spanish",
-      "tags": [
-        "past-tense",
-        "grammar",
-        "vocabulary",
-        "present-tense",
-        "beginner"
-      ],
-      "thumbnail": null
-    },
-    {
       "slug": "coding",
       "name": "Coding",
       "category": "Language",
