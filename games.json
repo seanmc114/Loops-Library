@@ -1936,6 +1936,27 @@
         "grammar"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "math-factorization",
+      "name": "Math factorization",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-08T08:29:14.186Z",
+      "createdBy": "c_mtlilmjb_2gfa931h",
+      "author": "Luqmaan",
+      "subcategory": "Mathematics",
+      "tags": [
+        "numbers",
+        "problem-solving",
+        "logic",
+        "factorization",
+        "algebra",
+        "beginner"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2170,6 +2191,8 @@
     "Entertainment::soccer": "Soccer trivia on rules, players, clubs, World Cups, and history",
     "Entertainment::english-football": "Football trivia covering rules, players, clubs, leagues, World Cups, and records.",
     "Entertainment::football": "Trivia on football rules, players, clubs, World Cup history, and records.",
-    "Language::laliga": "Trivia on La Liga's clubs, stadiums, rivalries, and championship history."
+    "Language::laliga": "Trivia on La Liga's clubs, stadiums, rivalries, and championship history.",
+    "Other::numbers": "Practice factors, prime numbers, factor pairs, and greatest common factors",
+    "Other::factorization": "Practice identifying factors, factor pairs, prime/composite numbers, and prime factorization."
   }
 }
