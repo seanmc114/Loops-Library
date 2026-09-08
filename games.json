@@ -1900,6 +1900,22 @@
         "beginner"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "world-cup",
+      "name": "World Cup",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-08T08:11:26.551Z",
+      "createdBy": "c_mtsdbtda_cumrbil8",
+      "author": null,
+      "subcategory": null,
+      "tags": [
+        "soccer"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
