@@ -2013,24 +2013,6 @@
         "beginner"
       ],
       "thumbnail": null
-    },
-    {
-      "slug": "premier-league",
-      "name": "Premier League",
-      "category": "Language",
-      "emoji": "🌍",
-      "loopCount": 1,
-      "questionCount": 6,
-      "publishedAt": "2026-09-08T08:40:24.676Z",
-      "createdBy": "c_mtl8lyww_d0clemid",
-      "author": "Yassin",
-      "subcategory": "Football",
-      "tags": [
-        "soccer",
-        "english-football",
-        "sports-basics"
-      ],
-      "thumbnail": null
     }
   ],
   "categories": {
