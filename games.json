@@ -1851,6 +1851,25 @@
         "conversation"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "cricket-basics",
+      "name": "Cricket basics",
+      "category": "Entertainment",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-08T08:01:59.628Z",
+      "createdBy": "c_mtr8rm24_e51yviun",
+      "author": "Moeez Khan",
+      "subcategory": "Cricket",
+      "tags": [
+        "sports-basics",
+        "equipment",
+        "technique",
+        "vocabulary"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2076,6 +2095,10 @@
     "Other::transfers": "Player transfers, signings, and club moves involving Atlético Madrid",
     "Other::spanish-football": "Trivia on Atlético Madrid's recent titles, transfers, and player signings",
     "Other::movies": "Trivia on iconic films, casts, characters, and plot details",
-    "Language::arabic": "Arabic — related content."
+    "Language::arabic": "Arabic — related content.",
+    "Entertainment::cricket": "Cricket rules, equipment, fielding positions, and batting or bowling techniques trivia.",
+    "Entertainment::equipment": "Names and functions of cricket gear like bats, stumps, and bails.",
+    "Entertainment::sports-basics": "Cricket fundamentals covering equipment, rules, fielding positions, and batting-bowling techniques.",
+    "Entertainment::technique": "Names specific cricket shots, deliveries, and skills by their proper technical terms."
   }
 }
