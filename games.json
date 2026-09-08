@@ -1833,6 +1833,24 @@
         "club-level"
       ],
       "thumbnail": "thumbs/man-united.png"
+    },
+    {
+      "slug": "safi",
+      "name": "Safi",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-08T07:56:57.268Z",
+      "createdBy": "c_mtsdfbj9_labx21h7",
+      "author": "Safii",
+      "subcategory": "Arabic",
+      "tags": [
+        "vocabulary",
+        "beginner",
+        "conversation"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2057,6 +2075,7 @@
     "Other::spain": "Atlético Madrid transfers, titles, and player facts from 2020 onward.",
     "Other::transfers": "Player transfers, signings, and club moves involving Atlético Madrid",
     "Other::spanish-football": "Trivia on Atlético Madrid's recent titles, transfers, and player signings",
-    "Other::movies": "Trivia on iconic films, casts, characters, and plot details"
+    "Other::movies": "Trivia on iconic films, casts, characters, and plot details",
+    "Language::arabic": "Arabic — related content."
   }
 }
