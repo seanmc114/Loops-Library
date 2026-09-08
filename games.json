@@ -1994,6 +1994,25 @@
         "biography"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "basketball-rules",
+      "name": "Basketball Rules",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 3,
+      "questionCount": 22,
+      "publishedAt": "2026-09-08T08:35:07.583Z",
+      "createdBy": "c_mtifi085_aa8ojpjz",
+      "author": "Ali",
+      "subcategory": "basketball",
+      "tags": [
+        "game-rules",
+        "sports-basics",
+        "team-competition",
+        "general-knowledge"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
