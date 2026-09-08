@@ -1916,6 +1916,25 @@
         "soccer"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "laliga",
+      "name": "Laliga",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 4,
+      "questionCount": 31,
+      "publishedAt": "2026-09-08T08:17:36.577Z",
+      "createdBy": "c_mtsdwchf_n0j3e4yh",
+      "author": null,
+      "subcategory": "Spanish",
+      "tags": [
+        "soccer",
+        "sports-basics",
+        "vocabulary",
+        "laliga"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2076,7 +2095,7 @@
     "Other::computer-science": "Covers computer basics, programming, data, networks, algorithms, databases, security, and ethics.",
     "Other::leaving-cert": "Irish Leaving Cert-aligned statistics and probability quiz spanning basics to inference",
     "Language::sport-football-synge-street": "Learn Spanish football vocabulary, roles, tactics, and match outcome expressions.",
-    "Language::soccer": "Football/soccer facts covering rules, tournaments, clubs, and history trivia.",
+    "Language::soccer": "Explore La Liga's clubs, stadiums, rivalries, and championship history.",
     "Vocabulary::vocabulary": "Learn Spanish vocabulary for city buildings, streets, and urban landmarks.",
     "Vocabulary::buildings-streets": "Learn Spanish vocabulary for buildings, streets, and urban landmarks.",
     "Vocabulary::synge-street-cbs": "Spanish vocabulary quiz on buildings, streets, and urban architecture terms.",
@@ -2149,6 +2168,7 @@
     "General Knowledge::spanish": "Spanish-language quiz questions about world flags' colors and symbols",
     "Entertainment::soccer": "Soccer trivia on rules, players, clubs, World Cups, and history",
     "Entertainment::english-football": "Football trivia covering rules, players, clubs, leagues, World Cups, and records.",
-    "Entertainment::football": "Trivia on football rules, players, clubs, World Cup history, and records."
+    "Entertainment::football": "Trivia on football rules, players, clubs, World Cup history, and records.",
+    "Language::laliga": "Trivia on La Liga's clubs, stadiums, rivalries, and championship history."
   }
 }
