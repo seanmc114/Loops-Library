@@ -2054,6 +2054,26 @@
         "general-knowledge"
       ],
       "thumbnail": "thumbs/man-united-2-0.png"
+    },
+    {
+      "slug": "atl-tico-madrid",
+      "name": "Atlético Madrid",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 3,
+      "questionCount": 28,
+      "publishedAt": "2026-09-08T14:37:02.612Z",
+      "createdBy": "c_mtsdw3tg_l5k8bl8n",
+      "author": "Unknown",
+      "subcategory": "Spanish",
+      "tags": [
+        "soccer",
+        "laliga",
+        "vocabulary",
+        "biography",
+        "terminology"
+      ],
+      "thumbnail": "thumbs/atl-tico-madrid.jpg"
     }
   ],
   "categories": {
