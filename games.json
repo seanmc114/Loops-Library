@@ -1884,6 +1884,22 @@
         "english-football"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "international-foods",
+      "name": "International foods",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-08T08:05:07.211Z",
+      "createdBy": "c_mtsd8b2z_3qm9xw7w",
+      "author": null,
+      "subcategory": "vocabulary",
+      "tags": [
+        "beginner"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
