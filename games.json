@@ -2150,6 +2150,25 @@
         "Life Skills"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "shawarma",
+      "name": "Shawarma",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 38,
+      "publishedAt": "2026-09-09T12:46:13.024Z",
+      "createdBy": "c_mtlilprl_ijsni4g4",
+      "author": "Shawarma",
+      "subcategory": "food",
+      "tags": [
+        "recipes",
+        "takeaway",
+        "thai-food",
+        "general-knowledge"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
