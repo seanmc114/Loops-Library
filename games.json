@@ -2187,6 +2187,23 @@
         "conversation"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "general-knowledge",
+      "name": "General knowledge",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-09T22:54:22.909Z",
+      "createdBy": "c_mtsdw3tg_l5k8bl8n",
+      "author": "Unknown",
+      "subcategory": "general-knowledge",
+      "tags": [
+        "quotes",
+        "trivia"
+      ],
+      "thumbnail": "thumbs/general-knowledge.jpg"
     }
   ],
   "categories": {
@@ -2439,6 +2456,7 @@
     "Language::spanish": "Practice Spanish greetings, conjunctions, verb conjugations, and complex sentence building.",
     "General Knowledge::food": "Trivia about cheesecake crust substitutions and ingredient swaps",
     "General Knowledge::baking": "Trivia on cheesecake crust ingredient swaps and substitutions",
-    "General Knowledge::recipes": "Trivia about ingredient swaps and substitutions in recipes"
+    "General Knowledge::recipes": "Trivia about ingredient swaps and substitutions in recipes",
+    "Other::trivia": "Quick factual Q&A rounds spanning geography, science, history and pop culture."
   }
 }
