@@ -2132,6 +2132,24 @@
         "conversation"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "cheese-cakes",
+      "name": "Cheese cakes",
+      "category": "General Knowledge",
+      "emoji": "🔖",
+      "loopCount": 1,
+      "questionCount": 8,
+      "publishedAt": "2026-09-09T10:25:37.068Z",
+      "createdBy": "c_mtik4ye7_vjsnzpvk",
+      "author": "Thomas",
+      "subcategory": "Food",
+      "tags": [
+        "recipes",
+        "baking",
+        "Life Skills"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2381,6 +2399,9 @@
     "Language::technology": "Covers computing hardware, programming, and offline AI concepts and tools.",
     "Language::coding": "Covers Python, hardware basics, and AI model concepts for coding literacy.",
     "Language::programming": "Covers hardware, Python, JSON/SQLite, and offline AI/LLM fundamentals for builders.",
-    "Language::spanish": "Practice Spanish greetings, conjunctions, verb conjugations, and complex sentence building."
+    "Language::spanish": "Practice Spanish greetings, conjunctions, verb conjugations, and complex sentence building.",
+    "General Knowledge::food": "Trivia about cheesecake crust substitutions and ingredient swaps",
+    "General Knowledge::baking": "Trivia on cheesecake crust ingredient swaps and substitutions",
+    "General Knowledge::recipes": "Trivia about ingredient swaps and substitutions in recipes"
   }
 }
