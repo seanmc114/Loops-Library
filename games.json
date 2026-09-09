@@ -169,14 +169,14 @@
     {
       "slug": "arriving-in-sevilla",
       "name": "Arriving in Sevilla",
-      "category": "Language",
+      "category": "Spanish",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-18T21:48:48.131Z",
       "createdBy": "c_mrm4v9td_v8t7p0sh",
       "author": "SMQ",
-      "subcategory": "Spanish",
+      "subcategory": null,
       "tags": [
         "holiday-vocab"
       ]
@@ -184,14 +184,14 @@
     {
       "slug": "cadiz-spanish-slang",
       "name": "Cadiz Spanish slang",
-      "category": "Language",
+      "category": "Spanish",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-22T00:01:59.572Z",
       "createdBy": "c_mrm4v9td_v8t7p0sh",
       "author": "SMQ",
-      "subcategory": "Spanish",
+      "subcategory": null,
       "tags": [
         "holiday-vocab"
       ]
@@ -1276,14 +1276,14 @@
     {
       "slug": "basketball-in-spanish",
       "name": "Basketball in Spanish",
-      "category": "Language",
+      "category": "Spanish",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-09-03T08:17:28.950Z",
       "createdBy": "c_mtl8sqlq_ksr9g0hr",
       "author": "Yusuf",
-      "subcategory": "Spanish",
+      "subcategory": null,
       "tags": [
         "basketball",
         "vocabulary",
@@ -1294,14 +1294,14 @@
     {
       "slug": "past-tense-spanish",
       "name": "Past Tense (Spanish)",
-      "category": "Language",
+      "category": "Spanish",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-09-03T10:07:48.446Z",
       "createdBy": "c_mtlcvrd6_w7otkuxn",
       "author": "Adrian",
-      "subcategory": "Spanish",
+      "subcategory": null,
       "tags": [
         "grammar",
         "past-tense"
@@ -1311,14 +1311,14 @@
     {
       "slug": "spanish-conversations-for-false-beginners",
       "name": "Spanish conversations for false beginners",
-      "category": "Language",
+      "category": "Spanish",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-09-03T10:08:09.205Z",
       "createdBy": "c_mtlcwr0m_8cxka5df",
       "author": "Caleb",
-      "subcategory": "Spanish",
+      "subcategory": null,
       "tags": [
         "beginner",
         "vocabulary",
@@ -1330,14 +1330,14 @@
     {
       "slug": "spanish-sentence-connectors-and-prepostions",
       "name": "Spanish sentence Connectors and prepostions",
-      "category": "Language",
+      "category": "Spanish",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-09-03T10:10:09.578Z",
       "createdBy": "c_mtlcwc5r_n9lp2x9h",
       "author": null,
-      "subcategory": "Spanish",
+      "subcategory": null,
       "tags": [
         "connectors",
         "synge-street-cbs",
@@ -1702,14 +1702,14 @@
     {
       "slug": "essential-spanish-verbs",
       "name": "Essential Spanish Verbs",
-      "category": "Language",
+      "category": "Spanish",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-09-07T10:43:53.194Z",
       "createdBy": "c_mrm4d78o_wsyx9f55",
       "author": "SMQ",
-      "subcategory": "Spanish",
+      "subcategory": null,
       "tags": [
         "vocabulary",
         "grammar",
@@ -1901,14 +1901,14 @@
     {
       "slug": "laliga",
       "name": "Laliga",
-      "category": "Language",
+      "category": "Spanish",
       "emoji": "🌍",
       "loopCount": 4,
       "questionCount": 31,
       "publishedAt": "2026-09-08T08:17:36.577Z",
       "createdBy": "c_mtsdwchf_n0j3e4yh",
       "author": null,
-      "subcategory": "Spanish",
+      "subcategory": null,
       "tags": [
         "soccer",
         "sports-basics",
@@ -2058,14 +2058,14 @@
     {
       "slug": "atl-tico-madrid",
       "name": "Atlético Madrid",
-      "category": "Language",
+      "category": "Spanish",
       "emoji": "🌍",
       "loopCount": 3,
       "questionCount": 28,
       "publishedAt": "2026-09-08T14:37:02.612Z",
       "createdBy": "c_mtsdw3tg_l5k8bl8n",
       "author": "Unknown",
-      "subcategory": "Spanish",
+      "subcategory": null,
       "tags": [
         "soccer",
         "laliga",
@@ -2074,6 +2074,26 @@
         "terminology"
       ],
       "thumbnail": "thumbs/atl-tico-madrid.jpg"
+    },
+    {
+      "slug": "essential-spanish-verbs-past",
+      "name": "Essential Spanish Verbs (Past)",
+      "category": "Spanish",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-09T09:42:41.706Z",
+      "createdBy": "c_mtsd8b2z_3qm9xw7w",
+      "author": "SMQ",
+      "subcategory": null,
+      "tags": [
+        "past-tense",
+        "grammar",
+        "vocabulary",
+        "conversation",
+        "beginner"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2130,6 +2150,12 @@
       "pastel": "#EBF4C7",
       "deep": "#AECC3E",
       "wash": "#F2F4EB"
+    },
+    "Spanish": {
+      "emoji": "🔖",
+      "pastel": "#F4C7D2",
+      "deep": "#CC3E5E",
+      "wash": "#F4EBED"
     }
   },
   "labelDescriptors": {
