@@ -2113,6 +2113,25 @@
         "sports-basics"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "spanish-sentence-structuring",
+      "name": "Spanish sentence structuring",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-09T10:16:16.812Z",
+      "createdBy": "c_mttxo4ak_5msjcud3",
+      "author": "Mahad & Killian",
+      "subcategory": "Spanish",
+      "tags": [
+        "grammar",
+        "vocabulary",
+        "beginner",
+        "conversation"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2361,6 +2380,7 @@
     "Language::biography": "Trivia questions covering a public figure's life, career milestones, and achievements.",
     "Language::technology": "Covers computing hardware, programming, and offline AI concepts and tools.",
     "Language::coding": "Covers Python, hardware basics, and AI model concepts for coding literacy.",
-    "Language::programming": "Covers hardware, Python, JSON/SQLite, and offline AI/LLM fundamentals for builders."
+    "Language::programming": "Covers hardware, Python, JSON/SQLite, and offline AI/LLM fundamentals for builders.",
+    "Language::spanish": "Practice Spanish greetings, conjunctions, verb conjugations, and complex sentence building."
   }
 }
