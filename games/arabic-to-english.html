@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Arabic to English · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1788972187198"></script>
+  <script>
+    const GAME_DATA = {"slug":"arabic-to-english","name":"Arabic to English","emoji":"🌍","category":"Language","colors":{"pastel":"#C1F0EA","deep":"#2FB18A","wash":"#EBF6F0"},"background":null,"loops":[{"name":"Greetings & Politeness","emoji":"👋","timeLimit":15,"qs":[{"type":"mc","q":"What does \"Marhaban\" mean?","a":"Hello / Welcome","opts":["Hello / Welcome","Goodbye","Thank you"]},{"type":"mc","q":"What does \"Shukran\" mean?","a":"Thank you","opts":["Thank you","Yes","No"]},{"type":"mc","q":"What does \"Na'am\" mean?","a":"Yes","opts":["Yes","No","Please"]},{"type":"mc","q":"What does \"La'a\" mean?","a":"No","opts":["No","Yes","Hello"]},{"type":"typed","q":"What is the Arabic word for \"Goodbye\"?","a":"Ma'a as-salama"},{"type":"mc","q":"What does \"Min fadlik\" mean?","a":"Please","opts":["Please","Thank you","Hello"]},{"type":"typed","q":"What is the Arabic word for \"Hello\"?","a":"Marhaban"},{"type":"mc","q":"Which word means \"Yes\" in Arabic?","a":"Na'am","opts":["Na'am","La'a","Shukran"]},{"type":"typed","q":"What is the Arabic word for \"Thank you\"?","a":"Shukran"},{"type":"mc","q":"Which word means \"No\" in Arabic?","a":"La'a","opts":["La'a","Na'am","Marhaban"]}]},{"name":"Pronouns & Verbs","emoji":"🗣️","timeLimit":15,"qs":[{"type":"mc","q":"What does \"Ana\" mean?","a":"I","opts":["I","You","He"]},{"type":"mc","q":"What does \"Anta\" mean?","a":"You (masculine)","opts":["You (masculine)","You (feminine)","I"]},{"type":"mc","q":"What does \"Anti\" mean?","a":"You (feminine)","opts":["You (feminine)","You (masculine)","I"]},{"type":"typed","q":"What is the Arabic word for \"I\"?","a":"Ana"},{"type":"mc","q":"What does \"Akal\" mean?","a":"To eat","opts":["To eat","To drink","To go"]},{"type":"mc","q":"What does \"Sharib\" mean?","a":"To drink","opts":["To drink","To eat","To go"]},{"type":"mc","q":"What does \"Dhahab\" mean?","a":"To go","opts":["To go","To eat","To drink"]},{"type":"typed","q":"What is the Arabic word for \"to eat\"?","a":"Akal"},{"type":"typed","q":"What is the Arabic word for \"to drink\"?","a":"Sharib"},{"type":"typed","q":"What is the Arabic word for \"to go\"?","a":"Dhahab"}]},{"name":"Everyday Nouns","emoji":"🏠","timeLimit":15,"qs":[{"type":"mc","q":"What does \"Bayt\" mean?","a":"House","opts":["House","Book","Door"]},{"type":"mc","q":"What does \"Kitab\" mean?","a":"Book","opts":["Book","Door","Water"]},{"type":"mc","q":"What does \"Bab\" mean?","a":"Door","opts":["Door","House","Water"]},{"type":"mc","q":"What does \"Ma'\" mean?","a":"Water","opts":["Water","Book","Door"]},{"type":"typed","q":"What is the Arabic word for \"house\"?","a":"Bayt"},{"type":"typed","q":"What is the Arabic word for \"book\"?","a":"Kitab"},{"type":"typed","q":"What is the Arabic word for \"door\"?","a":"Bab"},{"type":"typed","q":"What is the Arabic word for \"water\"?","a":"Ma'"},{"type":"mc","q":"Which of these words means \"book\" in Arabic?","a":"Kitab","opts":["Kitab","Bab","Bayt"]},{"type":"mc","q":"Which of these words means \"door\" in Arabic?","a":"Bab","opts":["Bab","Kitab","Ma'"]}]},{"name":"Reverse Translation","emoji":"📖","timeLimit":15,"qs":[{"type":"typed","q":"What English word corresponds to the Arabic \"Bayt\"?","a":"House"},{"type":"typed","q":"What English word corresponds to the Arabic \"Kitab\"?","a":"Book"},{"type":"mc","q":"Which Arabic word means \"please\" when speaking to a male?","a":"Min fadlik","opts":["Min fadlik","Min fadlaki","Shukran"]},{"type":"mc","q":"Which Arabic word means \"please\" when speaking to a female?","a":"Min fadlaki","opts":["Min fadlaki","Min fadlik","Shukran"]},{"type":"typed","q":"What English word corresponds to the Arabic \"Dhahab\"?","a":"To go"},{"type":"typed","q":"What English word corresponds to the Arabic \"Sharib\"?","a":"To drink"},{"type":"typed","q":"What English word corresponds to the Arabic \"Akal\"?","a":"To eat"},{"type":"mc","q":"What does \"Ma'a as-salama\" mean?","a":"Goodbye","opts":["Goodbye","Hello","Thank you"]},{"type":"typed","q":"What is the Arabic phrase for \"Goodbye\"?","a":"Ma'a as-salama"},{"type":"mc","q":"Which pronoun would you use to say \"you\" to a woman?","a":"Anti","opts":["Anti","Anta","Ana"]}]},{"name":"Mastery Challenge","emoji":"🎓","timeLimit":15,"qs":[{"type":"typed","q":"What is the correct way to say \"please\" to a female in Arabic transliteration?","a":"Min fadlaki"},{"type":"mc","q":"Which word is used for \"I\" in Arabic?","a":"Ana","opts":["Ana","Anta","Anti"]},{"type":"typed","q":"Write the Arabic transliteration for \"water\".","a":"Ma'"},{"type":"mc","q":"Which of these means \"welcome\" as well as \"hello\"?","a":"Marhaban","opts":["Marhaban","Shukran","Na'am"]},{"type":"typed","q":"What is the Arabic transliteration word meaning \"house\"?","a":"Bayt"},{"type":"mc","q":"Which verb means \"to eat\"?","a":"Akal","opts":["Akal","Sharib","Dhahab"]},{"type":"typed","q":"What is the Arabic word that means \"yes\"?","a":"Na'am"},{"type":"mc","q":"Which phrase would you say when leaving, to mean \"goodbye\"?","a":"Ma'a as-salama","opts":["Ma'a as-salama","Marhaban","Shukran"]},{"type":"typed","q":"What is the Arabic word for \"door\"?","a":"Bab"},{"type":"mc","q":"Which of these words is a noun rather than a verb?","a":"Kitab","opts":["Kitab","Akal","Dhahab"]}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live \u2014 try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
