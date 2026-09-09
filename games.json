@@ -2169,6 +2169,24 @@
         "general-knowledge"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "arabic-to-english",
+      "name": "Arabic to English",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-09T16:43:07.198Z",
+      "createdBy": "c_mtsvi8pk_syghwy5n",
+      "author": "Amine",
+      "subcategory": "Arabic",
+      "tags": [
+        "vocabulary",
+        "beginner",
+        "conversation"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
