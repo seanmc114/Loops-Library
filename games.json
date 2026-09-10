@@ -2204,6 +2204,25 @@
         "trivia"
       ],
       "thumbnail": "thumbs/general-knowledge.jpg"
+    },
+    {
+      "slug": "premier-league",
+      "name": "Premier league",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 4,
+      "questionCount": 34,
+      "publishedAt": "2026-09-10T10:45:08.814Z",
+      "createdBy": "c_mtsdioj0_zne2sw72",
+      "author": null,
+      "subcategory": "Football",
+      "tags": [
+        "english-football",
+        "soccer",
+        "sports-basics",
+        "general-knowledge"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
