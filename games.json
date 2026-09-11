@@ -2240,6 +2240,26 @@
         "Literature"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "struct-r-an-domhain",
+      "name": "Structúr an Domhain.",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 2,
+      "questionCount": 12,
+      "publishedAt": "2026-09-11T08:49:37.926Z",
+      "createdBy": "c_mtsd8b2z_3qm9xw7w",
+      "author": "SMQ",
+      "subcategory": "Irish",
+      "tags": [
+        "vocabulary",
+        "geography",
+        "beginner",
+        "synge-street-cbs",
+        "nature"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2320,7 +2340,7 @@
     "Language::latin": "Latin language fundamentals covering pronouns, nouns, verbs, cases, and advanced syntax.",
     "Language::ancient-rome": "Latin language fundamentals covering grammar, pronunciation, verb conjugation, and case systems.",
     "Language::travel": "Learn essential Japanese phrases through interactive travel conversations and cultural contexts.",
-    "Language::geography": "Identify national capitals across countries, ranging from familiar to lesser-known nations.",
+    "Language::geography": "Geography terms and Earth structure vocabulary in Irish language",
     "Language::places": "Identify national capitals of countries worldwide, from common to obscure.",
     "Other::sports-basics": "Golf fundamentals covering ball physics, club mechanics, and swing technique",
     "Other::physics": "Games teaching golf mechanics, physics principles, and shot optimization techniques.",
@@ -2379,7 +2399,7 @@
     "Other::mathematics": "Solving basic algebraic equations by isolating the variable through inverse operations",
     "Other::problem-solving": "Solve for unknown variables in addition equations using inverse operations",
     "Other::algebra": "Solve simple one-variable equations using inverse operations and balance-scale reasoning.",
-    "Language::irish": "Irish language grammar, vocabulary, and prepositions, distinct from accent pronunciation.",
+    "Language::irish": "Irish-language quiz on geography vocabulary and Earth's structure",
     "Language::prepositions": "Learn Irish prepositions and their pronoun forms through translation exercises",
     "Other::etymology": "Trivia about famous quotes, sayings, and the origins of words or phrases",
     "Other::word-origins": "Match famous quotes and witty retorts to the people who said them",
@@ -2418,7 +2438,7 @@
     "Language::beginner": "Learn basic Spanish greetings, vocabulary, and simple everyday phrases.",
     "Language::conversation": "Practicing everyday Spanish dialogue phrases and conversational expressions for real-life interactions",
     "Language::connectors": "Learn Spanish words that link words, phrases, and ideas together.",
-    "Language::synge-street-cbs": "Practice Spanish prepositions and connecting words for sentence-building fluency.",
+    "Language::synge-street-cbs": "Irish-language geography vocabulary quiz on landforms and Earth's structure",
     "Language::present-tense": "Present-tense conjugation and meaning of Spanish verbs across regular and irregular forms.",
     "Other::conversation": "Practice real-life Spanish dialogue about hobbies through interactive question-and-answer exchanges.",
     "Other::present-tense": "present-tense — related content.",
@@ -2494,6 +2514,7 @@
     "General Knowledge::baking": "Trivia on cheesecake crust ingredient swaps and substitutions",
     "General Knowledge::recipes": "Trivia about ingredient swaps and substitutions in recipes",
     "Other::trivia": "Quick factual Q&A rounds spanning geography, science, history and pop culture.",
-    "Other::spanish": "Spanish-language trivia exploring Gabriel García Márquez's One Hundred Years of Solitude"
+    "Other::spanish": "Spanish-language trivia exploring Gabriel García Márquez's One Hundred Years of Solitude",
+    "Language::nature": "Learn Irish vocabulary for geographical features and Earth's structure"
   }
 }
