@@ -2260,6 +2260,26 @@
         "nature"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "uimhreacha-1",
+      "name": "Uimhreacha 1",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 42,
+      "publishedAt": "2026-09-11T17:43:18.822Z",
+      "createdBy": "c_mtx8jh5i_gyso88ma",
+      "author": "Ton",
+      "subcategory": "Irish",
+      "tags": [
+        "vocabulary",
+        "beginner",
+        "language",
+        "numbers",
+        "Maths"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2515,6 +2535,8 @@
     "General Knowledge::recipes": "Trivia about ingredient swaps and substitutions in recipes",
     "Other::trivia": "Quick factual Q&A rounds spanning geography, science, history and pop culture.",
     "Other::spanish": "Spanish-language trivia exploring Gabriel García Márquez's One Hundred Years of Solitude",
-    "Language::nature": "Learn Irish vocabulary for geographical features and Earth's structure"
+    "Language::nature": "Learn Irish vocabulary for geographical features and Earth's structure",
+    "Other::irish": "Irish language, culture, or numbers content, distinct from sports or musicians.",
+    "Other::language": "Covers language skills, vocabulary, and communication in a specific language."
   }
 }
