@@ -2223,6 +2223,23 @@
         "general-knowledge"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "cien-a-os-de-soledad-1",
+      "name": "Cien Años de Soledad (1)",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 2,
+      "questionCount": 14,
+      "publishedAt": "2026-09-11T08:12:33.596Z",
+      "createdBy": "c_mtsd8b2z_3qm9xw7w",
+      "author": "SMQ",
+      "subcategory": null,
+      "tags": [
+        "spanish",
+        "Literature"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2476,6 +2493,7 @@
     "General Knowledge::food": "Trivia about cheesecake crust substitutions and ingredient swaps",
     "General Knowledge::baking": "Trivia on cheesecake crust ingredient swaps and substitutions",
     "General Knowledge::recipes": "Trivia about ingredient swaps and substitutions in recipes",
-    "Other::trivia": "Quick factual Q&A rounds spanning geography, science, history and pop culture."
+    "Other::trivia": "Quick factual Q&A rounds spanning geography, science, history and pop culture.",
+    "Other::spanish": "Spanish-language trivia exploring Gabriel García Márquez's One Hundred Years of Solitude"
   }
 }
