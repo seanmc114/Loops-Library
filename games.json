@@ -1,0 +1,67 @@
+{
+  "games": [
+    {
+      "slug": "maths-functions",
+      "name": "Maths Functions",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-20T13:54:10.173Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "TMQ",
+      "subcategory": "Math Functions",
+      "tags": [
+        "algebra",
+        "graphing",
+        "equations",
+        "mathematics",
+        "calculus-prep",
+        "functions"
+      ],
+      "thumbnail": null
+    }
+  ],
+  "categories": {
+    "Language": {
+      "emoji": "🌍",
+      "pastel": "#C1F0EA",
+      "deep": "#2FB18A",
+      "wash": "#EBF6F0"
+    },
+    "Onboarding": {
+      "emoji": "🪪",
+      "pastel": "#FBE4B7",
+      "deep": "#D9A03F",
+      "wash": "#FBF3E2"
+    },
+    "Compliance": {
+      "emoji": "🛡️",
+      "pastel": "#D0E0F6",
+      "deep": "#4F7FC7",
+      "wash": "#EFF1F3"
+    },
+    "Exam Prep": {
+      "emoji": "📝",
+      "pastel": "#E2D8FA",
+      "deep": "#8B67D9",
+      "wash": "#F4EFF4"
+    },
+    "Other": {
+      "emoji": "✨",
+      "pastel": "#FAD2C3",
+      "deep": "#E0784E",
+      "wash": "#FAEEE5"
+    }
+  },
+  "labelDescriptors": {
+    "Other::equations": "Practice identifying, evaluating, transforming, and solving equations across function types.",
+    "Other::graphing": "Identifies graph shapes, transformations, asymptotes, and key features of functions.",
+    "Other::algebra": "Covers functions, graphs, quadratics, polynomials, and exponential/logarithmic concepts.",
+    "Other::math-functions": "Explore function properties, graphs, transformations, and algebraic function types.",
+    "Other::calculus-prep": "Function fundamentals, graphs, and algebra skills preceding formal calculus study.",
+    "Other::mathematics": "Covers functions, graphs, quadratics, polynomials, rationals, exponentials, and logarithms.",
+    "Other::functions": "Explores function basics, graphs, quadratics, polynomials, and exponential/log properties."
+  },
+  "shelves": []
+}
