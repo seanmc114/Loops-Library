@@ -58,6 +58,25 @@
         "mathematics"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "history-of-reality-tv-game-shows",
+      "name": "History of Reality TV Game Shows",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 3,
+      "questionCount": 26,
+      "publishedAt": "2026-09-20T23:08:21.844Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Television History",
+      "tags": [
+        "reality-tv",
+        "game-shows",
+        "pop-culture",
+        "television"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -99,7 +118,12 @@
     "Other::math-functions": "Explore function properties, graphs, transformations, and algebraic function types.",
     "Other::calculus-prep": "Function fundamentals, graphs, and algebra skills preceding formal calculus study.",
     "Other::mathematics": "Covers functions, graphs, quadratics, polynomials, rationals, exponentials, and logarithms.",
-    "Other::functions": "Explores function basics, graphs, quadratics, polynomials, and exponential/log properties."
+    "Other::functions": "Explores function basics, graphs, quadratics, polynomials, and exponential/log properties.",
+    "Other::television": "Trivia about reality TV shows, hosts, origins, and competition winners",
+    "Other::pop-culture": "Trivia about reality TV shows, contestants, hosts, and their origins",
+    "Other::game-shows": "Trivia on reality TV competitions, their hosts, origins, and winners",
+    "Other::television-history": "Trivia on reality TV shows' origins, hosts, winners, and premiere history.",
+    "Other::reality-tv": "Trivia on reality TV shows, hosts, origins, and competition winners"
   },
   "shelves": []
 }
