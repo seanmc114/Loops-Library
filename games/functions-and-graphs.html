@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Functions and Graphs · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1789942962254"></script>
+  <script>
+    const GAME_DATA = {"slug":"functions-and-graphs","name":"Functions and Graphs","emoji":"✨","category":"Other","colors":{"pastel":"#FAD2C3","deep":"#E0784E","wash":"#FAEEE5"},"background":null,"loops":[{"name":"Functions Basics","emoji":"🔢","timeLimit":15,"qs":[{"type":"mc","q":"What is a function?","a":"A relation where each input has exactly one output","opts":["A relation where each input has exactly one output","A relation where each output has exactly one input","Any set of ordered pairs"]},{"type":"typed","q":"If f(x) = 2x + 3, find f(4)","a":"11"},{"type":"mc","q":"What test determines if a graph represents a function?","a":"Vertical line test","opts":["Vertical line test","Horizontal line test","Slope test"]},{"type":"typed","q":"The domain of f(x) = 1/x excludes what number?","a":"0"},{"type":"mc","q":"The set of all possible input values of a function is called the?","a":"Domain","opts":["Domain","Range","Codomain"]},{"type":"mc","q":"The set of all possible output values of a function is called the?","a":"Range","opts":["Range","Domain","Interval"]},{"type":"typed","q":"If f(x) = x^2, find f(-3)","a":"9"},{"type":"mc","q":"In function notation f(x), what does x represent?","a":"The independent variable","opts":["The independent variable","The dependent variable","The output value"]},{"type":"typed","q":"If f(x) = 3x - 5, find f(0)","a":"-5"},{"type":"mc","q":"Which of the following does NOT represent a function?","a":"x^2 + y^2 = 1","opts":["x^2 + y^2 = 1","y = 2x + 1","y = x^2 - 4"]}]},{"name":"Graphs and Transformations","emoji":"📈","timeLimit":15,"qs":[{"type":"mc","q":"To shift the graph of f(x) up by 3 units, you write?","a":"f(x) + 3","opts":["f(x) + 3","f(x + 3)","f(x) - 3"]},{"type":"mc","q":"To shift the graph of f(x) left by 2 units, you write?","a":"f(x + 2)","opts":["f(x + 2)","f(x - 2)","f(x) + 2"]},{"type":"mc","q":"Reflecting f(x) across the x-axis produces?","a":"-f(x)","opts":["-f(x)","f(-x)","f(x) + 1"]},{"type":"mc","q":"Reflecting f(x) across the y-axis produces?","a":"f(-x)","opts":["f(-x)","-f(x)","f(x) - 1"]},{"type":"typed","q":"What is the name of the function f(x) =","a":"x"},{"type":"mc","q":"What is the parent function of a straight line f(x) = x called?","a":"Identity function","opts":["Identity function","Quadratic function","Cubic function"]},{"type":"mc","q":"Multiplying f(x) by 2, as in 2f(x), causes what transformation?","a":"Vertical stretch","opts":["Vertical stretch","Vertical shrink","Horizontal shift"]},{"type":"typed","q":"If f(x) = x^2, what is f(x) + 4 when x = 1?","a":"5"},{"type":"mc","q":"The graph of f(x) = x^3 is symmetric about the?","a":"Origin","opts":["Origin","X-axis","Y-axis"]},{"type":"mc","q":"The graph of f(x) = x^2 is symmetric about the?","a":"Y-axis","opts":["Y-axis","X-axis","Origin"]}]},{"name":"Quadratic Functions","emoji":"🎯","timeLimit":15,"qs":[{"type":"mc","q":"What is the general form of a quadratic function?","a":"f(x) = ax^2 + bx + c","opts":["f(x) = ax^2 + bx + c","f(x) = ax + b","f(x) = a/x + b"]},{"type":"typed","q":"What is the formula for the x-coordinate of the vertex of f(x) = ax^2 + bx + c?","a":"-b/2a"},{"type":"mc","q":"If a > 0 in f(x) = ax^2 + bx + c, the parabola opens?","a":"Upward","opts":["Upward","Downward","Sideways"]},{"type":"mc","q":"If a < 0 in f(x) = ax^2 + bx + c, the parabola opens?","a":"Downward","opts":["Downward","Upward","Sideways"]},{"type":"typed","q":"Find the x-coordinate of the vertex of f(x) = x^2 - 4x + 3","a":"2"},{"type":"typed","q":"Find the minimum value of f(x) = x^2 - 4x + 3","a":"-1"},{"type":"mc","q":"What is the vertex form of a quadratic function?","a":"f(x) = a(x - h)^2 + k","opts":["f(x) = a(x - h)^2 + k","f(x) = ax^2 + bx + c","f(x) = a(x + b)"]},{"type":"typed","q":"How many x-intercepts does f(x) = x^2 + 1 have?","a":"0"},{"type":"mc","q":"The discriminant b^2 - 4ac determines the?","a":"Number of real roots","opts":["Number of real roots","Vertex location","Axis of symmetry"]},{"type":"typed","q":"What is the value of the discriminant for x^2 - 4x + 4 = 0?","a":"0"}]},{"name":"Polynomial and Rational Functions","emoji":"📐","timeLimit":15,"qs":[{"type":"mc","q":"A polynomial function's degree is determined by the?","a":"Highest exponent of the variable","opts":["Highest exponent of the variable","Number of terms","Leading coefficient"]},{"type":"typed","q":"What is the degree of f(x) = 3x^4 - 2x^2 + 1?","a":"4"},{"type":"mc","q":"A rational function is defined as the?","a":"Ratio of two polynomials","opts":["Ratio of two polynomials","Sum of two polynomials","Product of two polynomials"]},{"type":"typed","q":"For f(x) = 1/(x-5), what value of x makes the function undefined?","a":"5"},{"type":"mc","q":"A vertical asymptote occurs where the?","a":"Denominator equals zero","opts":["Denominator equals zero","Numerator equals zero","Function equals zero"]},{"type":"mc","q":"A horizontal asymptote describes the behavior of the function as?","a":"X approaches infinity","opts":["X approaches infinity","X approaches zero","Y approaches zero"]},{"type":"typed","q":"At most how many turning points can a degree-3 polynomial have?","a":"2"},{"type":"mc","q":"The leading coefficient test helps determine the?","a":"End behavior of a graph","opts":["End behavior of a graph","Vertex of a graph","Y-intercept of a graph"]},{"type":"typed","q":"What is the y-intercept of f(x) = x^2 - 3x + 6?","a":"6"},{"type":"mc","q":"A polynomial of odd degree with a positive leading coefficient has what end behavior?","a":"Falls left, rises right","opts":["Falls left, rises right","Rises left, falls right","Rises on both sides"]}]},{"name":"Exponential and Logarithmic Functions","emoji":"🌟","timeLimit":15,"qs":[{"type":"mc","q":"What is the general form of an exponential function?","a":"f(x) = b^x where b > 0 and b ≠ 1","opts":["f(x) = b^x where b > 0 and b ≠ 1","f(x) = x^b","f(x) = bx"]},{"type":"typed","q":"What is the value of f(x) = 2^x when x = 3?","a":"8"},{"type":"mc","q":"The domain of an exponential function f(x) = b^x is?","a":"All real numbers","opts":["All real numbers","All positive numbers","All negative numbers"]},{"type":"mc","q":"The range of f(x) = b^x, where b > 0 and b ≠ 1, is?","a":"All positive real numbers","opts":["All positive real numbers","All real numbers","All negative real numbers"]},{"type":"mc","q":"A logarithmic function is the inverse of the?","a":"Exponential function","opts":["Exponential function","Quadratic function","Linear function"]},{"type":"typed","q":"What is log base 10 of 100?","a":"2"},{"type":"mc","q":"The domain of a logarithmic function f(x) = log_b(x) is?","a":"x > 0","opts":["x > 0","x < 0","All real numbers"]},{"type":"typed","q":"Solve for x: log_2(x) = 3","a":"8"},{"type":"mc","q":"The natural exponential function uses what base?","a":"e","opts":["e","10","2"]},{"type":"typed","q":"What is log_b(1) for any valid base b?","a":"0"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
