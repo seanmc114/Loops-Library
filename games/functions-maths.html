@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Functions (Maths) · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1789944164135"></script>
+  <script>
+    const GAME_DATA = {"slug":"functions-maths","name":"Functions (Maths)","emoji":"✨","category":"Other","colors":{"pastel":"#FAD2C3","deep":"#E0784E","wash":"#FAEEE5"},"background":null,"loops":[{"name":"Function Basics","emoji":"🔢","timeLimit":15,"qs":[{"type":"mc","q":"What is a function?","a":"A rule that assigns each input exactly one output","opts":["A rule that assigns each input exactly one output","A rule with multiple outputs per input","A rule with no output"]},{"type":"typed","q":"In f(x), what is x called?","a":"input"},{"type":"mc","q":"The set of all possible input values of a function is called the?","a":"Domain","opts":["Domain","Range","Codomain"]},{"type":"mc","q":"The set of all possible output values of a function is called the?","a":"Range","opts":["Range","Domain","Codomain"]},{"type":"typed","q":"If f(x) = 2x + 3, what is f(0)?","a":"3"},{"type":"typed","q":"If f(x) = 2x + 3, what is f(2)?","a":"7"},{"type":"mc","q":"A linear function has the general form?","a":"y=mx+c","opts":["y=mx+c","y=x^2","y=1/x"]},{"type":"mc","q":"In y = mx + c, what does m represent?","a":"Slope","opts":["Slope","Y-intercept","X-intercept"]},{"type":"mc","q":"In y = mx + c, what does c represent?","a":"Y-intercept","opts":["Y-intercept","Slope","X value"]},{"type":"typed","q":"What is the value of y when x=0 in y = 5x + 10?","a":"10"}]},{"name":"Cost and Revenue","emoji":"💰","timeLimit":15,"qs":[{"type":"mc","q":"In commercial maths, the Cost function represents?","a":"Total cost of production","opts":["Total cost of production","Total money earned","Profit"]},{"type":"mc","q":"The Revenue function represents?","a":"Total income from sales","opts":["Total income from sales","Total expenses","Loss"]},{"type":"typed","q":"If Revenue R = price times quantity, and price = 5, quantity = 10, what is R?","a":"50"},{"type":"mc","q":"Fixed costs are costs that?","a":"Do not change with quantity produced","opts":["Do not change with quantity produced","Change with quantity","Are always zero"]},{"type":"mc","q":"Variable costs are costs that?","a":"Change with quantity produced","opts":["Change with quantity produced","Never change","Are fixed"]},{"type":"typed","q":"If fixed cost is 100 and variable cost per unit is 5, write the cost function C(x)","a":"100+5x"},{"type":"typed","q":"Using C(x) = 100 + 5x, what is C(20)?","a":"200"},{"type":"mc","q":"Total Cost equals?","a":"Fixed Cost plus Variable Cost","opts":["Fixed Cost plus Variable Cost","Fixed Cost minus Variable Cost","Revenue minus Profit"]},{"type":"mc","q":"If Revenue function is R(x) = 10x, what is R(5)?","a":"50","opts":["50","40","60"]},{"type":"typed","q":"If R(x) = 10x, find R(15)","a":"150"}]},{"name":"Profit and Break-even","emoji":"📊","timeLimit":15,"qs":[{"type":"mc","q":"The Profit function P(x) is defined as?","a":"Revenue minus Cost","opts":["Revenue minus Cost","Revenue plus Cost","Cost minus Revenue"]},{"type":"typed","q":"If R(x)=10x and C(x)=100+5x, what is P(x)?","a":"5x-100"},{"type":"typed","q":"Using P(x)=5x-100, find P(20)","a":"0"},{"type":"mc","q":"When P(x) = 0, the business is at?","a":"Break-even point","opts":["Break-even point","Maximum profit","Loss point"]},{"type":"typed","q":"Using P(x) = 5x - 100, find P(30)","a":"50"},{"type":"mc","q":"If profit is negative, the business is making?","a":"A loss","opts":["A loss","A profit","Break even"]},{"type":"typed","q":"If R(x) = 8x and C(x) = 50 + 3x, find P(x)","a":"5x-50"},{"type":"typed","q":"Using P(x) = 5x - 50, find the break-even quantity where P=0","a":"10"},{"type":"mc","q":"The break-even point occurs where?","a":"Revenue equals Cost","opts":["Revenue equals Cost","Revenue equals zero","Cost equals zero"]},{"type":"typed","q":"If R(x)=6x and C(x)=60+2x, find P(x)","a":"4x-60"}]},{"name":"Demand and Supply","emoji":"⚖️","timeLimit":15,"qs":[{"type":"mc","q":"A demand function relates price to?","a":"Quantity demanded","opts":["Quantity demanded","Quantity supplied","Profit"]},{"type":"mc","q":"Typically, as price increases, demand?","a":"Decreases","opts":["Decreases","Increases","Stays the same"]},{"type":"typed","q":"If demand function is p = 100 - 2x, find p when x=10","a":"80"},{"type":"mc","q":"A supply function relates price to?","a":"Quantity supplied","opts":["Quantity supplied","Quantity demanded","Cost"]},{"type":"mc","q":"Typically, as price increases, supply?","a":"Increases","opts":["Increases","Decreases","Stays the same"]},{"type":"typed","q":"If supply function is p = 20 + 3x, find p when x=10","a":"50"},{"type":"mc","q":"Market equilibrium occurs when?","a":"Demand equals supply","opts":["Demand equals supply","Demand equals zero","Supply equals zero"]},{"type":"typed","q":"If demand p=100-2x and supply p=20+3x, find the equilibrium quantity x","a":"16"},{"type":"typed","q":"Using the equilibrium quantity x=16, find the equilibrium price p using p=100-2x","a":"68"},{"type":"mc","q":"Break-even analysis helps a business determine?","a":"The quantity at which profit is zero","opts":["The quantity at which profit is zero","The maximum price","The demand curve"]}]},{"name":"Marginal Functions and Elasticity","emoji":"📈","timeLimit":15,"qs":[{"type":"mc","q":"Marginal cost is defined as?","a":"The cost of producing one additional unit","opts":["The cost of producing one additional unit","Total cost","Fixed cost"]},{"type":"typed","q":"If C(x) = 100 + 5x, what is the marginal cost per additional unit?","a":"5"},{"type":"mc","q":"Marginal revenue is defined as?","a":"Revenue from producing one additional unit","opts":["Revenue from producing one additional unit","Total revenue","Average revenue"]},{"type":"typed","q":"If R(x) = 10x, what is the marginal revenue?","a":"10"},{"type":"mc","q":"Average cost is calculated as?","a":"Total cost divided by quantity","opts":["Total cost divided by quantity","Total cost times quantity","Fixed cost only"]},{"type":"typed","q":"If C(x)=100+5x, find the average cost when x=20","a":"10"},{"type":"mc","q":"In commercial maths, elasticity of demand measures?","a":"Responsiveness of quantity demanded to price change","opts":["Responsiveness of quantity demanded to price change","Total revenue","Fixed cost"]},{"type":"mc","q":"If a small price change causes a large change in quantity demanded, demand is said to be?","a":"Elastic","opts":["Elastic","Inelastic","Unitary"]},{"type":"mc","q":"If demand does not change much when price changes, demand is?","a":"Inelastic","opts":["Inelastic","Elastic","Unitary"]},{"type":"typed","q":"If C(x) = 50 + 2x and R(x) = 7x, find the break-even quantity where P=0","a":"10"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
